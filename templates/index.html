@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skolvals-prediktor – Lunds kommun</title>
+    <style>
+        * { box-sizing: border-box; }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+            max-width: 1100px;
+            margin: 48px auto;
+            padding: 0 32px;
+            background: #f4f4f6;
+            color: #1a1a1a;
+        }
+
+        h1 {
+            font-size: 24px;
+            font-weight: 700;
+            margin-bottom: 4px;
+        }
+
+        .subtitle {
+            font-size: 15px;
+            color: #666;
+            margin-bottom: 32px;
+        }
+
+        /* Two column layout: form left, priority right */
+        .page-layout {
+            display: grid;
+            grid-template-columns: 1fr 240px;
+            gap: 24px;
+            align-items: start;
+        }
+
+        /* ── Form column ── */
+        .form-column {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        .card {
+            background: white;
+            padding: 22px 24px;
+            border-radius: 10px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+        }
+
+        h2 {
+            font-size: 15px;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin: 0 0 14px;
+        }
+
+        label {
+            display: block;
+            margin: 14px 0 5px;
+            font-size: 13px;
+            font-weight: 600;
+            color: #444;
+        }
+
+        label:first-child { margin-top: 0; }
+
+        input[type="text"],
+        input[type="number"] {
+            width: 100%;
+            padding: 10px 12px;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            font-size: 14px;
+            color: #1a1a1a;
+            background: #fafafa;
+            transition: border-color 0.15s;
+        }
+
+        input[type="text"]:focus,
+        input[type="number"]:focus {
+            outline: none;
+            border-color: #1a5276;
+            background: white;
+        }
+
+        /* Segment controller */
+        .segment {
+            display: flex;
+            background: #ebebeb;
+            border-radius: 8px;
+            padding: 3px;
+            gap: 3px;
+            margin-bottom: 16px;
+        }
+
+        .segment button {
+            flex: 1;
+            padding: 8px 12px;
+            border: none;
+            border-radius: 6px;
+            background: transparent;
+            font-size: 13px;
+            font-weight: 600;
+            color: #888;
+            cursor: pointer;
+            transition: all 0.15s ease;
+            margin: 0;
+            width: auto;
+        }
+
+        .segment button.active {
+            background: white;
+            color: #1a1a1a;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.12);
+        }
+
+        /* Select all row */
+        .select-all-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .select-all-row span { font-size: 12px; color: #aaa; }
+
+        .select-all-btn {
+            background: none;
+            border: none;
+            padding: 0;
+            margin: 0;
+            font-size: 12px;
+            font-weight: 600;
+            color: #1a5276;
+            cursor: pointer;
+            width: auto;
+        }
+
+        .select-all-btn:hover { text-decoration: underline; }
+
+        /* School panels */
+        .school-panel { display: none; }
+        .school-panel.visible { display: block; }
+
+        .school-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 6px;
+        }
+
+        .school-option {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 8px 10px;
+            border: 1px solid #e8e8e8;
+            border-radius: 6px;
+            background: #fafafa;
+            font-size: 12px;
+            color: #1a1a1a;
+            cursor: pointer;
+            font-weight: normal;
+            margin: 0;
+        }
+
+        .school-option:hover {
+            background: #f0f4f8;
+            border-color: #c5d8e8;
+        }
+
+        .school-option input[type="checkbox"] {
+            width: 14px;
+            height: 14px;
+            flex-shrink: 0;
+        }
+
+        .area-tag {
+            font-size: 10px;
+            padding: 2px 5px;
+            border-radius: 4px;
+            background: #eef2f5;
+            color: #666;
+            margin-left: auto;
+            white-space: nowrap;
+        }
+
+        .montessori-info {
+            font-size: 12px;
+            color: #555;
+            background: #f7f7f7;
+            border-radius: 6px;
+            padding: 10px 12px;
+            margin-bottom: 12px;
+            border-left: 3px solid #ccc;
+        }
+
+        /* Radio groups */
+        .radio-group {
+            display: flex;
+            gap: 20px;
+            margin-top: 4px;
+        }
+
+        .radio-group label {
+            font-weight: normal;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            margin: 0;
+            font-size: 13px;
+            color: #333;
+            cursor: pointer;
+        }
+
+        .child-panel { display: none; }
+        .child-panel.visible { display: block; }
+
+        .error {
+            color: #c0392b;
+            font-size: 13px;
+            margin-bottom: 16px;
+            padding: 10px 14px;
+            background: #fdf0ee;
+            border-radius: 6px;
+        }
+
+        button[type="submit"] {
+            width: 100%;
+            padding: 13px;
+            background: #1a5276;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 15px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background 0.15s;
+            margin: 0;
+        }
+
+        button[type="submit"]:hover { background: #154360; }
+
+        /* ── Priority panel (right column) ── */
+        .priority-panel {
+            background: white;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+            position: sticky;
+            top: 24px;
+        }
+
+        .priority-panel h3 {
+            font-size: 12px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: #999;
+            margin: 0 0 14px;
+        }
+
+        .priority-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .priority-list li {
+            display: flex;
+            align-items: flex-start;
+            gap: 10px;
+            padding: 8px 0;
+            border-bottom: 1px solid #f0f0f0;
+            font-size: 12px;
+            color: #333;
+        }
+
+        .priority-list li:last-child { border-bottom: none; }
+
+        .priority-number {
+            font-size: 11px;
+            font-weight: 700;
+            color: #1a5276;
+            background: #eef2f5;
+            border-radius: 50%;
+            width: 20px;
+            height: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+            margin-top: 1px;
+        }
+
+        .priority-text strong {
+            display: block;
+            font-size: 12px;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 2px;
+        }
+
+        .priority-text span {
+            font-size: 11px;
+            color: #999;
+        }
+
+        .priority-note {
+            font-size: 11px;
+            color: #bbb;
+            margin: 12px 0 0;
+            line-height: 1.5;
+        }
+
+        /* Responsive */
+        @media (max-width: 700px) {
+            .page-layout { grid-template-columns: 1fr; }
+            .priority-panel { position: static; }
+        }
+    </style>
+</head>
+<body>
+
+<h1>Skolvals-prediktor</h1>
+<p class="subtitle">Uppskatta ditt barns chans att komma in på förskoleklass i Lunds kommun.</p>
+
+{% if error %}
+<p class="error">{{ error }}</p>
+{% endif %}
+
+<form method="POST" action="/results">
+<input type="hidden" name="active_tab" id="active_tab" value="kommunal">
+<div class="page-layout">
+
+    <!-- ── LEFT: Form ── -->
+    <div class="form-column">
+
+        <div class="card">
+            <h2>Välj skolor av intresse</h2>
+
+            <div class="segment">
+                <button type="button" class="active" onclick="switchTab('kommunal', this)">Kommunal förskola</button>
+                <button type="button" onclick="switchTab('montessori', this)">Privat förskola</button>
+            </div>
+
+            <div id="panel-kommunal" class="school-panel visible">
+                <div class="select-all-row">
+                    <span id="count-kommunal">0 valda</span>
+                    <button type="button" class="select-all-btn" onclick="toggleAll('kommunal', this)">Välj alla</button>
+                </div>
+                <div class="school-grid">
+                    {% for key, school in schools.items() %}
+                    {% if school.type == "kommunal" %}
+                    <label class="school-option">
+                        <input type="checkbox" name="schools" value="{{ key }}" class="cb-kommunal" onchange="updateCount('kommunal')">
+                        {{ school.name }}
+                        <span class="area-tag">{{ school.area }}</span>
+                    </label>
+                    {% endif %}
+                    {% endfor %}
+                </div>
+            </div>
+
+            <div id="panel-montessori" class="school-panel">
+                <p class="montessori-info">Fristående Montessoriskolor har egna antagningsregler baserade på ködatum och Montessoribakgrund.</p>
+                <div class="select-all-row">
+                    <span id="count-montessori">0 valda</span>
+                    <button type="button" class="select-all-btn" onclick="toggleAll('montessori', this)">Välj alla</button>
+                </div>
+                <div class="school-grid">
+                    {% for key, school in schools.items() %}
+                    {% if school.type == "montessori" %}
+                    <label class="school-option">
+                        <input type="checkbox" name="schools" value="{{ key }}" class="cb-montessori" onchange="updateCount('montessori')">
+                        {{ school.name }}
+                        <span class="area-tag">Montessori</span>
+                    </label>
+                    {% endif %}
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+
+        <div id="address-card" class="card">
+            <h2>Hemadress</h2>
+            <label for="address">Adress</label>
+            <input type="text" id="address" name="address" placeholder="t.ex. Stortorget 1, Lund" required>
+        </div>
+
+        <div id="child-kommunal" class="card child-panel visible">
+            <h2>Om ditt barn</h2>
+
+            <label>Har barnet syskon på den sökta skolan i åk F-3?</label>
+            <div class="radio-group">
+                <label><input type="radio" name="has_sibling" value="yes"> Ja</label>
+                <label><input type="radio" name="has_sibling" value="no" checked> Nej</label>
+            </div>
+
+            <label>Gör du ett aktivt skolval?</label>
+            <div class="radio-group">
+                <label><input type="radio" name="active_choice" value="yes" checked> Ja</label>
+                <label><input type="radio" name="active_choice" value="no"> Nej</label>
+            </div>
+        </div>
+
+        <div id="child-montessori" class="card child-panel">
+            <h2>Om ditt barn</h2>
+
+            <label>Har barnet syskon på den sökta skolan i åk F-3?</label>
+            <div class="radio-group">
+                <label><input type="radio" name="has_sibling" value="yes"> Ja</label>
+                <label><input type="radio" name="has_sibling" value="no" checked> Nej</label>
+            </div>
+
+            <label>Har barnet gått på en Montessoriförskola?</label>
+            <div class="radio-group">
+                <label><input type="radio" name="has_montessori" value="yes"> Ja</label>
+                <label><input type="radio" name="has_montessori" value="no" checked> Nej</label>
+            </div>
+
+            <label for="queue_year">Ködatum (år)</label>
+            <input type="number" id="queue_year" name="queue_year" placeholder="t.ex. 2021" min="2000" max="2030">
+        </div>
+
+        <button type="submit">Beräkna chanser</button>
+
+    </div>
+
+    <!-- ── RIGHT: Priority panel ── -->
+    <div>
+        <div id="priority-kommunal" class="priority-panel">
+            <h3>Urvalsprinciper</h3>
+            <ul class="priority-list">
+                <li>
+                    <div class="priority-number">1</div>
+                    <div class="priority-text"><strong>Skyddade personuppgifter</strong><span>Elever med skyddad identitet går alltid först.</span></div>
+                </li>
+                <li>
+                    <div class="priority-number">2</div>
+                    <div class="priority-text"><strong>Enda skolan nära hemmet</strong><span>Den enda kommunala skolan inom 2 km från hemmet.</span></div>
+                </li>
+                <li>
+                    <div class="priority-number">3</div>
+                    <div class="priority-text"><strong>Syskonförtur</strong><span>Syskon i åk F–3 på samma skola.</span></div>
+                </li>
+                <li>
+                    <div class="priority-number">4</div>
+                    <div class="priority-text"><strong>Nära hemmet</strong><span>Skolan ligger inom 2 km från hemmet.</span></div>
+                </li>
+                <li>
+                    <div class="priority-number">5</div>
+                    <div class="priority-text"><strong>Övriga sökande</strong><span>Skolan är inte barnets närmaste alternativ.</span></div>
+                </li>
+            </ul>
+            <p class="priority-note">Inom varje grupp prioriteras aktivt skolval före passivt. Vid lika prioritet avgör relativ och absolut närhet.</p>
+        </div>
+
+        <div id="priority-montessori" class="priority-panel" style="display:none;">
+            <h3>Urvalsprinciper</h3>
+            <ul class="priority-list">
+                <li>
+                    <div class="priority-number">1</div>
+                    <div class="priority-text"><strong>Syskonförtur</strong><span>Syskon på samma skola i åk F–3.</span></div>
+                </li>
+                <li>
+                    <div class="priority-number">2</div>
+                    <div class="priority-text"><strong>Montessoribakgrund</strong><span>Barnet har gått på en Montessoriförskola.</span></div>
+                </li>
+                <li>
+                    <div class="priority-number">3</div>
+                    <div class="priority-text"><strong>Övriga sökande</strong><span>Ingen Montessoribakgrund eller syskonförtur.</span></div>
+                </li>
+            </ul>
+            <p class="priority-note">Inom varje grupp avgör ködatum vem som får plats.</p>
+        </div>
+    </div>
+
+</div>
+</form>
+
+<script>
+    function switchTab(tab, clickedButton) {
+        document.querySelectorAll('.segment button').forEach(btn => btn.classList.remove('active'));
+        clickedButton.classList.add('active');
+
+        document.querySelectorAll('.school-panel').forEach(panel => panel.classList.remove('visible'));
+        document.getElementById('panel-' + tab).classList.add('visible');
+
+        document.querySelectorAll('.child-panel').forEach(panel => panel.classList.remove('visible'));
+        document.getElementById('child-' + tab).classList.add('visible');
+
+        document.getElementById('priority-kommunal').style.display = (tab === 'kommunal') ? 'block' : 'none';
+        document.getElementById('priority-montessori').style.display = (tab === 'montessori') ? 'block' : 'none';
+
+        const addressCard = document.getElementById('address-card');
+        const addressInput = document.getElementById('address');
+        if (tab === 'kommunal') {
+            addressCard.style.display = 'block';
+            addressInput.required = true;
+        } else {
+            addressCard.style.display = 'none';
+            addressInput.required = false;
+        }
+
+        document.getElementById('active_tab').value = tab;
+    }
+
+    function updateCount(type) {
+        const checked = document.querySelectorAll('.cb-' + type + ':checked').length;
+        const total = document.querySelectorAll('.cb-' + type).length;
+        document.getElementById('count-' + type).textContent = checked + ' av ' + total + ' valda';
+        const btn = document.querySelector('#panel-' + type + ' .select-all-btn');
+        btn.textContent = (checked === total) ? 'Avmarkera alla' : 'Välj alla';
+    }
+
+    function toggleAll(type, btn) {
+        const checkboxes = document.querySelectorAll('.cb-' + type);
+        const allChecked = [...checkboxes].every(cb => cb.checked);
+        checkboxes.forEach(cb => cb.checked = !allChecked);
+        updateCount(type);
+    }
+
+    // Restore the correct tab if Flask sends us back with an error
+    const initialTab = "{{ active_tab | default('kommunal') }}";
+    if (initialTab === 'montessori') {
+        switchTab('montessori', document.querySelector('.segment button:last-child'));
+    }
+
+    updateCount('kommunal');
+    updateCount('montessori');
+</script>
+
+</body>
+</html>
