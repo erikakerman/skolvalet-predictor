@@ -46,8 +46,17 @@ def is_near_home(distance_km):
     return distance_km <= NEAR_HOME_LIMIT_KM
 
 
-def get_priority_kommunal(distance_km, has_sibling, active_choice):
-    if has_sibling:
+def get_priority_kommunal(distance_km, has_sibling, active_choice,
+                           protected_identity=False, is_sole_nearby=False):
+    """
+    Returns the priority group number based on Lunds kommuns rules.
+    Groups 1-5 from the Riktlinjer document.
+    """
+    if protected_identity:
+        group = 1
+    elif is_sole_nearby:
+        group = 2
+    elif has_sibling:
         group = 3
     elif is_near_home(distance_km):
         group = 4
@@ -81,16 +90,16 @@ def get_chance(group, demand, school_type):
             if demand == "low":
                 return "🟢 God chans — nära hemmet och låg efterfrågan"
             elif demand == "medium":
-                return "🟡 Måttlig chans — nära hemmet men skolan har medelhög efterfrågan"
+                return "🟡 Måttlig chans — nära hemmet men skolan är populär"
             else:
                 return "🟠 Osäkert — nära hemmet men skolan är mycket efterfrågad"
         else:
             if demand == "low":
-                return "🟡 Måttlig chans — inte nära hemmet men skolan har ledig kapacitet"
+                return "🟡 Måttlig chans — inte nära hemmet men skolan har kapacitet"
             elif demand == "medium":
-                return "🔴 Låg chans — inte nära hemmet och skolan har medelhög efterfrågan"
+                return "🔴 Låg chans — inte nära hemmet och skolan är eftertraktad"
             else:
-                return "🔴 Låg chans — inte nära hemmet och skolan är mycket efterfrågad"
+                return "🔴 Låg chans — inte nära hemmet och skolan är mycket eftertraktad"
     else:
         if group == 1:
             return "🟢 God chans — syskonförtur är starkt"
