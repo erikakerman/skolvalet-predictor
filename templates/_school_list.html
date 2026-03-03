@@ -1,0 +1,16 @@
+{% set sorted_schools = schools.items() | sort(attribute='1.name') %}
+{% for key, school in sorted_schools %}
+<label class="school-item" for="school_{{ key }}">
+    <input
+        type="checkbox"
+        name="schools"
+        id="school_{{ key }}"
+        value="{{ key }}"
+        data-type="{{ school.type }}"
+    >
+    <span class="school-item-name">{{ school.name }}</span>
+    {% if school.type == "privat" %}
+    <span class="privat-tag">Privat</span>
+    {% endif %}
+</label>
+{% endfor %}

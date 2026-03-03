@@ -257,10 +257,6 @@
                     {% if r.near_home %}Ja ✓{% else %}Nej{% endif %}
                 </span>
             </div>
-            <div class="data-row">
-                <span class="row-label">Efterfrågan</span>
-                <span class="row-value">{{ r.demand }}</span>
-            </div>
 
             <div class="outlook-box {{ r.color }}">
                 <div class="outlook-dot dot-{{ r.color }}"></div>
@@ -284,10 +280,6 @@
             <div class="data-row">
                 <span class="row-label">Prioritetsgrupp</span>
                 <span class="row-value">{{ r.group }}</span>
-            </div>
-            <div class="data-row">
-                <span class="row-label">Efterfrågan</span>
-                <span class="row-value">{{ r.demand }}</span>
             </div>
 
             <div class="outlook-box {{ r.color }}">
