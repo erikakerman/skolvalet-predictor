@@ -1,0 +1,4644 @@
+{
+  "47848303": {
+    "name": "Billeshögsskolan",
+    "type": "kommunal",
+    "kommun": "Svalöv",
+    "kommunkod": "1214",
+    "address": "Billeshögsvägen 2, Billeberga",
+    "coords": [
+      55.88427,
+      13.004831
+    ]
+  },
+  "58166048": {
+    "name": "Lunnaskolan",
+    "type": "kommunal",
+    "kommun": "Svalöv",
+    "kommunkod": "1214",
+    "address": "Ekgatan 1, Kågeröd",
+    "coords": [
+      55.998872,
+      13.093672
+    ]
+  },
+  "77441364": {
+    "name": "Parkskolan",
+    "type": "kommunal",
+    "kommun": "Svalöv",
+    "kommunkod": "1214",
+    "address": "Västergatan 36, Teckomatorp",
+    "coords": [
+      55.865359,
+      13.087946
+    ]
+  },
+  "58170493": {
+    "name": "Midgårds skola",
+    "type": "kommunal",
+    "kommun": "Svalöv",
+    "kommunkod": "1214",
+    "address": "Billingevägen 26, Röstånga",
+    "coords": [
+      55.999749,
+      13.294556
+    ]
+  },
+  "58981647": {
+    "name": "Svalövs Montessoriskola",
+    "type": "privat",
+    "kommun": "Svalöv",
+    "kommunkod": "1214",
+    "address": "Onsjövägen 13, Svalöv",
+    "coords": [
+      55.910397,
+      13.114859
+    ]
+  },
+  "70133882": {
+    "name": "Heleneborgsskolan",
+    "type": "kommunal",
+    "kommun": "Svalöv",
+    "kommunkod": "1214",
+    "address": "Skolgatan 14, Svalöv",
+    "coords": [
+      55.871997,
+      13.086423
+    ]
+  },
+  "22504161": {
+    "name": "Månsabo",
+    "type": "kommunal",
+    "kommun": "Svalöv",
+    "kommunkod": "1214",
+    "address": "Skolgatan 20, Svalöv",
+    "coords": [
+      55.871997,
+      13.086423
+    ]
+  },
+  "49038465": {
+    "name": "Staffanstorps Montessoriskola",
+    "type": "privat",
+    "kommun": "Staffanstorp",
+    "kommunkod": "1230",
+    "address": "Lagvägen 2, Staffanstorp",
+    "coords": [
+      55.640171,
+      13.203074
+    ]
+  },
+  "49039496": {
+    "name": "Baldersskolan F-6",
+    "type": "kommunal",
+    "kommun": "Staffanstorp",
+    "kommunkod": "1230",
+    "address": "Mimers väg 2, Staffanstorp",
+    "coords": [
+      55.644424,
+      13.212197
+    ]
+  },
+  "61151036": {
+    "name": "Gullåkraskolan",
+    "type": "kommunal",
+    "kommun": "Staffanstorp",
+    "kommunkod": "1230",
+    "address": "Genvägen 2, Staffanstorp",
+    "coords": [
+      55.649408,
+      13.202694
+    ]
+  },
+  "79472428": {
+    "name": "Tottarps skola",
+    "type": "kommunal",
+    "kommun": "Staffanstorp",
+    "kommunkod": "1230",
+    "address": "Tottarp, Staffanstorp",
+    "coords": [
+      55.640886,
+      13.148186
+    ]
+  },
+  "27411228": {
+    "name": "Hjärups skola",
+    "type": "kommunal",
+    "kommun": "Staffanstorp",
+    "kommunkod": "1230",
+    "address": "Centrumstigen 1, Hjärup",
+    "coords": [
+      55.669323,
+      13.140904
+    ]
+  },
+  "82149276": {
+    "name": "Kyrkheddinge skola",
+    "type": "kommunal",
+    "kommun": "Staffanstorp",
+    "kommunkod": "1230",
+    "address": "Gamla Dalbyvägen 218, Staffanstorp",
+    "coords": [
+      55.64694,
+      13.270777
+    ]
+  },
+  "63526897": {
+    "name": "Stanstorpsskolan",
+    "type": "kommunal",
+    "kommun": "Staffanstorp",
+    "kommunkod": "1230",
+    "address": "Rättsvägen 2, Staffanstorp",
+    "coords": [
+      55.638618,
+      13.198537
+    ]
+  },
+  "81566694": {
+    "name": "Mellanvångsskolan",
+    "type": "kommunal",
+    "kommun": "Staffanstorp",
+    "kommunkod": "1230",
+    "address": "Tingsvägen 2, Staffanstorp",
+    "coords": [
+      55.636997,
+      13.195687
+    ]
+  },
+  "20722895": {
+    "name": "Uppåkraskolan",
+    "type": "kommunal",
+    "kommun": "Staffanstorp",
+    "kommunkod": "1230",
+    "address": "Parkallén 4A, Hjärup",
+    "coords": [
+      55.669588,
+      13.154928
+    ]
+  },
+  "55734921": {
+    "name": "Svanetorpskolan",
+    "type": "kommunal",
+    "kommun": "Burlöv",
+    "kommunkod": "1231",
+    "address": "Bågevägen 20, Åkarp",
+    "coords": [
+      55.661366,
+      13.106328
+    ]
+  },
+  "63471148": {
+    "name": "Dalslundskolan F-3",
+    "type": "kommunal",
+    "kommun": "Burlöv",
+    "kommunkod": "1231",
+    "address": "Elevvägen 1, Åkarp",
+    "coords": [
+      55.656699,
+      13.109707
+    ]
+  },
+  "12436715": {
+    "name": "Humlemadskolan",
+    "type": "kommunal",
+    "kommun": "Burlöv",
+    "kommunkod": "1231",
+    "address": "Elisetorpsvägen 13, Arlöv",
+    "coords": [
+      55.631194,
+      13.082107
+    ]
+  },
+  "82378508": {
+    "name": "Svenshögskolan",
+    "type": "kommunal",
+    "kommun": "Burlöv",
+    "kommunkod": "1231",
+    "address": "Svenshögsvägen 2, Arlöv",
+    "coords": [
+      55.636341,
+      13.085243
+    ]
+  },
+  "64830407": {
+    "name": "Södervångskolan",
+    "type": "kommunal",
+    "kommun": "Burlöv",
+    "kommunkod": "1231",
+    "address": "Alnarpsvägen 6, Åkarp",
+    "coords": [
+      55.649995,
+      13.109794
+    ]
+  },
+  "34882305": {
+    "name": "Tågarpskolan",
+    "type": "kommunal",
+    "kommun": "Burlöv",
+    "kommunkod": "1231",
+    "address": "Kal P Dals gata 10, Arlöv",
+    "coords": [
+      55.637342,
+      13.068332
+    ]
+  },
+  "18501273": {
+    "name": "Kronetorpskolan",
+    "type": "kommunal",
+    "kommun": "Burlöv",
+    "kommunkod": "1231",
+    "address": "Lundavägen 92, Arlöv",
+    "coords": [
+      55.632201,
+      13.070908
+    ]
+  },
+  "11885832": {
+    "name": "Ängdalaskolan",
+    "type": "privat",
+    "kommun": "Vellinge",
+    "kommunkod": "1233",
+    "address": "Ängdalavägen 139-20, Höllviken",
+    "coords": [
+      55.414726,
+      12.98408
+    ]
+  },
+  "56103239": {
+    "name": "Håslövs byaskola",
+    "type": "privat",
+    "kommun": "Vellinge",
+    "kommunkod": "1233",
+    "address": "Norra Håslövs byväg 26, Vellinge",
+    "coords": [
+      55.443516,
+      13.031029
+    ]
+  },
+  "46725455": {
+    "name": "Skanör Falsterbo Montessorisk.",
+    "type": "privat",
+    "kommun": "Vellinge",
+    "kommunkod": "1233",
+    "address": "Tångvallavägen 3, Falsterbo",
+    "coords": [
+      55.40261,
+      12.841269
+    ]
+  },
+  "16650439": {
+    "name": "Herrestorpskolan",
+    "type": "kommunal",
+    "kommun": "Vellinge",
+    "kommunkod": "1233",
+    "address": "Vattentornsgatan 10, Vellinge",
+    "coords": [
+      55.474244,
+      13.036084
+    ]
+  },
+  "10938309": {
+    "name": "Hököpinge skola",
+    "type": "kommunal",
+    "kommun": "Vellinge",
+    "kommunkod": "1233",
+    "address": "Mossahusvägen 5, Vellinge",
+    "coords": [
+      55.492152,
+      13.008722
+    ]
+  },
+  "71367825": {
+    "name": "Sandeplanskolan",
+    "type": "kommunal",
+    "kommun": "Vellinge",
+    "kommunkod": "1233",
+    "address": "Kronodalsvägen 41, Höllviken",
+    "coords": [
+      55.41601,
+      12.975805
+    ]
+  },
+  "41197162": {
+    "name": "Ljungenskolan",
+    "type": "kommunal",
+    "kommun": "Vellinge",
+    "kommunkod": "1233",
+    "address": "Storvägen 2, Höllviken",
+    "coords": [
+      55.405296,
+      12.921868
+    ]
+  },
+  "46945514": {
+    "name": "Skanörs skola",
+    "type": "kommunal",
+    "kommun": "Vellinge",
+    "kommunkod": "1233",
+    "address": "Slåttervägen, Skanör",
+    "coords": [
+      55.414741,
+      12.857728
+    ]
+  },
+  "24181728": {
+    "name": "Stora Hammars skola",
+    "type": "kommunal",
+    "kommun": "Vellinge",
+    "kommunkod": "1233",
+    "address": "Esplanaden 7, Höllviken",
+    "coords": [
+      55.426198,
+      12.975959
+    ]
+  },
+  "28023150": {
+    "name": "Södervångskolan",
+    "type": "kommunal",
+    "kommun": "Vellinge",
+    "kommunkod": "1233",
+    "address": "Trelleborgsvägen 29, Vellinge",
+    "coords": [
+      55.462273,
+      13.024595
+    ]
+  },
+  "58994715": {
+    "name": "Tångvallaskolan",
+    "type": "kommunal",
+    "kommun": "Vellinge",
+    "kommunkod": "1233",
+    "address": "Storevångsvägen 19, Skanör",
+    "coords": [
+      55.407978,
+      12.865354
+    ]
+  },
+  "15068529": {
+    "name": "Noblaskolan Vellinge",
+    "type": "privat",
+    "kommun": "Vellinge",
+    "kommunkod": "1233",
+    "address": "Assarsgatan 8, Vellinge",
+    "coords": [
+      55.471545,
+      13.028403
+    ]
+  },
+  "44979671": {
+    "name": "Noblaskolan Västra Ingelstad",
+    "type": "privat",
+    "kommun": "Vellinge",
+    "kommunkod": "1233",
+    "address": "Landsvägen 374, Vellinge",
+    "coords": [
+      55.495335,
+      13.112111
+    ]
+  },
+  "95828750": {
+    "name": "Glimåkraskolan",
+    "type": "kommunal",
+    "kommun": "Östra Göinge",
+    "kommunkod": "1256",
+    "address": "Skolgatan 4, Glimåkra",
+    "coords": [
+      56.307542,
+      14.13725
+    ]
+  },
+  "87913800": {
+    "name": "Kviingeskolan",
+    "type": "kommunal",
+    "kommun": "Östra Göinge",
+    "kommunkod": "1256",
+    "address": "Kviingevägen 41, Hanaskog",
+    "coords": [
+      56.156684,
+      14.096376
+    ]
+  },
+  "22701498": {
+    "name": "Prästavångsskolan F-3",
+    "type": "kommunal",
+    "kommun": "Östra Göinge",
+    "kommunkod": "1256",
+    "address": "Pehr Johnssons väg 1, Broby",
+    "coords": [
+      56.257366,
+      14.078952
+    ]
+  },
+  "48978921": {
+    "name": "Västerskolan",
+    "type": "kommunal",
+    "kommun": "Östra Göinge",
+    "kommunkod": "1256",
+    "address": "Västerskolgatan 1, Knislinge",
+    "coords": [
+      56.191981,
+      14.067013
+    ]
+  },
+  "15777605": {
+    "name": "Vita skolan",
+    "type": "kommunal",
+    "kommun": "Östra Göinge",
+    "kommunkod": "1256",
+    "address": "Skolgatan 23A, Knislinge",
+    "coords": [
+      56.196619,
+      14.083711
+    ]
+  },
+  "26599013": {
+    "name": "Färe Montessoriskola",
+    "type": "privat",
+    "kommun": "Östra Göinge",
+    "kommunkod": "1256",
+    "address": "Bygatan, Sibbhult",
+    "coords": [
+      56.265428,
+      14.202467
+    ]
+  },
+  "10757780": {
+    "name": "Solängskolan",
+    "type": "privat",
+    "kommun": "Örkelljunga",
+    "kommunkod": "1257",
+    "address": "Västra Spång 357, Örkelljunga",
+    "coords": [
+      56.292445,
+      13.324094
+    ]
+  },
+  "98085936": {
+    "name": "von Reisers skola",
+    "type": "kommunal",
+    "kommun": "Örkelljunga",
+    "kommunkod": "1257",
+    "address": "Sjökaptensvägen 6, Åsljunga",
+    "coords": [
+      56.305246,
+      13.369347
+    ]
+  },
+  "75730222": {
+    "name": "Bokelundaskolan",
+    "type": "kommunal",
+    "kommun": "Örkelljunga",
+    "kommunkod": "1257",
+    "address": "Gerdagatan 1, Skånes Fagerhult",
+    "coords": [
+      56.373984,
+      13.462287
+    ]
+  },
+  "45573931": {
+    "name": "Beringskolan",
+    "type": "kommunal",
+    "kommun": "Örkelljunga",
+    "kommunkod": "1257",
+    "address": "Skolgatan 1-3, Örkelljunga",
+    "coords": [
+      56.280215,
+      13.274446
+    ]
+  },
+  "68313632": {
+    "name": "Ekets skola",
+    "type": "kommunal",
+    "kommun": "Örkelljunga",
+    "kommunkod": "1257",
+    "address": "Kungsleden 45, Eket",
+    "coords": [
+      56.250017,
+      13.196531
+    ]
+  },
+  "13496497": {
+    "name": "Mårdenskolan",
+    "type": "kommunal",
+    "kommun": "Örkelljunga",
+    "kommunkod": "1257",
+    "address": "Pumpmakaregatan 2, Örkelljunga",
+    "coords": [
+      56.28692,
+      13.2742
+    ]
+  },
+  "56636046": {
+    "name": "Ekeby skola",
+    "type": "kommunal",
+    "kommun": "Bjuv",
+    "kommunkod": "1260",
+    "address": "Allégatan 2, Ekeby",
+    "coords": [
+      55.996894,
+      12.971838
+    ]
+  },
+  "10419361": {
+    "name": "Varagårdsskolan",
+    "type": "kommunal",
+    "kommun": "Bjuv",
+    "kommunkod": "1260",
+    "address": "Södra storgatan 21, Bjuv",
+    "coords": [
+      56.082105,
+      12.924754
+    ]
+  },
+  "63754384": {
+    "name": "Jens Billeskolan",
+    "type": "kommunal",
+    "kommun": "Bjuv",
+    "kommunkod": "1260",
+    "address": "Badhusvägen 1, Billesholm",
+    "coords": [
+      56.062451,
+      12.975921
+    ]
+  },
+  "74696775": {
+    "name": "Brogårdaskolan",
+    "type": "kommunal",
+    "kommun": "Bjuv",
+    "kommunkod": "1260",
+    "address": "Tibbarpsgatan 43, Bjuv",
+    "coords": [
+      56.092722,
+      12.912781
+    ]
+  },
+  "54902755": {
+    "name": "Olympiaskolan",
+    "type": "kommunal",
+    "kommun": "Kävlinge",
+    "kommunkod": "1261",
+    "address": "Sunnanväg 6, Kävlinge",
+    "coords": [
+      55.793329,
+      13.1048
+    ]
+  },
+  "82593738": {
+    "name": "Annelundsskolan",
+    "type": "kommunal",
+    "kommun": "Kävlinge",
+    "kommunkod": "1261",
+    "address": "Västergatan 15, Kävlinge",
+    "coords": [
+      55.791208,
+      13.104654
+    ]
+  },
+  "26281194": {
+    "name": "Dösjebroskolan",
+    "type": "kommunal",
+    "kommun": "Kävlinge",
+    "kommunkod": "1261",
+    "address": "Karabyvägen 531, Dösjebro",
+    "coords": [
+      55.819096,
+      13.018284
+    ]
+  },
+  "66829136": {
+    "name": "Ljungenskolan",
+    "type": "kommunal",
+    "kommun": "Kävlinge",
+    "kommunkod": "1261",
+    "address": "Möllegatan 7, Furulund",
+    "coords": [
+      55.775182,
+      13.084523
+    ]
+  },
+  "19504051": {
+    "name": "Noblaskolan Löddeköpinge",
+    "type": "privat",
+    "kommun": "Kävlinge",
+    "kommunkod": "1261",
+    "address": "Kunskapsvägen 1, Löddeköpinge",
+    "coords": [
+      55.767387,
+      13.011298
+    ]
+  },
+  "48891355": {
+    "name": "Tolvåkerskolan F-6",
+    "type": "kommunal",
+    "kommun": "Kävlinge",
+    "kommunkod": "1261",
+    "address": "Bollvägen 8, Löddeköpinge",
+    "coords": [
+      55.766215,
+      13.017316
+    ]
+  },
+  "23990749": {
+    "name": "Nyvångsskolan",
+    "type": "kommunal",
+    "kommun": "Kävlinge",
+    "kommunkod": "1261",
+    "address": "Skolvägen 2, Löddeköpinge",
+    "coords": [
+      55.760801,
+      13.009029
+    ]
+  },
+  "56540171": {
+    "name": "Rinnebäcksskolan",
+    "type": "kommunal",
+    "kommun": "Kävlinge",
+    "kommunkod": "1261",
+    "address": "Östergatan 2, Kävlinge",
+    "coords": [
+      55.796133,
+      13.125205
+    ]
+  },
+  "37165229": {
+    "name": "Tolvåkerskolan- anpassad grundskola",
+    "type": "kommunal",
+    "kommun": "Kävlinge",
+    "kommunkod": "1261",
+    "address": "Bollvägen 8, Löddeköpinge",
+    "coords": [
+      55.766215,
+      13.017316
+    ]
+  },
+  "22957852": {
+    "name": "Barsebäcks Montessoriskola",
+    "type": "privat",
+    "kommun": "Kävlinge",
+    "kommunkod": "1261",
+    "address": "Maria montessorisväg 2, Barsebäck",
+    "coords": [
+      55.774123,
+      12.964982
+    ]
+  },
+  "52025747": {
+    "name": "Montessori Bjerred",
+    "type": "privat",
+    "kommun": "Lomma",
+    "kommunkod": "1262",
+    "address": "Norra Västkustvägen 80, Bjärred",
+    "coords": [
+      55.738186,
+      13.032724
+    ]
+  },
+  "20557692": {
+    "name": "Alfredshällskolan",
+    "type": "kommunal",
+    "kommun": "Lomma",
+    "kommunkod": "1262",
+    "address": "Plantskolevägen 4, Bjärred",
+    "coords": [
+      55.716153,
+      13.034697
+    ]
+  },
+  "41254600": {
+    "name": "Bjärehovskolan",
+    "type": "kommunal",
+    "kommun": "Lomma",
+    "kommunkod": "1262",
+    "address": "Lingvägen 17, Bjärred",
+    "coords": [
+      55.72038,
+      13.024615
+    ]
+  },
+  "92463760": {
+    "name": "Karstorpskolan",
+    "type": "kommunal",
+    "kommun": "Lomma",
+    "kommunkod": "1262",
+    "address": "Skolskeppsgatan 5, Lomma",
+    "coords": [
+      55.668115,
+      13.090523
+    ]
+  },
+  "15610637": {
+    "name": "Pilängskolan",
+    "type": "kommunal",
+    "kommun": "Lomma",
+    "kommunkod": "1262",
+    "address": "Pilgatan 13, Lomma",
+    "coords": [
+      55.672003,
+      13.080118
+    ]
+  },
+  "96905508": {
+    "name": "Fladängskolan",
+    "type": "kommunal",
+    "kommun": "Lomma",
+    "kommunkod": "1262",
+    "address": "Fladängsgatan 2, Lomma",
+    "coords": [
+      55.676307,
+      13.070633
+    ]
+  },
+  "26824650": {
+    "name": "Strandskolan",
+    "type": "kommunal",
+    "kommun": "Lomma",
+    "kommunkod": "1262",
+    "address": "Sjögräsgatan 1, Lomma",
+    "coords": [
+      55.669519,
+      13.065118
+    ]
+  },
+  "84580153": {
+    "name": "I Ur och Skur Skabersjöskolan",
+    "type": "privat",
+    "kommun": "Svedala",
+    "kommunkod": "1263",
+    "address": "Skabersjöby, Svedala",
+    "coords": [
+      55.54587,
+      13.161956
+    ]
+  },
+  "95451533": {
+    "name": "Baraskolan F-3",
+    "type": "kommunal",
+    "kommun": "Svedala",
+    "kommunkod": "1263",
+    "address": "Henriette Coyets gata, Bara",
+    "coords": [
+      55.580169,
+      13.176385
+    ]
+  },
+  "51392146": {
+    "name": "Klågerupskolan F-9",
+    "type": "kommunal",
+    "kommun": "Svedala",
+    "kommunkod": "1263",
+    "address": "Stensminnevägen 2, Klågerup",
+    "coords": [
+      55.591293,
+      13.244466
+    ]
+  },
+  "36013016": {
+    "name": "Kyrkskolan F-3",
+    "type": "kommunal",
+    "kommun": "Svedala",
+    "kommunkod": "1263",
+    "address": "Malmövägen 8, Svedala",
+    "coords": [
+      55.51316,
+      13.224855
+    ]
+  },
+  "43569718": {
+    "name": "Marbäcksskolan F-3",
+    "type": "kommunal",
+    "kommun": "Svedala",
+    "kommunkod": "1263",
+    "address": "Bruksgatan 1, Svedala",
+    "coords": [
+      55.511122,
+      13.247372
+    ]
+  },
+  "46967539": {
+    "name": "Roslättsskolan F-3",
+    "type": "kommunal",
+    "kommun": "Svedala",
+    "kommunkod": "1263",
+    "address": "Svalörtsgatan 6, Svedala",
+    "coords": [
+      55.521019,
+      13.217229
+    ]
+  },
+  "93838287": {
+    "name": "Östergårdsskolan",
+    "type": "kommunal",
+    "kommun": "Skurup",
+    "kommunkod": "1264",
+    "address": "Sotaregatan 1, Skurup",
+    "coords": [
+      55.48487,
+      13.504741
+    ]
+  },
+  "49036576": {
+    "name": "Rydsgårdsskolan",
+    "type": "kommunal",
+    "kommun": "Skurup",
+    "kommunkod": "1264",
+    "address": "Västergatan 10, Rydsgård",
+    "coords": [
+      55.471133,
+      13.57813
+    ]
+  },
+  "51173156": {
+    "name": "Rutgerskolan",
+    "type": "kommunal",
+    "kommun": "Skurup",
+    "kommunkod": "1264",
+    "address": "Vaktgatan 4, Skurup",
+    "coords": [
+      55.47655,
+      13.503644
+    ]
+  },
+  "19459738": {
+    "name": "Mölleskolan",
+    "type": "kommunal",
+    "kommun": "Skurup",
+    "kommunkod": "1264",
+    "address": "Kyrkvägen 7, Skivarp",
+    "coords": [
+      55.431914,
+      13.561979
+    ]
+  },
+  "60217642": {
+    "name": "Alléskolan",
+    "type": "kommunal",
+    "kommun": "Skurup",
+    "kommunkod": "1264",
+    "address": "Bruksgatan 1, Skurup",
+    "coords": [
+      55.476899,
+      13.509991
+    ]
+  },
+  "75930521": {
+    "name": "Friskolan Boken",
+    "type": "privat",
+    "kommun": "Sjöbo",
+    "kommunkod": "1265",
+    "address": "Blentarpsvägen 3, Blentarp",
+    "coords": [
+      55.589688,
+      13.599526
+    ]
+  },
+  "98635885": {
+    "name": "Vollsjö skola",
+    "type": "kommunal",
+    "kommun": "Sjöbo",
+    "kommunkod": "1265",
+    "address": "Trädgårdsgatan 3, Vollsjö",
+    "coords": [
+      55.70253,
+      13.790276
+    ]
+  },
+  "47897364": {
+    "name": "Sandbäcksskolan",
+    "type": "kommunal",
+    "kommun": "Sjöbo",
+    "kommunkod": "1265",
+    "address": "Planteringsgatan 29, Sjöbo",
+    "coords": [
+      55.634619,
+      13.683016
+    ]
+  },
+  "12191224": {
+    "name": "Lövestads skola",
+    "type": "kommunal",
+    "kommun": "Sjöbo",
+    "kommunkod": "1265",
+    "address": "Lövestad landsväg 369, Lövestad",
+    "coords": [
+      55.645483,
+      13.888953
+    ]
+  },
+  "55675413": {
+    "name": "Storkskolan",
+    "type": "kommunal",
+    "kommun": "Sjöbo",
+    "kommunkod": "1265",
+    "address": "Simontorpsvägen 2, Blentarp",
+    "coords": [
+      55.58166,
+      13.584329
+    ]
+  },
+  "37998000": {
+    "name": "Emanuelskolan",
+    "type": "kommunal",
+    "kommun": "Sjöbo",
+    "kommunkod": "1265",
+    "address": "Domaregatan 1, Sjöbo",
+    "coords": [
+      55.632964,
+      13.714419
+    ]
+  },
+  "52665905": {
+    "name": "Ludvigsborgs friskola",
+    "type": "privat",
+    "kommun": "Hörby",
+    "kommunkod": "1266",
+    "address": "AP Kleens väg, Ludvigsborg",
+    "coords": [
+      55.896792,
+      13.608671
+    ]
+  },
+  "47853283": {
+    "name": "Frostaskolan F-6",
+    "type": "kommunal",
+    "kommun": "Hörby",
+    "kommunkod": "1266",
+    "address": "Norregatan 42E, Hörby",
+    "coords": [
+      55.859384,
+      13.656228
+    ]
+  },
+  "55629703": {
+    "name": "Östraby skola",
+    "type": "kommunal",
+    "kommun": "Hörby",
+    "kommunkod": "1266",
+    "address": "Östraby 9133, Hörby",
+    "coords": [
+      55.758184,
+      13.690381
+    ]
+  },
+  "82471875": {
+    "name": "Älvdalsskolan",
+    "type": "kommunal",
+    "kommun": "Hörby",
+    "kommunkod": "1266",
+    "address": "Vallmogatan 9, Hörby",
+    "coords": [
+      55.849496,
+      13.670239
+    ]
+  },
+  "35287613": {
+    "name": "Långaröd skola",
+    "type": "kommunal",
+    "kommun": "Hörby",
+    "kommunkod": "1266",
+    "address": "Långaröd 8967, Hörby",
+    "coords": [
+      55.786741,
+      13.839024
+    ]
+  },
+  "77977024": {
+    "name": "Killhult skola",
+    "type": "kommunal",
+    "kommun": "Hörby",
+    "kommunkod": "1266",
+    "address": "Kilhult 6209, Hörby",
+    "coords": [
+      55.873483,
+      13.862967
+    ]
+  },
+  "56948895": {
+    "name": "Edens skola",
+    "type": "privat",
+    "kommun": "Höör",
+    "kommunkod": "1267",
+    "address": "Skolgatan 10, Höör",
+    "coords": [
+      55.93347,
+      13.548487
+    ]
+  },
+  "64327803": {
+    "name": "Tjörnarps skola",
+    "type": "kommunal",
+    "kommun": "Höör",
+    "kommunkod": "1267",
+    "address": "Frostavägen 3, Tjörnarp",
+    "coords": [
+      55.996075,
+      13.630339
+    ]
+  },
+  "63671158": {
+    "name": "Gudmuntorps skola",
+    "type": "kommunal",
+    "kommun": "Höör",
+    "kommunkod": "1267",
+    "address": "Gudmuntorp, Höör",
+    "coords": [
+      55.818122,
+      13.481072
+    ]
+  },
+  "59779892": {
+    "name": "Maglehillsskolan",
+    "type": "kommunal",
+    "kommun": "Höör",
+    "kommunkod": "1267",
+    "address": "Maglehillsvägen 5, Höör",
+    "coords": [
+      55.939354,
+      13.526003
+    ]
+  },
+  "35670754": {
+    "name": "Sätoftaskolan",
+    "type": "kommunal",
+    "kommun": "Höör",
+    "kommunkod": "1267",
+    "address": "Elevvägen 4, Höör",
+    "coords": [
+      55.905265,
+      13.54313
+    ]
+  },
+  "63279573": {
+    "name": "Enebackeskolan",
+    "type": "kommunal",
+    "kommun": "Höör",
+    "kommunkod": "1267",
+    "address": "Jeppas gränd, Höör",
+    "coords": [
+      55.934604,
+      13.55191
+    ]
+  },
+  "77120985": {
+    "name": "Kubelidens Montessoriskola",
+    "type": "privat",
+    "kommun": "Höör",
+    "kommunkod": "1267",
+    "address": "Ringvägen 23, Höör",
+    "coords": [
+      55.927921,
+      13.535572
+    ]
+  },
+  "63846783": {
+    "name": "Emiliaskolan Höörs waldorfsk.",
+    "type": "privat",
+    "kommun": "Höör",
+    "kommunkod": "1267",
+    "address": "Norra Fogdarödsvägen 16, Höör",
+    "coords": [
+      55.932393,
+      13.565979
+    ]
+  },
+  "15210966": {
+    "name": "Tryde Friskola",
+    "type": "privat",
+    "kommun": "Tomelilla",
+    "kommunkod": "1270",
+    "address": "Trydevägen 43, Tomelilla",
+    "coords": [
+      55.571516,
+      13.928201
+    ]
+  },
+  "20138309": {
+    "name": "Smedstorps skola",
+    "type": "kommunal",
+    "kommun": "Tomelilla",
+    "kommunkod": "1270",
+    "address": "Kommunalgatan 6, Smedstorp",
+    "coords": [
+      55.551453,
+      14.116831
+    ]
+  },
+  "48048407": {
+    "name": "Byavångsskolan",
+    "type": "kommunal",
+    "kommun": "Tomelilla",
+    "kommunkod": "1270",
+    "address": "Rosencrantzgatan 28, Tomelilla",
+    "coords": [
+      55.53898,
+      13.94892
+    ]
+  },
+  "90664546": {
+    "name": "Lindesborgsskolan",
+    "type": "kommunal",
+    "kommun": "Tomelilla",
+    "kommunkod": "1270",
+    "address": "Lindesborgsvägen 13, Tomelilla",
+    "coords": [
+      55.53622,
+      13.947264
+    ]
+  },
+  "29868932": {
+    "name": "Brösarps skola",
+    "type": "kommunal",
+    "kommun": "Tomelilla",
+    "kommunkod": "1270",
+    "address": "Magistervägen 9, Brösarp",
+    "coords": [
+      55.724781,
+      14.09762
+    ]
+  },
+  "55163663": {
+    "name": "Alvikenskolan",
+    "type": "kommunal",
+    "kommun": "Bromölla",
+    "kommunkod": "1272",
+    "address": "Kyrkvägen 24, Bromölla",
+    "coords": [
+      56.080842,
+      14.471574
+    ]
+  },
+  "87987096": {
+    "name": "Dalaskolan Norra",
+    "type": "kommunal",
+    "kommun": "Bromölla",
+    "kommunkod": "1272",
+    "address": "Folkets Husgatan 62, Bromölla",
+    "coords": [
+      56.075409,
+      14.490388
+    ]
+  },
+  "43549980": {
+    "name": "Näsums skola",
+    "type": "kommunal",
+    "kommun": "Bromölla",
+    "kommunkod": "1272",
+    "address": "Kyrkvägen 17, Näsum",
+    "coords": [
+      56.174285,
+      14.499674
+    ]
+  },
+  "37658022": {
+    "name": "Edenryds skola",
+    "type": "kommunal",
+    "kommun": "Bromölla",
+    "kommunkod": "1272",
+    "address": "Östersjövägen 290, Bromölla",
+    "coords": [
+      56.044731,
+      14.518489
+    ]
+  },
+  "67170282": {
+    "name": "Klockarskogsskolan F-3",
+    "type": "kommunal",
+    "kommun": "Osby",
+    "kommunkod": "1273",
+    "address": "Hagagatan 16, Osby",
+    "coords": [
+      56.385023,
+      13.981071
+    ]
+  },
+  "54518621": {
+    "name": "Killebergskolan F-5",
+    "type": "kommunal",
+    "kommun": "Osby",
+    "kommunkod": "1273",
+    "address": "Såggatan 17, Killeberg",
+    "coords": [
+      56.479913,
+      14.095894
+    ]
+  },
+  "70332017": {
+    "name": "Parkskolan F-6",
+    "type": "kommunal",
+    "kommun": "Osby",
+    "kommunkod": "1273",
+    "address": "Östra Storgatan 8, Osby",
+    "coords": [
+      56.37879,
+      13.997352
+    ]
+  },
+  "21002578": {
+    "name": "Örkenedskolan F-9",
+    "type": "kommunal",
+    "kommun": "Osby",
+    "kommunkod": "1273",
+    "address": "Tosthultsvägen 19, Lönsboda",
+    "coords": [
+      56.401617,
+      14.326728
+    ]
+  },
+  "32734414": {
+    "name": "Norra Lyckanskolan",
+    "type": "kommunal",
+    "kommun": "Perstorp",
+    "kommunkod": "1275",
+    "address": "Hökvägen 18, Perstorp",
+    "coords": [
+      56.145064,
+      13.384949
+    ]
+  },
+  "22186991": {
+    "name": "Antilopenskolan",
+    "type": "kommunal",
+    "kommun": "Klippan",
+    "kommunkod": "1276",
+    "address": "Brahegatan 7, Klippan",
+    "coords": [
+      56.137166,
+      13.123751
+    ]
+  },
+  "75091646": {
+    "name": "Ljungbyhedsskolan",
+    "type": "kommunal",
+    "kommun": "Klippan",
+    "kommunkod": "1276",
+    "address": "Nybrogatan 9, Ljungbyhed",
+    "coords": [
+      56.077845,
+      13.243613
+    ]
+  },
+  "77298745": {
+    "name": "Kungsfiskareskolan",
+    "type": "kommunal",
+    "kommun": "Klippan",
+    "kommunkod": "1276",
+    "address": "Mammarpsgatan 51, KLIPPAN",
+    "coords": [
+      56.130907,
+      13.151486
+    ]
+  },
+  "45890320": {
+    "name": "Pilagårdsskolan",
+    "type": "kommunal",
+    "kommun": "Klippan",
+    "kommunkod": "1276",
+    "address": "Skolgatan 1, Östra Ljungby",
+    "coords": [
+      56.190106,
+      13.067568
+    ]
+  },
+  "88988946": {
+    "name": "Krika Bygdeskola",
+    "type": "privat",
+    "kommun": "Klippan",
+    "kommunkod": "1276",
+    "address": "Krika 2192, Klippan",
+    "coords": [
+      56.09511,
+      13.145129
+    ]
+  },
+  "19755937": {
+    "name": "Tingdalsskolan",
+    "type": "kommunal",
+    "kommun": "Åstorp",
+    "kommunkod": "1277",
+    "address": "Tingdalsvägen 2, Åstorp",
+    "coords": [
+      56.131797,
+      12.975922
+    ]
+  },
+  "11662899": {
+    "name": "Hyllinge skola",
+    "type": "kommunal",
+    "kommun": "Åstorp",
+    "kommunkod": "1277",
+    "address": "Ågatan 20, Hyllinge",
+    "coords": [
+      56.1048,
+      12.865533
+    ]
+  },
+  "10402832": {
+    "name": "Kvidinge skola",
+    "type": "kommunal",
+    "kommun": "Åstorp",
+    "kommunkod": "1277",
+    "address": "Norra Kyrkogatan 8, Kvidinge",
+    "coords": [
+      56.13639,
+      13.050216
+    ]
+  },
+  "59667741": {
+    "name": "Nyvångs skola",
+    "type": "kommunal",
+    "kommun": "Åstorp",
+    "kommunkod": "1277",
+    "address": "Landgrensgatan 2, Nyvång",
+    "coords": [
+      56.129715,
+      12.906979
+    ]
+  },
+  "73867676": {
+    "name": "Rågenskolan",
+    "type": "kommunal",
+    "kommun": "Åstorp",
+    "kommunkod": "1277",
+    "address": "Hagagatan 1, Åstorp",
+    "coords": [
+      56.139855,
+      12.944017
+    ]
+  },
+  "31894674": {
+    "name": "Bjärshögsskolan",
+    "type": "kommunal",
+    "kommun": "Åstorp",
+    "kommunkod": "1277",
+    "address": "Villagatan 1 A, Åstorp",
+    "coords": [
+      56.133914,
+      12.935516
+    ]
+  },
+  "35158169": {
+    "name": "Båstad Montessoriskola Asken",
+    "type": "privat",
+    "kommun": "Båstad",
+    "kommunkod": "1278",
+    "address": "Marknadsvägen 41, Båstad",
+    "coords": [
+      56.371798,
+      12.786632
+    ]
+  },
+  "16148785": {
+    "name": "Strandängsskolan F-9",
+    "type": "kommunal",
+    "kommun": "Båstad",
+    "kommunkod": "1278",
+    "address": "Tennisvägen 33, Båstad",
+    "coords": [
+      56.430059,
+      12.845309
+    ]
+  },
+  "88295885": {
+    "name": "Östra Karups skola",
+    "type": "kommunal",
+    "kommun": "Båstad",
+    "kommunkod": "1278",
+    "address": "Postridarens väg 25, Östra Karup",
+    "coords": [
+      56.419175,
+      12.946999
+    ]
+  },
+  "94453321": {
+    "name": "Förslövs skola F-9",
+    "type": "kommunal",
+    "kommun": "Båstad",
+    "kommunkod": "1278",
+    "address": "Bokesliden 20, Förslöv",
+    "coords": [
+      56.361882,
+      12.816527
+    ]
+  },
+  "64633692": {
+    "name": "Bjäre skola",
+    "type": "kommunal",
+    "kommun": "Båstad",
+    "kommunkod": "1278",
+    "address": "Glimmingevägen 36, Västra Karup",
+    "coords": [
+      56.405532,
+      12.732853
+    ]
+  },
+  "37324136": {
+    "name": "Videdalsskolan",
+    "type": "kommunal",
+    "kommun": "Malmö",
+    "kommunkod": "1280",
+    "address": "Videdalsvägen 15, Malmö",
+    "coords": [
+      55.592834,
+      13.073095
+    ]
+  },
+  "80189510": {
+    "name": "Gullviksskolan",
+    "type": "kommunal",
+    "kommun": "Malmö",
+    "kommunkod": "1280",
+    "address": "Ljungholmsgatan 9, Malmö",
+    "coords": [
+      55.566722,
+      13.031657
+    ]
+  },
+  "57386343": {
+    "name": "Runstyckets skola",
+    "type": "privat",
+    "kommun": "Malmö",
+    "kommunkod": "1280",
+    "address": "Husie Kyrkoväg 96, Malmö",
+    "coords": [
+      55.583432,
+      13.086468
+    ]
+  },
+  "67272295": {
+    "name": "Mariaskolan",
+    "type": "privat",
+    "kommun": "Malmö",
+    "kommunkod": "1280",
+    "address": "Stensjögatan 2, Malmö",
+    "coords": [
+      55.580584,
+      12.982216
+    ]
+  },
+  "75599504": {
+    "name": "Malmö Friskola",
+    "type": "privat",
+    "kommun": "Malmö",
+    "kommunkod": "1280",
+    "address": "Södra Bulltoftavägen 21, Malmö",
+    "coords": [
+      55.607074,
+      13.036092
+    ]
+  },
+  "86471786": {
+    "name": "Österportskolan",
+    "type": "kommunal",
+    "kommun": "Malmö",
+    "kommunkod": "1280",
+    "address": "Norregatan 20, Malmö",
+    "coords": [
+      55.60547,
+      13.011145
+    ]
+  },
+  "13299659": {
+    "name": "Malmö Montessoriskola",
+    "type": "privat",
+    "kommun": "Malmö",
+    "kommunkod": "1280",
+    "address": "Backåkersvägen 3, Malmö",
+    "coords": [
+      55.586255,
+      12.971461
+    ]
+  },
+  "24339301": {
+    "name": "Europaportens grundskola",
+    "type": "privat",
+    "kommun": "Malmö",
+    "kommunkod": "1280",
+    "address": "Eric Perssons väg 10 B, Malmö",
+    "coords": [
+      55.582846,
+      12.990021
+    ]
+  },
+  "56343148": {
+    "name": "Katrinelundsskolan",
+    "type": "kommunal",
+    "kommun": "Malmö",
+    "kommunkod": "1280",
+    "address": "Rönnbladsgatan 6A, Malmö",
+    "coords": [
+      55.601267,
+      13.028285
+    ]
+  },
+  "31996111": {
+    "name": "Videdals privatskolor",
+    "type": "privat",
+    "kommun": "Malmö",
+    "kommunkod": "1280",
+    "address": "Videdalsvägen 40, Malmö",
+    "coords": [
+      55.592834,
+      13.073095
+    ]
+  },
+  "11555101": {
+    "name": "Stenkulaskolan Linden",
+    "type": "kommunal",
+    "kommun": "Malmö",
+    "kommunkod": "1280",
+    "address": "Östra Farmvägen 30, Malmö",
+    "coords": [
+      55.602521,
+      13.032684
+    ]
+  },
+  "66836744": {
+    "name": "Kryddgårdsskolan",
+    "type": "kommunal",
+    "kommun": "Malmö",
+    "kommunkod": "1280",
+    "address": "Vougts väg 15, Malmö",
+    "coords": [
+      55.588798,
+      13.051538
+    ]
+  },
+  "55040455": {
+    "name": "Backaskolan",
+    "type": "privat",
+    "kommun": "Malmö",
+    "kommunkod": "1280",
+    "address": "Ebba Ströms gata 22A, Malmö",
+    "coords": [
+      55.613676,
+      13.054953
+    ]
+  },
+  "62126085": {
+    "name": "Boukefs Småskola",
+    "type": "privat",
+    "kommun": "Malmö",
+    "kommunkod": "1280",
+    "address": "Husie Kyrkoväg 76, Malmö",
+    "coords": [
+      55.581795,
+      13.084176
+    ]
+  },
+  "34314029": {
+    "name": "Ängsdals skolor AB",
+    "type": "privat",
+    "kommun": "Malmö",
+    "kommunkod": "1280",
+    "address": "Ängsdalsvägen 20, Bunkeflostrand",
+    "coords": [
+      55.558128,
+      12.914382
+    ]
+  },
+  "75399786": {
+    "name": "Al-Salamahskolan",
+    "type": "privat",
+    "kommun": "Malmö",
+    "kommunkod": "1280",
+    "address": "Husievägen 17, Malmö",
+    "coords": [
+      55.576346,
+      13.085
+    ]
+  },
+  "36880435": {
+    "name": "Ögårdsskolan",
+    "type": "privat",
+    "kommun": "Malmö",
+    "kommunkod": "1280",
+    "address": "Jägersrovägen 90, Malmö",
+    "coords": [
+      55.564493,
+      13.071301
+    ]
+  },
+  "78986228": {
+    "name": "Bladins International School of Malmö",
+    "type": "privat",
+    "kommun": "Malmö",
+    "kommunkod": "1280",
+    "address": "Stadiongatan 25 E, Malmö",
+    "coords": [
+      55.579013,
+      13.00322
+    ]
+  },
+  "55549522": {
+    "name": "Hyllie Park Grundskola",
+    "type": "privat",
+    "kommun": "Malmö",
+    "kommunkod": "1280",
+    "address": "Elinelundsvägen 55 G, Malmö",
+    "coords": [
+      55.56667,
+      12.952188
+    ]
+  },
+  "59926249": {
+    "name": "Annebergsskolan",
+    "type": "kommunal",
+    "kommun": "Malmö",
+    "kommunkod": "1280",
+    "address": "Annebergsgatan 1E, Malmö",
+    "coords": [
+      55.586222,
+      12.99699
+    ]
+  },
+  "56672773": {
+    "name": "Apelgårdsskolan F-6",
+    "type": "kommunal",
+    "kommun": "Malmö",
+    "kommunkod": "1280",
+    "address": "Sjöblads väg 4, Malmö",
+    "coords": [
+      55.589939,
+      13.039064
+    ]
+  },
+  "89876778": {
+    "name": "Augustenborgsskolan",
+    "type": "kommunal",
+    "kommun": "Malmö",
+    "kommunkod": "1280",
+    "address": "Ystadvägen 50, Malmö",
+    "coords": [
+      55.578587,
+      13.022431
+    ]
+  },
+  "16353434": {
+    "name": "Hindby Dibber",
+    "type": "privat",
+    "kommun": "Malmö",
+    "kommunkod": "1280",
+    "address": "Beckasingatan 1, Malmö",
+    "coords": [
+      55.574925,
+      13.009894
+    ]
+  },
+  "78498675": {
+    "name": "Örtagårdsskolan F-6",
+    "type": "kommunal",
+    "kommun": "Malmö",
+    "kommunkod": "1280",
+    "address": "Hårds väg 113, Malmö",
+    "coords": [
+      55.582595,
+      13.041271
+    ]
+  },
+  "33174525": {
+    "name": "Ängslättskolan",
+    "type": "kommunal",
+    "kommun": "Malmö",
+    "kommunkod": "1280",
+    "address": "Klagshamnsvägen 50, Bunkeflostrand",
+    "coords": [
+      55.544318,
+      12.918546
+    ]
+  },
+  "84512892": {
+    "name": "Västra skolan",
+    "type": "kommunal",
+    "kommun": "Malmö",
+    "kommunkod": "1280",
+    "address": "Hospitalsgatan 1, Malmö",
+    "coords": [
+      55.604261,
+      12.994631
+    ]
+  },
+  "65099615": {
+    "name": "Värner Rydénskolan F-6",
+    "type": "kommunal",
+    "kommun": "Malmö",
+    "kommunkod": "1280",
+    "address": "Hårds väg 5, Malmö",
+    "coords": [
+      55.584885,
+      13.032221
+    ]
+  },
+  "10509907": {
+    "name": "Tygelsjöskolan",
+    "type": "kommunal",
+    "kommun": "Malmö",
+    "kommunkod": "1280",
+    "address": "Tygelsjö skolväg 11, Tygelsjö",
+    "coords": [
+      55.51791,
+      12.999198
+    ]
+  },
+  "98713812": {
+    "name": "Toftanässkolan",
+    "type": "kommunal",
+    "kommun": "Malmö",
+    "kommunkod": "1280",
+    "address": "Lönnebergagatan 55, Malmö",
+    "coords": [
+      55.594865,
+      13.092504
+    ]
+  },
+  "60366078": {
+    "name": "Tingdammsskolan",
+    "type": "kommunal",
+    "kommun": "Malmö",
+    "kommunkod": "1280",
+    "address": "Hans Winbergs väg 4, Oxie",
+    "coords": [
+      55.535029,
+      13.084231
+    ]
+  },
+  "66656783": {
+    "name": "Söderkullaskolan",
+    "type": "kommunal",
+    "kommun": "Malmö",
+    "kommunkod": "1280",
+    "address": "Söderkullagatan 14, Malmö",
+    "coords": [
+      55.571416,
+      13.009999
+    ]
+  },
+  "15068136": {
+    "name": "Sundsbroskolan",
+    "type": "kommunal",
+    "kommun": "Malmö",
+    "kommunkod": "1280",
+    "address": "Klagshamnsvägen 48A, Bunkeflostrand",
+    "coords": [
+      55.548957,
+      12.917798
+    ]
+  },
+  "85082785": {
+    "name": "Stenkulaskolan",
+    "type": "kommunal",
+    "kommun": "Malmö",
+    "kommunkod": "1280",
+    "address": "Östra Farmvägen 30, Malmö",
+    "coords": [
+      55.602521,
+      13.032684
+    ]
+  },
+  "67130748": {
+    "name": "Sorgenfriskolan",
+    "type": "kommunal",
+    "kommun": "Malmö",
+    "kommunkod": "1280",
+    "address": "Mariagatan 1, Malmö",
+    "coords": [
+      55.596548,
+      13.018412
+    ]
+  },
+  "65836771": {
+    "name": "Sofielundsskolan",
+    "type": "kommunal",
+    "kommun": "Malmö",
+    "kommunkod": "1280",
+    "address": "Bokgatan 23, Malmö",
+    "coords": [
+      55.633054,
+      13.065244
+    ]
+  },
+  "39087850": {
+    "name": "Stapelbäddsskolan",
+    "type": "kommunal",
+    "kommun": "Malmö",
+    "kommunkod": "1280",
+    "address": "Einar Hansens esplanad 21, Malmö",
+    "coords": [
+      55.612646,
+      12.982598
+    ]
+  },
+  "93270739": {
+    "name": "Rosengårdsskolan F-6",
+    "type": "kommunal",
+    "kommun": "Malmö",
+    "kommunkod": "1280",
+    "address": "von Rosens väg 43, Malmö",
+    "coords": [
+      55.584977,
+      13.042803
+    ]
+  },
+  "97818558": {
+    "name": "Rörsjöskolan",
+    "type": "kommunal",
+    "kommun": "Malmö",
+    "kommunkod": "1280",
+    "address": "Zenithgatan 15B, Malmö",
+    "coords": [
+      55.602547,
+      13.021894
+    ]
+  },
+  "69234477": {
+    "name": "Risebergaskolan",
+    "type": "kommunal",
+    "kommun": "Malmö",
+    "kommunkod": "1280",
+    "address": "Ringbergagatan 43 B, Malmö",
+    "coords": [
+      55.603907,
+      13.08515
+    ]
+  },
+  "54555485": {
+    "name": "Ribersborgsskolan",
+    "type": "kommunal",
+    "kommun": "Malmö",
+    "kommunkod": "1280",
+    "address": "Kilian Zollsgatan 20, Malmö",
+    "coords": [
+      55.599577,
+      12.976344
+    ]
+  },
+  "64402572": {
+    "name": "Oxievångsskolan",
+    "type": "kommunal",
+    "kommun": "Malmö",
+    "kommunkod": "1280",
+    "address": "Keramikvägen 122, Oxie",
+    "coords": [
+      55.537152,
+      13.094465
+    ]
+  },
+  "58250857": {
+    "name": "Nydalaskolan",
+    "type": "kommunal",
+    "kommun": "Malmö",
+    "kommunkod": "1280",
+    "address": "Lindängsplan 2, Malmö",
+    "coords": [
+      55.558766,
+      13.013276
+    ]
+  },
+  "88590084": {
+    "name": "Möllevångsskolan",
+    "type": "kommunal",
+    "kommun": "Malmö",
+    "kommunkod": "1280",
+    "address": "Friisgatan 34, Malmö",
+    "coords": [
+      55.594526,
+      13.010804
+    ]
+  },
+  "64737940": {
+    "name": "Mölletoftaskolan",
+    "type": "kommunal",
+    "kommun": "Malmö",
+    "kommunkod": "1280",
+    "address": "Flygledaregatan 15, Malmö",
+    "coords": [
+      55.603736,
+      13.054449
+    ]
+  },
+  "40035084": {
+    "name": "Bergaskolan",
+    "type": "kommunal",
+    "kommun": "Malmö",
+    "kommunkod": "1280",
+    "address": "Hyllie Kyrkoväg 63, Limhamn",
+    "coords": [
+      55.577445,
+      12.937109
+    ]
+  },
+  "54391363": {
+    "name": "Bulltoftaskolan",
+    "type": "kommunal",
+    "kommun": "Malmö",
+    "kommunkod": "1280",
+    "address": "Vattenverksvägen 43, Malmö",
+    "coords": [
+      55.609112,
+      13.057277
+    ]
+  },
+  "12636945": {
+    "name": "Bäckagårdsskolan",
+    "type": "kommunal",
+    "kommun": "Malmö",
+    "kommunkod": "1280",
+    "address": "Klågerupsvägen 342, Malmö",
+    "coords": [
+      55.589029,
+      13.089294
+    ]
+  },
+  "48874671": {
+    "name": "Dammfriskolan",
+    "type": "kommunal",
+    "kommun": "Malmö",
+    "kommunkod": "1280",
+    "address": "Dammfrigången 9A, Malmö",
+    "coords": [
+      55.591523,
+      12.981772
+    ]
+  },
+  "17159507": {
+    "name": "Fridhemsskolan",
+    "type": "kommunal",
+    "kommun": "Malmö",
+    "kommunkod": "1280",
+    "address": "Ribersborgsvägen 4, Malmö",
+    "coords": [
+      55.599555,
+      12.970335
+    ]
+  },
+  "26676746": {
+    "name": "Geijerskolan",
+    "type": "kommunal",
+    "kommun": "Malmö",
+    "kommunkod": "1280",
+    "address": "Västanväg 48, Limhamn",
+    "coords": [
+      55.585098,
+      12.944661
+    ]
+  },
+  "56666435": {
+    "name": "Hermodsdalsskolan",
+    "type": "kommunal",
+    "kommun": "Malmö",
+    "kommunkod": "1280",
+    "address": "Eriksfältsgatan 99, Malmö",
+    "coords": [
+      55.567449,
+      13.019426
+    ]
+  },
+  "54845539": {
+    "name": "Holmaskolan",
+    "type": "kommunal",
+    "kommun": "Malmö",
+    "kommunkod": "1280",
+    "address": "Hyacintgatan 49, Malmö",
+    "coords": [
+      55.57371,
+      12.986213
+    ]
+  },
+  "86384125": {
+    "name": "Husieskolan",
+    "type": "kommunal",
+    "kommun": "Malmö",
+    "kommunkod": "1280",
+    "address": "Klågerupsvägen 298, Malmö",
+    "coords": [
+      55.586603,
+      13.113001
+    ]
+  },
+  "53047724": {
+    "name": "Hyllievångsskolan",
+    "type": "kommunal",
+    "kommun": "Malmö",
+    "kommunkod": "1280",
+    "address": "Ymers gata 4, Malmö",
+    "coords": [
+      55.559763,
+      12.980572
+    ]
+  },
+  "16037900": {
+    "name": "Högaholmsskolan",
+    "type": "kommunal",
+    "kommun": "Malmö",
+    "kommunkod": "1280",
+    "address": "Lindängsplan 8A, Malmö",
+    "coords": [
+      55.558766,
+      13.013276
+    ]
+  },
+  "99835038": {
+    "name": "Höjaskolan",
+    "type": "kommunal",
+    "kommun": "Malmö",
+    "kommunkod": "1280",
+    "address": "Skillinggatan 1, Malmö",
+    "coords": [
+      55.583046,
+      13.066192
+    ]
+  },
+  "82797662": {
+    "name": "Johannesskolan",
+    "type": "kommunal",
+    "kommun": "Malmö",
+    "kommunkod": "1280",
+    "address": "Nikolaigatan 7, Malmö",
+    "coords": [
+      55.590383,
+      13.003409
+    ]
+  },
+  "56755694": {
+    "name": "Karlshögsskolan",
+    "type": "kommunal",
+    "kommun": "Malmö",
+    "kommunkod": "1280",
+    "address": "Brynjegatan 12, Malmö",
+    "coords": [
+      55.598377,
+      13.042558
+    ]
+  },
+  "25054799": {
+    "name": "Kirsebergsskolan",
+    "type": "kommunal",
+    "kommun": "Malmö",
+    "kommunkod": "1280",
+    "address": "Lundavägen 47, Malmö",
+    "coords": [
+      55.634182,
+      13.074167
+    ]
+  },
+  "21120076": {
+    "name": "Klagshamnsskolan",
+    "type": "kommunal",
+    "kommun": "Malmö",
+    "kommunkod": "1280",
+    "address": "Badvägen 6, Malmö",
+    "coords": [
+      55.526404,
+      12.937254
+    ]
+  },
+  "17441553": {
+    "name": "Kulladalsskolan",
+    "type": "kommunal",
+    "kommun": "Malmö",
+    "kommunkod": "1280",
+    "address": "Velandergatan 99, Malmö",
+    "coords": [
+      55.567949,
+      13.00051
+    ]
+  },
+  "49165163": {
+    "name": "Kungshögsskolan",
+    "type": "kommunal",
+    "kommun": "Malmö",
+    "kommunkod": "1280",
+    "address": "Lerbäcksvägen 2, Oxie",
+    "coords": [
+      55.544739,
+      13.094853
+    ]
+  },
+  "22509001": {
+    "name": "Lindeborgsskolan",
+    "type": "kommunal",
+    "kommun": "Malmö",
+    "kommunkod": "1280",
+    "address": "Orkestergatan 7, Malmö",
+    "coords": [
+      55.562037,
+      12.989372
+    ]
+  },
+  "75875503": {
+    "name": "Lindängeskolan",
+    "type": "kommunal",
+    "kommun": "Malmö",
+    "kommunkod": "1280",
+    "address": "Munkhättegatan 151, Malmö",
+    "coords": [
+      55.574347,
+      13.014819
+    ]
+  },
+  "56446897": {
+    "name": "Malmö International School",
+    "type": "kommunal",
+    "kommun": "Malmö",
+    "kommunkod": "1280",
+    "address": "Lingatan 2, Malmö",
+    "coords": [
+      55.55971,
+      12.970756
+    ]
+  },
+  "29300350": {
+    "name": "Mellanhedsskolan",
+    "type": "kommunal",
+    "kommun": "Malmö",
+    "kommunkod": "1280",
+    "address": "Gyllebogången 1A, Malmö",
+    "coords": [
+      55.592382,
+      12.966063
+    ]
+  },
+  "12536784": {
+    "name": "Monbijouskolan",
+    "type": "kommunal",
+    "kommun": "Malmö",
+    "kommunkod": "1280",
+    "address": "Monbijougatan 2, Malmö",
+    "coords": [
+      55.595066,
+      13.00972
+    ]
+  },
+  "74972690": {
+    "name": "Munkhätteskolan",
+    "type": "kommunal",
+    "kommun": "Malmö",
+    "kommunkod": "1280",
+    "address": "Munkhättegatan 5, Malmö",
+    "coords": [
+      55.572362,
+      13.013678
+    ]
+  },
+  "45776214": {
+    "name": "Montessori Mondial Malmö",
+    "type": "privat",
+    "kommun": "Malmö",
+    "kommunkod": "1280",
+    "address": "Husie Kyrkoväg 64, Malmö",
+    "coords": [
+      55.583432,
+      13.086468
+    ]
+  },
+  "98745015": {
+    "name": "Kroksbäcksskolan",
+    "type": "kommunal",
+    "kommun": "Malmö",
+    "kommunkod": "1280",
+    "address": "Hyllievångsvägen 6, Malmö",
+    "coords": [
+      55.573052,
+      12.977329
+    ]
+  },
+  "16185651": {
+    "name": "Lorensborgsskolan",
+    "type": "kommunal",
+    "kommun": "Malmö",
+    "kommunkod": "1280",
+    "address": "Hallingsgatan 1, Malmö",
+    "coords": [
+      55.586548,
+      12.985308
+    ]
+  },
+  "19024032": {
+    "name": "Kastanjeskolan",
+    "type": "privat",
+    "kommun": "Malmö",
+    "kommunkod": "1280",
+    "address": "Palmgatan 19 B, Malmö",
+    "coords": [
+      55.586337,
+      13.015414
+    ]
+  },
+  "57534630": {
+    "name": "Bladins grundskola",
+    "type": "privat",
+    "kommun": "Malmö",
+    "kommunkod": "1280",
+    "address": "Själlandstorget 1, Malmö",
+    "coords": [
+      55.59273,
+      12.987777
+    ]
+  },
+  "95226024": {
+    "name": "Apelskolan",
+    "type": "kommunal",
+    "kommun": "Lund",
+    "kommunkod": "1281",
+    "address": "Apelgatan 1, Lund",
+    "coords": [
+      55.697204,
+      13.195894
+    ]
+  },
+  "43054997": {
+    "name": "Backaskolan",
+    "type": "kommunal",
+    "kommun": "Lund",
+    "kommunkod": "1281",
+    "address": "Kulgränden 23, Lund",
+    "coords": [
+      55.724855,
+      13.194825
+    ]
+  },
+  "45699665": {
+    "name": "Byskolan",
+    "type": "kommunal",
+    "kommun": "Lund",
+    "kommunkod": "1281",
+    "address": "Fritidsgatan 12, Södra Sandby",
+    "coords": [
+      55.72006,
+      13.34068
+    ]
+  },
+  "86202475": {
+    "name": "Delfinskolan",
+    "type": "kommunal",
+    "kommun": "Lund",
+    "kommunkod": "1281",
+    "address": "Kämnärsvägen 62, Lund",
+    "coords": [
+      55.72165,
+      13.220987
+    ]
+  },
+  "29396502": {
+    "name": "Flygelskolan",
+    "type": "kommunal",
+    "kommun": "Lund",
+    "kommunkod": "1281",
+    "address": "Musikantvägen 3, Lund",
+    "coords": [
+      55.710119,
+      13.239882
+    ]
+  },
+  "14485761": {
+    "name": "Torna Hällestads skola",
+    "type": "kommunal",
+    "kommun": "Lund",
+    "kommunkod": "1281",
+    "address": "Byvägen 21, Torna-Hällestad",
+    "coords": [
+      55.677749,
+      13.42152
+    ]
+  },
+  "64936034": {
+    "name": "Fågelskolan",
+    "type": "kommunal",
+    "kommun": "Lund",
+    "kommunkod": "1281",
+    "address": "Gässlingavägen 21, Lund",
+    "coords": [
+      55.709361,
+      13.162175
+    ]
+  },
+  "70615815": {
+    "name": "ISLK/Int. School of Lund",
+    "type": "kommunal",
+    "kommun": "Lund",
+    "kommunkod": "1281",
+    "address": "Linnégatan 2, Lund",
+    "coords": [
+      55.70183,
+      13.204725
+    ]
+  },
+  "85762828": {
+    "name": "Gunnesboskolan",
+    "type": "kommunal",
+    "kommun": "Lund",
+    "kommunkod": "1281",
+    "address": "Stenåldersvägen 6, Lund",
+    "coords": [
+      55.724877,
+      13.167103
+    ]
+  },
+  "54781241": {
+    "name": "Palettskolan",
+    "type": "kommunal",
+    "kommun": "Lund",
+    "kommunkod": "1281",
+    "address": "Maskinvägen 2, Lund",
+    "coords": [
+      55.698526,
+      13.1699
+    ]
+  },
+  "12127586": {
+    "name": "Vegalyckan",
+    "type": "kommunal",
+    "kommun": "Lund",
+    "kommunkod": "1281",
+    "address": "Råbyvägen 19, Lund",
+    "coords": [
+      55.691438,
+      13.209014
+    ]
+  },
+  "83324871": {
+    "name": "Vårfruskolan",
+    "type": "kommunal",
+    "kommun": "Lund",
+    "kommunkod": "1281",
+    "address": "Råbygatan 8, Lund",
+    "coords": [
+      55.700304,
+      13.197292
+    ]
+  },
+  "20140050": {
+    "name": "Idalaskolan",
+    "type": "kommunal",
+    "kommun": "Lund",
+    "kommunkod": "1281",
+    "address": "Mäster Knuds Väg 100, Veberöd",
+    "coords": [
+      55.628369,
+      13.503377
+    ]
+  },
+  "90340546": {
+    "name": "Lerbäckskolan",
+    "type": "kommunal",
+    "kommun": "Lund",
+    "kommunkod": "1281",
+    "address": "Öresundsvägen 2, Lund",
+    "coords": [
+      55.71315,
+      13.181551
+    ]
+  },
+  "63017061": {
+    "name": "Hagalundskolan",
+    "type": "kommunal",
+    "kommun": "Lund",
+    "kommunkod": "1281",
+    "address": "Plogvägen 2, Dalby",
+    "coords": [
+      55.671737,
+      13.337899
+    ]
+  },
+  "28753548": {
+    "name": "Sankt Thomas Skola",
+    "type": "privat",
+    "kommun": "Lund",
+    "kommunkod": "1281",
+    "address": "Sankt Lars väg 1, Lund",
+    "coords": [
+      55.685434,
+      13.182791
+    ]
+  },
+  "51938440": {
+    "name": "Håstads skola",
+    "type": "kommunal",
+    "kommun": "Lund",
+    "kommunkod": "1281",
+    "address": "Håstads skolväg 1, Lund",
+    "coords": [
+      55.77441,
+      13.228057
+    ]
+  },
+  "33536595": {
+    "name": "Häckebergaskolan",
+    "type": "kommunal",
+    "kommun": "Lund",
+    "kommunkod": "1281",
+    "address": "Örtavägen 101, Genarp",
+    "coords": [
+      55.601474,
+      13.406558
+    ]
+  },
+  "28403786": {
+    "name": "Kulparkskolan",
+    "type": "kommunal",
+    "kommun": "Lund",
+    "kommunkod": "1281",
+    "address": "Kavallerivägen 1, Lund",
+    "coords": [
+      55.752376,
+      13.189177
+    ]
+  },
+  "36401369": {
+    "name": "Revinge skola",
+    "type": "kommunal",
+    "kommun": "Lund",
+    "kommunkod": "1281",
+    "address": "Byvägen 1, Revinge",
+    "coords": [
+      55.725336,
+      13.463162
+    ]
+  },
+  "27508103": {
+    "name": "Svaleboskolan",
+    "type": "kommunal",
+    "kommun": "Lund",
+    "kommunkod": "1281",
+    "address": "Skolgången 2, Veberöd",
+    "coords": [
+      55.635112,
+      13.485548
+    ]
+  },
+  "13504003": {
+    "name": "Vallkärra skola",
+    "type": "kommunal",
+    "kommun": "Lund",
+    "kommunkod": "1281",
+    "address": "Kävlingevägen 103, Lund",
+    "coords": [
+      55.740653,
+      13.172292
+    ]
+  },
+  "31398939": {
+    "name": "Österskolan",
+    "type": "kommunal",
+    "kommun": "Lund",
+    "kommunkod": "1281",
+    "address": "Mossavägen 32, Södra Sandby",
+    "coords": [
+      55.718196,
+      13.357742
+    ]
+  },
+  "89516312": {
+    "name": "Klostergårdskolan",
+    "type": "kommunal",
+    "kommun": "Lund",
+    "kommunkod": "1281",
+    "address": "Nordanväg 13, Lund",
+    "coords": [
+      55.693886,
+      13.17618
+    ]
+  },
+  "30058363": {
+    "name": "Munspelets skola",
+    "type": "kommunal",
+    "kommun": "Lund",
+    "kommunkod": "1281",
+    "address": "Fagottgränden 2, Lund",
+    "coords": [
+      55.707609,
+      13.232098
+    ]
+  },
+  "70811599": {
+    "name": "Nyvångskolan",
+    "type": "kommunal",
+    "kommun": "Lund",
+    "kommunkod": "1281",
+    "address": "Sandbyvägen 18A, Dalby",
+    "coords": [
+      55.668032,
+      13.35021
+    ]
+  },
+  "85777148": {
+    "name": "Oskarskolan",
+    "type": "kommunal",
+    "kommun": "Lund",
+    "kommunkod": "1281",
+    "address": "Svenska vägen 10B, Lund",
+    "coords": [
+      55.72019,
+      13.17786
+    ]
+  },
+  "76684064": {
+    "name": "Tunaskolan",
+    "type": "kommunal",
+    "kommun": "Lund",
+    "kommunkod": "1281",
+    "address": "Warholms väg 10, Lund",
+    "coords": [
+      55.706931,
+      13.215084
+    ]
+  },
+  "82239909": {
+    "name": "Påskagängets skola",
+    "type": "kommunal",
+    "kommun": "Lund",
+    "kommunkod": "1281",
+    "address": "Kattfotsgränden 2, Dalby",
+    "coords": [
+      55.658742,
+      13.359501
+    ]
+  },
+  "68201054": {
+    "name": "Vikingaskolan",
+    "type": "kommunal",
+    "kommun": "Lund",
+    "kommunkod": "1281",
+    "address": "Egils Gränd 16, Lund",
+    "coords": [
+      55.697647,
+      13.239868
+    ]
+  },
+  "34508695": {
+    "name": "Uggleskolan",
+    "type": "kommunal",
+    "kommun": "Lund",
+    "kommunkod": "1281",
+    "address": "Blåmesvägen 34, Södra Sandby",
+    "coords": [
+      55.708953,
+      13.335708
+    ]
+  },
+  "34409875": {
+    "name": "Lingua Montessoriskola",
+    "type": "privat",
+    "kommun": "Lund",
+    "kommunkod": "1281",
+    "address": "Sankt Lars väg 85, Lund",
+    "coords": [
+      55.686948,
+      13.179981
+    ]
+  },
+  "40248457": {
+    "name": "Montessori Mondial Lund",
+    "type": "privat",
+    "kommun": "Lund",
+    "kommunkod": "1281",
+    "address": "Landgillevägen 39 A-E, Lund",
+    "coords": [
+      55.691057,
+      13.234464
+    ]
+  },
+  "60492534": {
+    "name": "Freinetskolan i Lund",
+    "type": "privat",
+    "kommun": "Lund",
+    "kommunkod": "1281",
+    "address": "Sankt Lars väg 7, Lund",
+    "coords": [
+      55.685035,
+      13.183198
+    ]
+  },
+  "95785072": {
+    "name": "Skrylleängs Montessoriskola",
+    "type": "privat",
+    "kommun": "Lund",
+    "kommunkod": "1281",
+    "address": "Vinkelvägen 1, Dalby",
+    "coords": [
+      55.673959,
+      13.358216
+    ]
+  },
+  "75154610": {
+    "name": "Stiftelsen BMSL",
+    "type": "privat",
+    "kommun": "Lund",
+    "kommunkod": "1281",
+    "address": "Margaretavägen 1b, Lund",
+    "coords": [
+      55.718258,
+      13.192832
+    ]
+  },
+  "64971454": {
+    "name": "Pusselbitens skola Dalby",
+    "type": "privat",
+    "kommun": "Lund",
+    "kommunkod": "1281",
+    "address": "Hällestadsvägen 182, Dalby",
+    "coords": [
+      55.665663,
+      13.358024
+    ]
+  },
+  "21703142": {
+    "name": "Hubertusgården",
+    "type": "kommunal",
+    "kommun": "Lund",
+    "kommunkod": "1281",
+    "address": "Spårsnögatan 66, Lund",
+    "coords": [
+      55.727604,
+      13.172429
+    ]
+  },
+  "35615086": {
+    "name": "Lund International School",
+    "type": "privat",
+    "kommun": "Lund",
+    "kommunkod": "1281",
+    "address": "Warholms väg 3, Lund",
+    "coords": [
+      55.708336,
+      13.212359
+    ]
+  },
+  "70044059": {
+    "name": "Lunds Montessorigrundskola",
+    "type": "privat",
+    "kommun": "Lund",
+    "kommunkod": "1281",
+    "address": "Sankt Lars väg 4, Lund",
+    "coords": [
+      55.686163,
+      13.181731
+    ]
+  },
+  "42908219": {
+    "name": "Säbyholms Montessoriskola",
+    "type": "privat",
+    "kommun": "Landskrona",
+    "kommunkod": "1282",
+    "address": "Säbyholmsvägen 70, Landskrona",
+    "coords": [
+      55.902786,
+      12.82419
+    ]
+  },
+  "37935182": {
+    "name": "Albanoskolan",
+    "type": "kommunal",
+    "kommun": "Landskrona",
+    "kommunkod": "1282",
+    "address": "Fabriksgatan 3, Landskrona",
+    "coords": [
+      55.878054,
+      12.832303
+    ]
+  },
+  "74833346": {
+    "name": "Alléskolan",
+    "type": "kommunal",
+    "kommun": "Landskrona",
+    "kommunkod": "1282",
+    "address": "Skolallén 1 C, Landskrona",
+    "coords": [
+      55.872606,
+      12.834394
+    ]
+  },
+  "41641029": {
+    "name": "Seminarieskolan",
+    "type": "kommunal",
+    "kommun": "Landskrona",
+    "kommunkod": "1282",
+    "address": "S:t Olovsgatan 121, Landskrona",
+    "coords": [
+      55.875152,
+      12.84773
+    ]
+  },
+  "70803452": {
+    "name": "Asmundtorps skola",
+    "type": "kommunal",
+    "kommun": "Landskrona",
+    "kommunkod": "1282",
+    "address": "Rågången 1, Asmundtorp",
+    "coords": [
+      55.887619,
+      12.95033
+    ]
+  },
+  "12040511": {
+    "name": "Emiliaskolan",
+    "type": "kommunal",
+    "kommun": "Landskrona",
+    "kommunkod": "1282",
+    "address": "Landskronavägen 120, Häljarp",
+    "coords": [
+      55.849992,
+      12.93412
+    ]
+  },
+  "30917121": {
+    "name": "Glumslövs skola",
+    "type": "kommunal",
+    "kommun": "Landskrona",
+    "kommunkod": "1282",
+    "address": "Ålabodsvägen 5, Glumslöv",
+    "coords": [
+      55.940094,
+      12.812605
+    ]
+  },
+  "50966696": {
+    "name": "Härslövs skola",
+    "type": "kommunal",
+    "kommun": "Landskrona",
+    "kommunkod": "1282",
+    "address": "Aspavägen 49, Härslöv",
+    "coords": [
+      55.936475,
+      12.858149
+    ]
+  },
+  "52049139": {
+    "name": "Pilängskolan",
+    "type": "kommunal",
+    "kommun": "Landskrona",
+    "kommunkod": "1282",
+    "address": "Idrottsvägen 22, Landskrona",
+    "coords": [
+      55.890533,
+      12.842815
+    ]
+  },
+  "29541747": {
+    "name": "Västervångskolan",
+    "type": "kommunal",
+    "kommun": "Landskrona",
+    "kommunkod": "1282",
+    "address": "Exercisgatan 60, Landskrona",
+    "coords": [
+      55.88492,
+      12.819585
+    ]
+  },
+  "94830241": {
+    "name": "Innovitaskolan Landskrona",
+    "type": "privat",
+    "kommun": "Landskrona",
+    "kommunkod": "1282",
+    "address": "Järnvägsgatan 8, Landskrona",
+    "coords": [
+      55.873222,
+      12.834975
+    ]
+  },
+  "21085818": {
+    "name": "Internationella Engelska Skolan Landskrona",
+    "type": "privat",
+    "kommun": "Landskrona",
+    "kommunkod": "1282",
+    "address": "Havsgatan 1, Landskrona",
+    "coords": [
+      55.900179,
+      12.810369
+    ]
+  },
+  "81433742": {
+    "name": "M.A.R.I.A-skolan",
+    "type": "privat",
+    "kommun": "Landskrona",
+    "kommunkod": "1282",
+    "address": "Hantverkargatan 57 B, Landskrona",
+    "coords": [
+      55.877285,
+      12.850321
+    ]
+  },
+  "50194424": {
+    "name": "Pauliskolan",
+    "type": "privat",
+    "kommun": "Helsingborg",
+    "kommunkod": "1283",
+    "address": "Norra Hunnetorpsvägen 115, Helsingborg",
+    "coords": [
+      56.052406,
+      12.74868
+    ]
+  },
+  "85966004": {
+    "name": "Slottshöjdens Skola",
+    "type": "privat",
+    "kommun": "Helsingborg",
+    "kommunkod": "1283",
+    "address": "Hebsackersgatan 41, Helsingborg",
+    "coords": [
+      56.052377,
+      12.702592
+    ]
+  },
+  "71069736": {
+    "name": "Vittra Adolfsberg",
+    "type": "privat",
+    "kommun": "Helsingborg",
+    "kommunkod": "1283",
+    "address": "Södra Hunnetorpsvägen 52, Helsingborg",
+    "coords": [
+      56.045967,
+      12.743845
+    ]
+  },
+  "91004081": {
+    "name": "Montemini Hbg, Montessoriskola",
+    "type": "privat",
+    "kommun": "Helsingborg",
+    "kommunkod": "1283",
+    "address": "Östra Allén 15, Helsingborg",
+    "coords": [
+      56.080516,
+      12.68899
+    ]
+  },
+  "41675828": {
+    "name": "Ramlösa friskola",
+    "type": "privat",
+    "kommun": "Helsingborg",
+    "kommunkod": "1283",
+    "address": "Magnoliagatan 5, Helsingborg",
+    "coords": [
+      56.027405,
+      12.752994
+    ]
+  },
+  "57590681": {
+    "name": "Noblaskolan Mariastaden",
+    "type": "privat",
+    "kommun": "Helsingborg",
+    "kommunkod": "1283",
+    "address": "Västra Allén 11-15, Helsingborg",
+    "coords": [
+      56.081049,
+      12.683345
+    ]
+  },
+  "31106340": {
+    "name": "Sally Bauer skolan F-6",
+    "type": "privat",
+    "kommun": "Helsingborg",
+    "kommunkod": "1283",
+    "address": "Filbornavägen 103, Helsingborg",
+    "coords": [
+      56.056321,
+      12.734446
+    ]
+  },
+  "10982752": {
+    "name": "Centrumskolan i Hbg",
+    "type": "privat",
+    "kommun": "Helsingborg",
+    "kommunkod": "1283",
+    "address": "Gisela Trapps väg 3, Helsingborg",
+    "coords": [
+      56.05744,
+      12.709327
+    ]
+  },
+  "69469866": {
+    "name": "Bårslövs skola",
+    "type": "kommunal",
+    "kommun": "Helsingborg",
+    "kommunkod": "1283",
+    "address": "Snödroppegatan 2, Helsingborg",
+    "coords": [
+      56.008622,
+      12.807401
+    ]
+  },
+  "41811292": {
+    "name": "Elinebergsskolan",
+    "type": "kommunal",
+    "kommun": "Helsingborg",
+    "kommunkod": "1283",
+    "address": "Ramlösavägen 90, Helsingborg",
+    "coords": [
+      56.02932,
+      12.725662
+    ]
+  },
+  "27323226": {
+    "name": "Brunnsparksskolan",
+    "type": "kommunal",
+    "kommun": "Helsingborg",
+    "kommunkod": "1283",
+    "address": "Hårlemans allé 11, Ramlösa",
+    "coords": [
+      56.020494,
+      12.742306
+    ]
+  },
+  "88007898": {
+    "name": "Allerums skola",
+    "type": "kommunal",
+    "kommun": "Helsingborg",
+    "kommunkod": "1283",
+    "address": "Jonstorpsvägen 224, Allerum",
+    "coords": [
+      56.112056,
+      12.694319
+    ]
+  },
+  "67721487": {
+    "name": "Gläntanskolan",
+    "type": "kommunal",
+    "kommun": "Helsingborg",
+    "kommunkod": "1283",
+    "address": "Merkuriusgatan 200, Ödåkra",
+    "coords": [
+      56.097899,
+      12.749225
+    ]
+  },
+  "13175575": {
+    "name": "Högastensskolan",
+    "type": "kommunal",
+    "kommun": "Helsingborg",
+    "kommunkod": "1283",
+    "address": "Elektrogatan 1 A, Helsingborg",
+    "coords": [
+      56.009117,
+      12.73039
+    ]
+  },
+  "86764194": {
+    "name": "Anneroskolan",
+    "type": "kommunal",
+    "kommun": "Helsingborg",
+    "kommunkod": "1283",
+    "address": "Annerovägen 54, Helsingborg",
+    "coords": [
+      56.066937,
+      12.736908
+    ]
+  },
+  "80083873": {
+    "name": "Drottninghögsskolan",
+    "type": "kommunal",
+    "kommun": "Helsingborg",
+    "kommunkod": "1283",
+    "address": "Blåkullagatan 9, Helsingborg",
+    "coords": [
+      56.063418,
+      12.727709
+    ]
+  },
+  "48316366": {
+    "name": "Kattarps skola",
+    "type": "kommunal",
+    "kommun": "Helsingborg",
+    "kommunkod": "1283",
+    "address": "Hasslarpsvägen 2-4, Kattarp",
+    "coords": [
+      56.140671,
+      12.792175
+    ]
+  },
+  "44040804": {
+    "name": "Raus Planterings skola",
+    "type": "kommunal",
+    "kommun": "Helsingborg",
+    "kommunkod": "1283",
+    "address": "Östra Tallgatan 10, Helsingborg",
+    "coords": [
+      56.024826,
+      12.71042
+    ]
+  },
+  "28424574": {
+    "name": "Gantofta skola",
+    "type": "kommunal",
+    "kommun": "Helsingborg",
+    "kommunkod": "1283",
+    "address": "Östra Läraregatan 1, Gantofta",
+    "coords": [
+      55.987193,
+      12.802336
+    ]
+  },
+  "30731471": {
+    "name": "Gustavslundsskolan",
+    "type": "kommunal",
+    "kommun": "Helsingborg",
+    "kommunkod": "1283",
+    "address": "Mangårdsgatan 70, Helsingborg",
+    "coords": [
+      56.038512,
+      12.755806
+    ]
+  },
+  "55200547": {
+    "name": "Musikgrundskolan Synkopen",
+    "type": "kommunal",
+    "kommun": "Helsingborg",
+    "kommunkod": "1283",
+    "address": "Bergaliden 24, Helsingborg",
+    "coords": [
+      56.049031,
+      12.70135
+    ]
+  },
+  "63957271": {
+    "name": "Slottsvångsskolan",
+    "type": "kommunal",
+    "kommun": "Helsingborg",
+    "kommunkod": "1283",
+    "address": "Bergaliden 24, Helsingborg",
+    "coords": [
+      56.049031,
+      12.70135
+    ]
+  },
+  "59129239": {
+    "name": "Husensjö skola",
+    "type": "kommunal",
+    "kommun": "Helsingborg",
+    "kommunkod": "1283",
+    "address": "Kalmargatan 23, Helsingborg",
+    "coords": [
+      56.041042,
+      12.72925
+    ]
+  },
+  "84590558": {
+    "name": "Råå Södra skola",
+    "type": "kommunal",
+    "kommun": "Helsingborg",
+    "kommunkod": "1283",
+    "address": "Kustgatan 1, Råå",
+    "coords": [
+      55.997075,
+      12.739338
+    ]
+  },
+  "47717980": {
+    "name": "International school of Hbg/Gr",
+    "type": "kommunal",
+    "kommun": "Helsingborg",
+    "kommunkod": "1283",
+    "address": "Södra Stenbocksgatan 75, Helsingborg",
+    "coords": [
+      56.048229,
+      12.708515
+    ]
+  },
+  "42164778": {
+    "name": "Maria Parkskolan",
+    "type": "kommunal",
+    "kommun": "Helsingborg",
+    "kommunkod": "1283",
+    "address": "Östra Allén 8-10, Helsingborg",
+    "coords": [
+      56.0804,
+      12.687753
+    ]
+  },
+  "48337100": {
+    "name": "Mörarps skola",
+    "type": "kommunal",
+    "kommun": "Helsingborg",
+    "kommunkod": "1283",
+    "address": "Brandmansgatan 4, Mörarp",
+    "coords": [
+      56.058033,
+      12.87774
+    ]
+  },
+  "48089316": {
+    "name": "Nanny Palmkvist skola",
+    "type": "kommunal",
+    "kommun": "Helsingborg",
+    "kommunkod": "1283",
+    "address": "Ludvikagatan 55, Helsingborg",
+    "coords": [
+      56.049167,
+      12.724845
+    ]
+  },
+  "66351593": {
+    "name": "Påarps skola",
+    "type": "kommunal",
+    "kommun": "Helsingborg",
+    "kommunkod": "1283",
+    "address": "Ekebergavägen 9, Påarp",
+    "coords": [
+      56.030877,
+      12.812593
+    ]
+  },
+  "15455892": {
+    "name": "Ringstorpsskolan",
+    "type": "kommunal",
+    "kommun": "Helsingborg",
+    "kommunkod": "1283",
+    "address": "Ryttmästaregatan 2, Helsingborg",
+    "coords": [
+      56.064716,
+      12.70189
+    ]
+  },
+  "87948789": {
+    "name": "Tågaborgsskolan",
+    "type": "kommunal",
+    "kommun": "Helsingborg",
+    "kommunkod": "1283",
+    "address": "Hjälmshultsgatan 17, Helsingborg",
+    "coords": [
+      56.057276,
+      12.697056
+    ]
+  },
+  "40385157": {
+    "name": "Rydebäcksskolan",
+    "type": "kommunal",
+    "kommun": "Helsingborg",
+    "kommunkod": "1283",
+    "address": "Storövägen 51, Rydebäck",
+    "coords": [
+      55.966954,
+      12.772977
+    ]
+  },
+  "89693828": {
+    "name": "Svensgårdsskolan",
+    "type": "kommunal",
+    "kommun": "Helsingborg",
+    "kommunkod": "1283",
+    "address": "Katedergatan 2, Ödåkra",
+    "coords": [
+      56.10337,
+      12.753317
+    ]
+  },
+  "51014228": {
+    "name": "Wieselgrensskolan",
+    "type": "kommunal",
+    "kommun": "Helsingborg",
+    "kommunkod": "1283",
+    "address": "Furutorpsgatan 85, Helsingborg",
+    "coords": [
+      56.041162,
+      12.718046
+    ]
+  },
+  "28060171": {
+    "name": "Västra Berga skola",
+    "type": "kommunal",
+    "kommun": "Helsingborg",
+    "kommunkod": "1283",
+    "address": "Kadettgatan 38, Helsingborg",
+    "coords": [
+      56.07277,
+      12.707286
+    ]
+  },
+  "49010566": {
+    "name": "Västra Ramlösa skola",
+    "type": "kommunal",
+    "kommun": "Helsingborg",
+    "kommunkod": "1283",
+    "address": "Södra Hunnetorpsvägen 213, Helsingborg",
+    "coords": [
+      56.033261,
+      12.740718
+    ]
+  },
+  "37992567": {
+    "name": "Wallåkrabygdens skola",
+    "type": "privat",
+    "kommun": "Helsingborg",
+    "kommunkod": "1283",
+    "address": "Ryavägen 15, Vallåkra",
+    "coords": [
+      55.960951,
+      12.853504
+    ]
+  },
+  "36850222": {
+    "name": "Kärnhuset Dibber",
+    "type": "privat",
+    "kommun": "Helsingborg",
+    "kommunkod": "1283",
+    "address": "Starkoddersgatan 8, Råå",
+    "coords": [
+      56.006182,
+      12.735229
+    ]
+  },
+  "19593407": {
+    "name": "Dibber International School Helsingborg",
+    "type": "privat",
+    "kommun": "Helsingborg",
+    "kommunkod": "1283",
+    "address": "Kalvögatan 44, Rydebäck",
+    "coords": [
+      55.971069,
+      12.776407
+    ]
+  },
+  "82943624": {
+    "name": "Kubikskolan Dibber",
+    "type": "privat",
+    "kommun": "Helsingborg",
+    "kommunkod": "1283",
+    "address": "Larmvägen 31, Helsingborg",
+    "coords": [
+      56.057314,
+      12.72208
+    ]
+  },
+  "61558490": {
+    "name": "Fyrklövern Dibber",
+    "type": "privat",
+    "kommun": "Helsingborg",
+    "kommunkod": "1283",
+    "address": "Kungsljusgatan 22, Helsingborg",
+    "coords": [
+      56.031717,
+      12.757198
+    ]
+  },
+  "85368005": {
+    "name": "Långvinkeln Dibber",
+    "type": "privat",
+    "kommun": "Helsingborg",
+    "kommunkod": "1283",
+    "address": "Nedre Långvinkelsgatan 22-24, Helsingborg",
+    "coords": [
+      56.049521,
+      12.696537
+    ]
+  },
+  "55527569": {
+    "name": "S:t Jörgens skola",
+    "type": "kommunal",
+    "kommun": "Helsingborg",
+    "kommunkod": "1283",
+    "address": "Pålsgatan 8, Helsingborg",
+    "coords": [
+      56.052138,
+      12.689417
+    ]
+  },
+  "28754789": {
+    "name": "Holstagårdsskolan",
+    "type": "kommunal",
+    "kommun": "Helsingborg",
+    "kommunkod": "1283",
+    "address": "Gummarpsvägen 7, Helsingborg",
+    "coords": [
+      56.098311,
+      12.653814
+    ]
+  },
+  "87251726": {
+    "name": "Laröds skola",
+    "type": "kommunal",
+    "kommun": "Helsingborg",
+    "kommunkod": "1283",
+    "address": "Hittarpsvägen 2, Helsingborg",
+    "coords": [
+      56.095627,
+      12.646826
+    ]
+  },
+  "64728140": {
+    "name": "Ättekullaskolan",
+    "type": "kommunal",
+    "kommun": "Helsingborg",
+    "kommunkod": "1283",
+    "address": "Ättekullagatan 28, Helsingborg",
+    "coords": [
+      56.00994,
+      12.758942
+    ]
+  },
+  "98442801": {
+    "name": "Vasalundsskolan",
+    "type": "privat",
+    "kommun": "Helsingborg",
+    "kommunkod": "1283",
+    "address": "Bror Engkvists gata 31, Helsingborg",
+    "coords": [
+      56.06207,
+      12.745485
+    ]
+  },
+  "23353946": {
+    "name": "Söderskolan",
+    "type": "kommunal",
+    "kommun": "Helsingborg",
+    "kommunkod": "1283",
+    "address": "Magistergatan 2, Helsingborg",
+    "coords": [
+      56.039273,
+      12.70747
+    ]
+  },
+  "24352906": {
+    "name": "Fridaskolan Helsingborg",
+    "type": "privat",
+    "kommun": "Helsingborg",
+    "kommunkod": "1283",
+    "address": "Planteringsvägen 139, Helsingborg",
+    "coords": [
+      56.014944,
+      12.726582
+    ]
+  },
+  "32832379": {
+    "name": "Waldorfskolan Kastanjen",
+    "type": "privat",
+    "kommun": "Helsingborg",
+    "kommunkod": "1283",
+    "address": "Gravörgatan 14, Ramlösa",
+    "coords": [
+      56.018757,
+      12.754571
+    ]
+  },
+  "90080902": {
+    "name": "Vittra Landborgen",
+    "type": "privat",
+    "kommun": "Helsingborg",
+    "kommunkod": "1283",
+    "address": "Bergaliden 9, Helsingborg",
+    "coords": [
+      56.045735,
+      12.701216
+    ]
+  },
+  "15973939": {
+    "name": "Bruksskolan",
+    "type": "kommunal",
+    "kommun": "Höganäs",
+    "kommunkod": "1284",
+    "address": "Centralgatan 10, Höganäs",
+    "coords": [
+      56.200544,
+      12.561167
+    ]
+  },
+  "69182531": {
+    "name": "Montessoriskolan Tellus",
+    "type": "privat",
+    "kommun": "Höganäs",
+    "kommunkod": "1284",
+    "address": "Järnvägsgatan 7, Höganäs",
+    "coords": [
+      56.201399,
+      12.557104
+    ]
+  },
+  "83983639": {
+    "name": "Jonstorpsskolan",
+    "type": "kommunal",
+    "kommun": "Höganäs",
+    "kommunkod": "1284",
+    "address": "Revavägen 3, Jonstorp",
+    "coords": [
+      56.228987,
+      12.678954
+    ]
+  },
+  "88839958": {
+    "name": "Tornlyckeskolan",
+    "type": "kommunal",
+    "kommun": "Höganäs",
+    "kommunkod": "1284",
+    "address": "Pål Anders väg 10, Höganäs",
+    "coords": [
+      56.19191,
+      12.568074
+    ]
+  },
+  "85928436": {
+    "name": "Nyhamnsskolan",
+    "type": "kommunal",
+    "kommun": "Höganäs",
+    "kommunkod": "1284",
+    "address": "Eleshultsvägen 24, Nyhamnsläge",
+    "coords": [
+      56.24152,
+      12.541259
+    ]
+  },
+  "89335715": {
+    "name": "Vikenskolan",
+    "type": "kommunal",
+    "kommun": "Höganäs",
+    "kommunkod": "1284",
+    "address": "Bokvägen 18, Viken",
+    "coords": [
+      56.154415,
+      12.578689
+    ]
+  },
+  "10592650": {
+    "name": "Lerbergsskolan",
+    "type": "kommunal",
+    "kommun": "Höganäs",
+    "kommunkod": "1284",
+    "address": "Skördevägen 155, Lerberget",
+    "coords": [
+      56.178819,
+      12.563963
+    ]
+  },
+  "86939179": {
+    "name": "Pålstorpsskolan",
+    "type": "kommunal",
+    "kommun": "Höganäs",
+    "kommunkod": "1284",
+    "address": "Litteraturvägen 10, Höganäs",
+    "coords": [
+      56.188899,
+      12.567604
+    ]
+  },
+  "17770513": {
+    "name": "Vikens Montessori",
+    "type": "privat",
+    "kommun": "Höganäs",
+    "kommunkod": "1284",
+    "address": "Apelvägen 13, Viken",
+    "coords": [
+      56.159647,
+      12.579229
+    ]
+  },
+  "68546833": {
+    "name": "Montessorifriskolan i Eslöv",
+    "type": "privat",
+    "kommun": "Eslöv",
+    "kommunkod": "1285",
+    "address": "Solvägen 33, Eslöv",
+    "coords": [
+      55.832875,
+      13.28882
+    ]
+  },
+  "85547980": {
+    "name": "Östra Strö skola",
+    "type": "kommunal",
+    "kommun": "Eslöv",
+    "kommunkod": "1285",
+    "address": "Östra Strö 2603, Eslöv",
+    "coords": [
+      55.815073,
+      13.412924
+    ]
+  },
+  "97617940": {
+    "name": "Ölyckeskolan f-6",
+    "type": "kommunal",
+    "kommun": "Eslöv",
+    "kommunkod": "1285",
+    "address": "Skolgatan 2, Löberöd",
+    "coords": [
+      55.776979,
+      13.515972
+    ]
+  },
+  "13488043": {
+    "name": "Sallerupskolan",
+    "type": "kommunal",
+    "kommun": "Eslöv",
+    "kommunkod": "1285",
+    "address": "Sockenvägen 8, Eslöv",
+    "coords": [
+      55.827828,
+      13.2866
+    ]
+  },
+  "30190678": {
+    "name": "Flyingeskolan",
+    "type": "kommunal",
+    "kommun": "Eslöv",
+    "kommunkod": "1285",
+    "address": "Pilevägen 9, Flyinge",
+    "coords": [
+      55.755071,
+      13.369361
+    ]
+  },
+  "89857863": {
+    "name": "Harlösa skola",
+    "type": "kommunal",
+    "kommun": "Eslöv",
+    "kommunkod": "1285",
+    "address": "Karl Axels väg 3, Harlösa",
+    "coords": [
+      55.72072,
+      13.530172
+    ]
+  },
+  "85535876": {
+    "name": "Fridasroskolan",
+    "type": "kommunal",
+    "kommun": "Eslöv",
+    "kommunkod": "1285",
+    "address": "Gårdsåkra 10 B, Eslöv",
+    "coords": [
+      55.843174,
+      13.280605
+    ]
+  },
+  "10583321": {
+    "name": "Marieskolan",
+    "type": "kommunal",
+    "kommun": "Eslöv",
+    "kommunkod": "1285",
+    "address": "Skolgatan, Marieholm",
+    "coords": [
+      55.862696,
+      13.166294
+    ]
+  },
+  "28661237": {
+    "name": "Norrevångsskolan F-6",
+    "type": "kommunal",
+    "kommun": "Eslöv",
+    "kommunkod": "1285",
+    "address": "Onsjövägen 1B, Eslöv",
+    "coords": [
+      55.849273,
+      13.298482
+    ]
+  },
+  "74200315": {
+    "name": "Stehagskolan",
+    "type": "kommunal",
+    "kommun": "Eslöv",
+    "kommunkod": "1285",
+    "address": "Bygdegårdsvägen 4, Stehag",
+    "coords": [
+      55.902014,
+      13.390661
+    ]
+  },
+  "58463429": {
+    "name": "Västra skolan",
+    "type": "kommunal",
+    "kommun": "Eslöv",
+    "kommunkod": "1285",
+    "address": "Skolgatan 16, Eslöv",
+    "coords": [
+      55.838633,
+      13.293529
+    ]
+  },
+  "86681887": {
+    "name": "Vasavångsskolan f-6",
+    "type": "kommunal",
+    "kommun": "Eslöv",
+    "kommunkod": "1285",
+    "address": "Verkstadsvägen 1, Eslöv",
+    "coords": [
+      55.838206,
+      13.319069
+    ]
+  },
+  "10475419": {
+    "name": "Backaskolan",
+    "type": "kommunal",
+    "kommun": "Ystad",
+    "kommunkod": "1286",
+    "address": "Flintlåsgatan 1, Ystad",
+    "coords": [
+      55.439917,
+      13.819226
+    ]
+  },
+  "45170446": {
+    "name": "Hedeskoga skola",
+    "type": "kommunal",
+    "kommun": "Ystad",
+    "kommunkod": "1286",
+    "address": "Hedeskogavägen 13, Ystad",
+    "coords": [
+      55.446434,
+      13.794935
+    ]
+  },
+  "16274059": {
+    "name": "Edvinshemsskolan",
+    "type": "kommunal",
+    "kommun": "Ystad",
+    "kommunkod": "1286",
+    "address": "Stävgatan 11, Ystad",
+    "coords": [
+      55.43067,
+      13.79006
+    ]
+  },
+  "52279246": {
+    "name": "Källan skola",
+    "type": "kommunal",
+    "kommun": "Ystad",
+    "kommunkod": "1286",
+    "address": "Fridhemsgatan 39, Ystad",
+    "coords": [
+      55.430295,
+      13.836038
+    ]
+  },
+  "68391076": {
+    "name": "Köpingebro skola",
+    "type": "kommunal",
+    "kommun": "Ystad",
+    "kommunkod": "1286",
+    "address": "Fredriksbergsvägen 4, Köpingebro",
+    "coords": [
+      55.456668,
+      13.912395
+    ]
+  },
+  "44841058": {
+    "name": "Löderups skola",
+    "type": "kommunal",
+    "kommun": "Ystad",
+    "kommunkod": "1286",
+    "address": "Storgatan 2, Löderup",
+    "coords": [
+      55.430016,
+      14.113942
+    ]
+  },
+  "67247370": {
+    "name": "Svarteskolan",
+    "type": "kommunal",
+    "kommun": "Ystad",
+    "kommunkod": "1286",
+    "address": "Orgelgatan 1, Ystad",
+    "coords": [
+      55.430813,
+      13.71674
+    ]
+  },
+  "77838140": {
+    "name": "Sövestads skola",
+    "type": "kommunal",
+    "kommun": "Ystad",
+    "kommunkod": "1286",
+    "address": "Brantebacksvägen 1, Ystad",
+    "coords": [
+      55.504599,
+      13.793799
+    ]
+  },
+  "54436997": {
+    "name": "Västerportskolan",
+    "type": "kommunal",
+    "kommun": "Ystad",
+    "kommunkod": "1286",
+    "address": "Palme Lydersgatan 33, Ystad",
+    "coords": [
+      55.433276,
+      13.809708
+    ]
+  },
+  "58980145": {
+    "name": "Kunskapsskolan Ystad",
+    "type": "privat",
+    "kommun": "Ystad",
+    "kommunkod": "1286",
+    "address": "Björnstjernegatan 8, Ystad",
+    "coords": [
+      55.43336,
+      13.845939
+    ]
+  },
+  "25834038": {
+    "name": "Montessori Mondial Sjöstaden",
+    "type": "privat",
+    "kommun": "Ystad",
+    "kommunkod": "1286",
+    "address": "Brisgatan 2, Ystad",
+    "coords": [
+      55.433756,
+      13.784959
+    ]
+  },
+  "53011246": {
+    "name": "Montessori Mondial Sandskogen",
+    "type": "privat",
+    "kommun": "Ystad",
+    "kommunkod": "1286",
+    "address": "Björnstjernegatan 7, Ystad",
+    "coords": [
+      55.432271,
+      13.844704
+    ]
+  },
+  "67369522": {
+    "name": "Pilens Montessoriskola",
+    "type": "privat",
+    "kommun": "Trelleborg",
+    "kommunkod": "1287",
+    "address": "Sniddavägen 7-0, Trelleborg",
+    "coords": [
+      55.446744,
+      13.250531
+    ]
+  },
+  "74071562": {
+    "name": "Kattebäcksskolan",
+    "type": "kommunal",
+    "kommun": "Trelleborg",
+    "kommunkod": "1287",
+    "address": "Per Hans väg 4-6, Trelleborg",
+    "coords": [
+      55.376251,
+      13.142275
+    ]
+  },
+  "18414072": {
+    "name": "Klagstorps skola",
+    "type": "kommunal",
+    "kommun": "Trelleborg",
+    "kommunkod": "1287",
+    "address": "Nils Perssons väg 3, Klagstorp",
+    "coords": [
+      55.394625,
+      13.375029
+    ]
+  },
+  "72668294": {
+    "name": "Liljeskolan",
+    "type": "kommunal",
+    "kommun": "Trelleborg",
+    "kommunkod": "1287",
+    "address": "Engelbrektsgatan 5, TRELLEBORG",
+    "coords": [
+      55.379021,
+      13.1631
+    ]
+  },
+  "24947938": {
+    "name": "Pilevallskolan",
+    "type": "kommunal",
+    "kommun": "Trelleborg",
+    "kommunkod": "1287",
+    "address": "Allmogevägen 3, Trelleborg",
+    "coords": [
+      55.375568,
+      13.181123
+    ]
+  },
+  "98006060": {
+    "name": "Serresjöskolan",
+    "type": "kommunal",
+    "kommun": "Trelleborg",
+    "kommunkod": "1287",
+    "address": "Orkidévägen 2, Trelleborg",
+    "coords": [
+      55.360663,
+      13.232299
+    ]
+  },
+  "50958320": {
+    "name": "Smygeskolan",
+    "type": "kommunal",
+    "kommun": "Trelleborg",
+    "kommunkod": "1287",
+    "address": "Västanvägen, Smygehamn",
+    "coords": [
+      55.345201,
+      13.36851
+    ]
+  },
+  "17417951": {
+    "name": "Skegrie skola",
+    "type": "kommunal",
+    "kommun": "Trelleborg",
+    "kommunkod": "1287",
+    "address": "Skegrie stationsväg 17, Skegrie",
+    "coords": [
+      55.405403,
+      13.081874
+    ]
+  },
+  "90410822": {
+    "name": "Värnet",
+    "type": "kommunal",
+    "kommun": "Trelleborg",
+    "kommunkod": "1287",
+    "address": "Fjärdingslöv Pl 3, TRELLEBORG",
+    "coords": [
+      55.405119,
+      13.214324
+    ]
+  },
+  "38375490": {
+    "name": "Västervångskolan",
+    "type": "kommunal",
+    "kommun": "Trelleborg",
+    "kommunkod": "1287",
+    "address": "Virkesvägen 2, Trelleborg",
+    "coords": [
+      55.386062,
+      13.14158
+    ]
+  },
+  "16081769": {
+    "name": "Väståkraskolan",
+    "type": "kommunal",
+    "kommun": "Trelleborg",
+    "kommunkod": "1287",
+    "address": "Landsvägen 2122, Anderslöv",
+    "coords": [
+      55.439561,
+      13.309898
+    ]
+  },
+  "25807975": {
+    "name": "Östra skolan",
+    "type": "kommunal",
+    "kommun": "Trelleborg",
+    "kommunkod": "1287",
+    "address": "Östra Förstadsgatan 106, Trelleborg",
+    "coords": [
+      55.370125,
+      13.175129
+    ]
+  },
+  "32492959": {
+    "name": "Sjöviksskolan",
+    "type": "kommunal",
+    "kommun": "Trelleborg",
+    "kommunkod": "1287",
+    "address": "Västra Ringvägen 8, TRELLEBORG",
+    "coords": [
+      55.376616,
+      13.122958
+    ]
+  },
+  "72491525": {
+    "name": "Montessori Mondial Kristianstad",
+    "type": "privat",
+    "kommun": "Kristianstad",
+    "kommunkod": "1290",
+    "address": "Kockumsgatan 6, Kristianstad",
+    "coords": [
+      56.038974,
+      14.159063
+    ]
+  },
+  "29669758": {
+    "name": "Trolle Ljungby skola",
+    "type": "privat",
+    "kommun": "Kristianstad",
+    "kommunkod": "1290",
+    "address": "Elmqvists väg 20, Fjälkinge",
+    "coords": [
+      56.018164,
+      14.376697
+    ]
+  },
+  "58968208": {
+    "name": "Degebergaskolan L",
+    "type": "kommunal",
+    "kommun": "Kristianstad",
+    "kommunkod": "1290",
+    "address": "Söndreklacksvägen 3C, Degeberga",
+    "coords": [
+      55.831367,
+      14.087898
+    ]
+  },
+  "52719739": {
+    "name": "Hammars skola L",
+    "type": "kommunal",
+    "kommun": "Kristianstad",
+    "kommunkod": "1290",
+    "address": "Nejmans väg 12, Kristianstad",
+    "coords": [
+      56.030725,
+      14.20866
+    ]
+  },
+  "67136082": {
+    "name": "Helgedalskolan L",
+    "type": "kommunal",
+    "kommun": "Kristianstad",
+    "kommunkod": "1290",
+    "address": "Sibyllevägen 32, Kristianstad",
+    "coords": [
+      56.012464,
+      14.144404
+    ]
+  },
+  "75994251": {
+    "name": "Tollarps skola L",
+    "type": "kommunal",
+    "kommun": "Kristianstad",
+    "kommunkod": "1290",
+    "address": "Borgargatan 13E, Tollarp",
+    "coords": [
+      55.931017,
+      13.96638
+    ]
+  },
+  "84359849": {
+    "name": "Lingenässkolan L",
+    "type": "kommunal",
+    "kommun": "Kristianstad",
+    "kommunkod": "1290",
+    "address": "Stridsvagnsvägen 31, Kristianstad",
+    "coords": [
+      56.054294,
+      14.145091
+    ]
+  },
+  "50316106": {
+    "name": "Slättängsskolan LM",
+    "type": "kommunal",
+    "kommun": "Kristianstad",
+    "kommunkod": "1290",
+    "address": "Slättängsvägen 96, Kristianstad",
+    "coords": [
+      56.018859,
+      14.126208
+    ]
+  },
+  "62009354": {
+    "name": "Sånnaskolan L",
+    "type": "kommunal",
+    "kommun": "Kristianstad",
+    "kommunkod": "1290",
+    "address": "Sandvaktaregatan 5, Åhus",
+    "coords": [
+      55.926328,
+      14.283897
+    ]
+  },
+  "89875292": {
+    "name": "Villaskolan L",
+    "type": "kommunal",
+    "kommun": "Kristianstad",
+    "kommunkod": "1290",
+    "address": "Vårlöksvägen 9C, Åhus",
+    "coords": [
+      55.941871,
+      14.282946
+    ]
+  },
+  "70339689": {
+    "name": "Väskolan L",
+    "type": "kommunal",
+    "kommun": "Kristianstad",
+    "kommunkod": "1290",
+    "address": "Folkvandringen 1, Kristianstad",
+    "coords": [
+      56.001141,
+      14.08063
+    ]
+  },
+  "88024354": {
+    "name": "Öllsjöskolan L",
+    "type": "kommunal",
+    "kommun": "Kristianstad",
+    "kommunkod": "1290",
+    "address": "Blåtands väg 20A, Kristianstad",
+    "coords": [
+      56.011325,
+      14.097842
+    ]
+  },
+  "55252770": {
+    "name": "Önnestads skola LM",
+    "type": "kommunal",
+    "kommun": "Kristianstad",
+    "kommunkod": "1290",
+    "address": "Skolgatan 18C, Önnestad",
+    "coords": [
+      56.055546,
+      14.023828
+    ]
+  },
+  "81452013": {
+    "name": "Axonaskolan",
+    "type": "privat",
+    "kommun": "Kristianstad",
+    "kommunkod": "1290",
+    "address": "Lundgrens väg 2B, Tollarp",
+    "coords": [
+      55.929483,
+      13.969794
+    ]
+  },
+  "14555807": {
+    "name": "Antonskolan Blekedamm",
+    "type": "privat",
+    "kommun": "Kristianstad",
+    "kommunkod": "1290",
+    "address": "Lasarettsboulevarden 24, Kristianstad",
+    "coords": [
+      56.032807,
+      14.174536
+    ]
+  },
+  "57538739": {
+    "name": "Antonskolan Österäng",
+    "type": "privat",
+    "kommun": "Kristianstad",
+    "kommunkod": "1290",
+    "address": "Sjövägen 27, Kristianstad",
+    "coords": [
+      56.042676,
+      14.179032
+    ]
+  },
+  "12725451": {
+    "name": "Fjälkinge skola L",
+    "type": "kommunal",
+    "kommun": "Kristianstad",
+    "kommunkod": "1290",
+    "address": "Riddaregatan 44A, Fjälkinge",
+    "coords": [
+      56.036137,
+      14.27457
+    ]
+  },
+  "86140631": {
+    "name": "Spängerskolan LMH",
+    "type": "kommunal",
+    "kommun": "Kristianstad",
+    "kommunkod": "1290",
+    "address": "Ekbacken 8, Arkelstorp",
+    "coords": [
+      56.172042,
+      14.285842
+    ]
+  },
+  "84842746": {
+    "name": "Kulltorpskolan L",
+    "type": "kommunal",
+    "kommun": "Kristianstad",
+    "kommunkod": "1290",
+    "address": "Sjövägen 3B, Kristianstad",
+    "coords": [
+      56.050735,
+      14.176188
+    ]
+  },
+  "79166834": {
+    "name": "Köpinge skola LM",
+    "type": "kommunal",
+    "kommun": "Kristianstad",
+    "kommunkod": "1290",
+    "address": "Byastensvägen 19B, Gärds Köpinge",
+    "coords": [
+      55.944904,
+      14.156667
+    ]
+  },
+  "14799941": {
+    "name": "Rinkaby skola LM",
+    "type": "kommunal",
+    "kommun": "Kristianstad",
+    "kommunkod": "1290",
+    "address": "Eva Waldemarssons väg 5, Rinkaby",
+    "coords": [
+      55.984732,
+      14.271385
+    ]
+  },
+  "50943576": {
+    "name": "Centralskolan LM",
+    "type": "kommunal",
+    "kommun": "Kristianstad",
+    "kommunkod": "1290",
+    "address": "Götgatan 14A, Kristianstad",
+    "coords": [
+      56.032768,
+      14.165089
+    ]
+  },
+  "27858536": {
+    "name": "Everöds skola LM",
+    "type": "kommunal",
+    "kommun": "Kristianstad",
+    "kommunkod": "1290",
+    "address": "Stora vägen 63B, Everöd",
+    "coords": [
+      55.898437,
+      14.093045
+    ]
+  },
+  "47456573": {
+    "name": "Kiaby skola LM",
+    "type": "kommunal",
+    "kommun": "Kristianstad",
+    "kommunkod": "1290",
+    "address": "Kiabyvägen 403, Fjälkinge",
+    "coords": [
+      56.065051,
+      14.326537
+    ]
+  },
+  "82896913": {
+    "name": "Linderöds skola L",
+    "type": "kommunal",
+    "kommun": "Kristianstad",
+    "kommunkod": "1290",
+    "address": "Hambovägen 6, Linderöd",
+    "coords": [
+      55.93087,
+      13.82263
+    ]
+  },
+  "41240740": {
+    "name": "Vittskövle skola L",
+    "type": "kommunal",
+    "kommun": "Kristianstad",
+    "kommunkod": "1290",
+    "address": "Skomakarevägen 6, Vittskövle",
+    "coords": [
+      55.856657,
+      14.145043
+    ]
+  },
+  "88010789": {
+    "name": "Yngsjö skola LM",
+    "type": "kommunal",
+    "kommun": "Kristianstad",
+    "kommunkod": "1290",
+    "address": "Gamla byvägen 12A, Yngsjö",
+    "coords": [
+      55.883121,
+      14.231071
+    ]
+  },
+  "69629367": {
+    "name": "Färlövs skola LM",
+    "type": "kommunal",
+    "kommun": "Kristianstad",
+    "kommunkod": "1290",
+    "address": "Tre Gretors väg 4, Färlöv",
+    "coords": [
+      56.07435,
+      14.085411
+    ]
+  },
+  "68950651": {
+    "name": "Viby skola LM",
+    "type": "kommunal",
+    "kommun": "Kristianstad",
+    "kommunkod": "1290",
+    "address": "Almgrens väg 16, Kristianstad",
+    "coords": [
+      56.010479,
+      14.247323
+    ]
+  },
+  "66367722": {
+    "name": "Österslövs skola L",
+    "type": "kommunal",
+    "kommun": "Kristianstad",
+    "kommunkod": "1290",
+    "address": "Kämpasträdet 8, Kristianstad",
+    "coords": [
+      56.101633,
+      14.248841
+    ]
+  },
+  "15536818": {
+    "name": "Parkskolan L",
+    "type": "kommunal",
+    "kommun": "Kristianstad",
+    "kommunkod": "1290",
+    "address": "Prästallén 1, Kristianstad",
+    "coords": [
+      56.039279,
+      14.163888
+    ]
+  },
+  "36559452": {
+    "name": "Hammenhögs Friskola",
+    "type": "privat",
+    "kommun": "Simrishamn",
+    "kommunkod": "1291",
+    "address": "Ystadsvägen 45, Hammenhög",
+    "coords": [
+      55.500005,
+      14.1434
+    ]
+  },
+  "93223643": {
+    "name": "Gärsnäs skola",
+    "type": "kommunal",
+    "kommun": "Simrishamn",
+    "kommunkod": "1291",
+    "address": "Skolvägen 23, Gärsnäs",
+    "coords": [
+      55.542668,
+      14.187209
+    ]
+  },
+  "53416468": {
+    "name": "Simrislundsskolan",
+    "type": "kommunal",
+    "kommun": "Simrishamn",
+    "kommunkod": "1291",
+    "address": "Annelundsvägen 12, Simrishamn",
+    "coords": [
+      55.545183,
+      14.34929
+    ]
+  },
+  "88731583": {
+    "name": "Sankt Olofs skola",
+    "type": "kommunal",
+    "kommun": "Simrishamn",
+    "kommunkod": "1291",
+    "address": "Skolgatan 1, Sankt Olof",
+    "coords": [
+      55.639132,
+      14.124584
+    ]
+  },
+  "24445412": {
+    "name": "Nils Holgerssonskolan",
+    "type": "privat",
+    "kommun": "Simrishamn",
+    "kommunkod": "1291",
+    "address": "Strandbadsvägen 2, Simrishamn",
+    "coords": [
+      55.560851,
+      14.345094
+    ]
+  },
+  "69871183": {
+    "name": "Errarps skola SO 1",
+    "type": "kommunal",
+    "kommun": "Ängelholm",
+    "kommunkod": "1292",
+    "address": "Valhallsvägen 59, Ängelholm",
+    "coords": [
+      56.270891,
+      12.842088
+    ]
+  },
+  "49539818": {
+    "name": "Magnarps skola SO 2",
+    "type": "kommunal",
+    "kommun": "Ängelholm",
+    "kommunkod": "1292",
+    "address": "Magnarps Byaväg 333, Vejbystrand",
+    "coords": [
+      56.302725,
+      12.789257
+    ]
+  },
+  "49868503": {
+    "name": "Rebbelberga skola SO 1",
+    "type": "kommunal",
+    "kommun": "Ängelholm",
+    "kommunkod": "1292",
+    "address": "Västra Kungsgårdsgatan 5, Ängelholm",
+    "coords": [
+      56.252448,
+      12.8772
+    ]
+  },
+  "34992126": {
+    "name": "Strövelstorps skola SO 2",
+    "type": "kommunal",
+    "kommun": "Ängelholm",
+    "kommunkod": "1292",
+    "address": "Strövelstorpsvägen 79, Strövelstorp",
+    "coords": [
+      56.171661,
+      12.83753
+    ]
+  },
+  "34797598": {
+    "name": "Södra Utmarkens skola SO 1",
+    "type": "kommunal",
+    "kommun": "Ängelholm",
+    "kommunkod": "1292",
+    "address": "Tivoligatan 21, Ängelholm",
+    "coords": [
+      56.233563,
+      12.84617
+    ]
+  },
+  "62412121": {
+    "name": "Söndrebalgs skola SO 1",
+    "type": "kommunal",
+    "kommun": "Ängelholm",
+    "kommunkod": "1292",
+    "address": "Gånarpsvägen 650, Hjärnarp",
+    "coords": [
+      56.313515,
+      12.916331
+    ]
+  },
+  "51497405": {
+    "name": "Toftaskolan SO 1",
+    "type": "kommunal",
+    "kommun": "Ängelholm",
+    "kommunkod": "1292",
+    "address": "Lyckgatan 4, Munka Ljungby",
+    "coords": [
+      56.257662,
+      12.957866
+    ]
+  },
+  "50198866": {
+    "name": "Villanskolan SO 2",
+    "type": "kommunal",
+    "kommun": "Ängelholm",
+    "kommunkod": "1292",
+    "address": "Stallgatan 13, Ängelholm",
+    "coords": [
+      56.238146,
+      12.872897
+    ]
+  },
+  "78910791": {
+    "name": "Ängelholms Montessoriskola",
+    "type": "kommunal",
+    "kommun": "Ängelholm",
+    "kommunkod": "1292",
+    "address": "N. Sockerbruksgatan 5, Ängelholm",
+    "coords": [
+      56.245828,
+      12.860186
+    ]
+  },
+  "36962579": {
+    "name": "Össjö skola",
+    "type": "kommunal",
+    "kommun": "Ängelholm",
+    "kommunkod": "1292",
+    "address": "Össjö Byaväg 203, Össjö",
+    "coords": [
+      56.23083,
+      13.027969
+    ]
+  },
+  "65212509": {
+    "name": "Bjärnums skola F-9",
+    "type": "kommunal",
+    "kommun": "Hässleholm",
+    "kommunkod": "1293",
+    "address": "Boställsgatan 44, Bjärnum",
+    "coords": [
+      56.297545,
+      13.700248
+    ]
+  },
+  "62848263": {
+    "name": "Bokalyckan",
+    "type": "kommunal",
+    "kommun": "Hässleholm",
+    "kommunkod": "1293",
+    "address": "Mellankullagatan 7, Hässleholm",
+    "coords": [
+      56.160356,
+      13.749995
+    ]
+  },
+  "75318783": {
+    "name": "Västerskolan F-9",
+    "type": "kommunal",
+    "kommun": "Hässleholm",
+    "kommunkod": "1293",
+    "address": "Mellankullagatan 11, Hässleholm",
+    "coords": [
+      56.160356,
+      13.749995
+    ]
+  },
+  "67308549": {
+    "name": "Finja skola F-6",
+    "type": "kommunal",
+    "kommun": "Hässleholm",
+    "kommunkod": "1293",
+    "address": "Prästvägen 19, Finja",
+    "coords": [
+      56.168241,
+      13.688009
+    ]
+  },
+  "85679977": {
+    "name": "Grönängsskolan F-6",
+    "type": "kommunal",
+    "kommun": "Hässleholm",
+    "kommunkod": "1293",
+    "address": "Sonetorpsgatan 1, Hässleholm",
+    "coords": [
+      56.15413,
+      13.751759
+    ]
+  },
+  "28804882": {
+    "name": "Hässleholms Montessoriskola F-9",
+    "type": "kommunal",
+    "kommun": "Hässleholm",
+    "kommunkod": "1293",
+    "address": "Norregatan 22, Hässleholm",
+    "coords": [
+      56.164297,
+      13.748815
+    ]
+  },
+  "56398338": {
+    "name": "Hästveda skola F-9",
+    "type": "kommunal",
+    "kommun": "Hässleholm",
+    "kommunkod": "1293",
+    "address": "Östergatan 2, Hästveda",
+    "coords": [
+      56.285297,
+      13.938
+    ]
+  },
+  "57945497": {
+    "name": "Lejonskolan F-5",
+    "type": "kommunal",
+    "kommun": "Hässleholm",
+    "kommunkod": "1293",
+    "address": "Skolgatan 15, Sösdala",
+    "coords": [
+      56.036825,
+      13.675772
+    ]
+  },
+  "37198266": {
+    "name": "Ljungdalaskolan F-6",
+    "type": "kommunal",
+    "kommun": "Hässleholm",
+    "kommunkod": "1293",
+    "address": "Trebackalånggatan 174, Hässleholm",
+    "coords": [
+      56.170538,
+      13.788765
+    ]
+  },
+  "49702354": {
+    "name": "Mala skola F-6",
+    "type": "kommunal",
+    "kommun": "Hässleholm",
+    "kommunkod": "1293",
+    "address": "Mala 3168, Bjärnum",
+    "coords": [
+      56.23595,
+      13.71348
+    ]
+  },
+  "69162574": {
+    "name": "Röinge skola F-6",
+    "type": "kommunal",
+    "kommun": "Hässleholm",
+    "kommunkod": "1293",
+    "address": "Blåbärsstigen 26, Hässleholm",
+    "coords": [
+      56.146831,
+      13.79888
+    ]
+  },
+  "24099280": {
+    "name": "Röke skola F-6",
+    "type": "kommunal",
+    "kommun": "Hässleholm",
+    "kommunkod": "1293",
+    "address": "Ärtslingan 5, Röke",
+    "coords": [
+      56.241174,
+      13.519899
+    ]
+  },
+  "65408331": {
+    "name": "Silviaskolan F-9",
+    "type": "kommunal",
+    "kommun": "Hässleholm",
+    "kommunkod": "1293",
+    "address": "Sonetorpsgatan 3, Hässleholm",
+    "coords": [
+      56.153905,
+      13.751303
+    ]
+  },
+  "68970313": {
+    "name": "Stoby skola F-6",
+    "type": "kommunal",
+    "kommun": "Hässleholm",
+    "kommunkod": "1293",
+    "address": "Mäster Olofs väg 6, Stoby",
+    "coords": [
+      56.178713,
+      13.828236
+    ]
+  },
+  "55815171": {
+    "name": "Söderparkskolan F-3",
+    "type": "kommunal",
+    "kommun": "Hässleholm",
+    "kommunkod": "1293",
+    "address": "Föreningsgatan 40, Vinslöv",
+    "coords": [
+      56.100853,
+      13.917907
+    ]
+  },
+  "16939144": {
+    "name": "Vittsjö skola F-6",
+    "type": "kommunal",
+    "kommun": "Hässleholm",
+    "kommunkod": "1293",
+    "address": "Flyvägen 1, Vittsjö",
+    "coords": [
+      56.339826,
+      13.660368
+    ]
+  },
+  "83016261": {
+    "name": "Västra Torups skola F-3",
+    "type": "kommunal",
+    "kommun": "Hässleholm",
+    "kommunkod": "1293",
+    "address": "Rökevägen 14, Västra Torup",
+    "coords": [
+      56.13158,
+      13.505254
+    ]
+  },
+  "87274697": {
+    "name": "Tormestorps skola F-5",
+    "type": "kommunal",
+    "kommun": "Hässleholm",
+    "kommunkod": "1293",
+    "address": "Ådalsvägen 8, Tormestorp",
+    "coords": [
+      56.108194,
+      13.745989
+    ]
+  },
+  "71950994": {
+    "name": "Tyringe skola F-6",
+    "type": "kommunal",
+    "kommun": "Hässleholm",
+    "kommunkod": "1293",
+    "address": "Pluggvägen 2, TYRINGE",
+    "coords": [
+      56.156695,
+      13.6039
+    ]
+  },
+  "79716826": {
+    "name": "Internationella Engelska Skolan Hässleholm",
+    "type": "privat",
+    "kommun": "Hässleholm",
+    "kommunkod": "1293",
+    "address": "Wendesvägen 1, Hässleholm",
+    "coords": [
+      56.165678,
+      13.752239
+    ]
+  },
+  "79864142": {
+    "name": "Finjasjöparkskolan",
+    "type": "privat",
+    "kommun": "Hässleholm",
+    "kommunkod": "1293",
+    "address": "Plutonvägen 1, Hässleholm",
+    "coords": [
+      56.146165,
+      13.720698
+    ]
+  },
+  "29689372": {
+    "name": "Läredaskolan F-9",
+    "type": "kommunal",
+    "kommun": "Hässleholm",
+    "kommunkod": "1293",
+    "address": "Dykens väg 2, Hässleholm",
+    "coords": [
+      56.167502,
+      13.774085
+    ]
+  },
+  "84432632": {
+    "name": "Linnéskolan F-9",
+    "type": "kommunal",
+    "kommun": "Hässleholm",
+    "kommunkod": "1293",
+    "address": "Röingegatan 55, Hässleholm",
+    "coords": [
+      56.154554,
+      13.779939
+    ]
+  }
+}

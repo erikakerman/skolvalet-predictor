@@ -5,178 +5,193 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resultat – Skolvals-prediktor</title>
     <style>
-        * { box-sizing: border-box; }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+
+        :root {
+            --blue: #1a4f7a;
+            --blue-light: #e8f1f8;
+            --border: #e8e8e8;
+            --text: #1a1a1a;
+            --muted: #888;
+            --bg: #f5f6f8;
+            --card: #ffffff;
+            --radius: 14px;
+            --radius-sm: 8px;
+            --green: #27ae60;
+            --yellow: #d4a800;
+            --orange: #e67e22;
+            --red: #e74c3c;
+        }
 
         body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
-            max-width: 1100px;
-            margin: 48px auto;
-            padding: 0 32px;
-            background: #f4f4f6;
-            color: #1a1a1a;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            padding: 0 0 60px;
         }
 
-        h1 {
-            font-size: 24px;
-            font-weight: 700;
-            margin-bottom: 4px;
+        /* Header */
+        .header {
+            background: var(--blue);
+            color: white;
+            padding: 28px 20px 24px;
+            text-align: center;
         }
-
-        .subtitle {
-            font-size: 14px;
-            color: #888;
-            margin-bottom: 32px;
-        }
-
-        /* Same two-column layout as index */
-        .page-layout {
-            display: grid;
-            grid-template-columns: 1fr 240px;
-            gap: 24px;
-            align-items: start;
-        }
-
-        /* Left: results column */
-        .results-column {
-            display: flex;
-            flex-direction: column;
-            gap: 10px;
-        }
-
-        .section-title {
+        .header h1 { font-size: 20px; font-weight: 700; }
+        .header-address {
             font-size: 13px;
+            opacity: 0.7;
+            margin-top: 4px;
+        }
+
+        .content {
+            max-width: 520px;
+            margin: 0 auto;
+            padding: 20px 16px 0;
+        }
+
+        /* Section label */
+        .section-label {
+            font-size: 11px;
             font-weight: 700;
             text-transform: uppercase;
-            letter-spacing: 0.05em;
-            color: #999;
-            margin: 20px 0 8px;
+            letter-spacing: 0.08em;
+            color: var(--muted);
+            margin: 20px 0 10px;
         }
+        .section-label:first-child { margin-top: 0; }
 
-        .section-title:first-child { margin-top: 0; }
-
-        .card {
-            background: white;
-            border-radius: 10px;
-            box-shadow: 0 1px 3px rgba(0,0,0,0.07);
-            padding: 18px 20px;
-        }
-
-        .card-header {
-            display: flex;
-            align-items: center;
-            gap: 12px;
+        /* Result card */
+        .result-card {
+            background: var(--card);
+            border-radius: var(--radius);
+            overflow: hidden;
             margin-bottom: 12px;
+            box-shadow: 0 1px 4px rgba(0,0,0,0.07);
         }
 
-        .rank {
-            font-size: 12px;
-            font-weight: 700;
-            color: #bbb;
-            width: 16px;
-            flex-shrink: 0;
-        }
+        .card-body { padding: 16px 18px 18px; }
 
         .school-name {
-            font-size: 15px;
+            font-size: 17px;
             font-weight: 700;
+            margin-bottom: 14px;
+            line-height: 1.3;
         }
 
-        .row {
+        /* Data rows */
+        .data-row {
             display: flex;
             justify-content: space-between;
-            font-size: 13px;
-            padding: 6px 0;
-            border-bottom: 1px solid #f2f2f2;
-            color: #333;
-        }
-
-        .row:last-of-type { border-bottom: none; }
-        .row-label { color: #999; }
-
-        .near-yes { color: #27ae60; font-weight: 600; }
-        .near-no  { color: #e74c3c; font-weight: 600; }
-
-        .chance-row {
-            display: flex;
             align-items: center;
-            gap: 8px;
-            margin-top: 10px;
-            padding-top: 10px;
-            border-top: 1px solid #f2f2f2;
-            font-size: 13px;
-            color: #555;
+            padding: 8px 0;
+            border-bottom: 1px solid var(--border);
+            font-size: 14px;
         }
+        .data-row:last-of-type { border-bottom: none; }
+        .row-label { color: var(--muted); font-size: 13px; }
+        .row-value { font-weight: 500; text-align: right; }
 
-        .chance-dot {
-            width: 8px;
-            height: 8px;
-            border-radius: 50%;
-            flex-shrink: 0;
-        }
-        .dot-green  { background: #27ae60; }
-        .dot-yellow { background: #e6b800; }
-        .dot-orange { background: #e67e22; }
-        .dot-red    { background: #e74c3c; }
+        .near-yes { color: var(--green); }
+        .near-no  { color: var(--red); }
 
-        .tied-note {
-            font-size: 11px;
-            color: #999;
-            margin-top: 6px;
-            font-style: italic;
-        }
-
-        /* Right: priority panels */
-        .priority-column {
-            display: flex;
-            flex-direction: column;
-            gap: 16px;
-            position: sticky;
-            top: 24px;
-            margin-top: 36px;
-        }
-
-        .priority-panel {
-            background: white;
-            border-radius: 10px;
-            padding: 20px;
-            box-shadow: 0 1px 3px rgba(0,0,0,0.08);
-        }
-
-        .priority-panel h3 {
-            font-size: 12px;
-            font-weight: 700;
-            text-transform: uppercase;
-            letter-spacing: 0.05em;
-            color: #999;
-            margin: 0 0 14px;
-        }
-
-        .priority-list {
-            list-style: none;
-            padding: 0;
-            margin: 0;
-        }
-
-        .priority-list li {
+        /* Outlook box */
+        .outlook-box {
+            margin-top: 14px;
+            border-radius: var(--radius-sm);
+            padding: 12px 14px;
             display: flex;
             align-items: flex-start;
             gap: 10px;
-            padding: 8px 0;
-            border-bottom: 1px solid #f0f0f0;
-            font-size: 12px;
+        }
+        .outlook-box.green  { background: #eafaf1; }
+        .outlook-box.yellow { background: #fef9e7; }
+        .outlook-box.orange { background: #fef5ec; }
+        .outlook-box.red    { background: #fdedec; }
+
+        .outlook-dot {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            flex-shrink: 0;
+            margin-top: 3px;
+        }
+        .dot-green  { background: var(--green); }
+        .dot-yellow { background: var(--yellow); }
+        .dot-orange { background: var(--orange); }
+        .dot-red    { background: var(--red); }
+
+        .outlook-text {
+            font-size: 13px;
+            line-height: 1.5;
             color: #333;
         }
+        .outlook-text strong {
+            display: block;
+            font-size: 14px;
+            margin-bottom: 2px;
+        }
 
-        .priority-list li:last-child { border-bottom: none; }
+        /* Tied note */
+        .tied-note {
+            font-size: 12px;
+            color: var(--muted);
+            margin-top: 8px;
+            font-style: italic;
+        }
 
-        .priority-number {
+        /* Back link */
+        .back-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            margin-top: 20px;
+            padding: 13px 20px;
+            background: var(--blue);
+            color: white;
+            text-decoration: none;
+            border-radius: var(--radius);
+            font-size: 15px;
+            font-weight: 600;
+            width: 100%;
+            justify-content: center;
+        }
+
+        /* Priority explanation card */
+        .priority-card {
+            background: #f0f4f8;
+            border-radius: var(--radius);
+            padding: 18px 20px;
+            margin-bottom: 14px;
+        }
+
+        .priority-card-title {
             font-size: 11px;
             font-weight: 700;
-            color: #1a5276;
-            background: #eef2f5;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            color: var(--muted);
+            margin-bottom: 14px;
+        }
+
+        .priority-row {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            padding: 9px 0;
+            border-bottom: 1px solid #dde4eb;
+        }
+        .priority-row:last-child { border-bottom: none; }
+
+        .priority-num {
+            width: 22px;
+            height: 22px;
             border-radius: 50%;
-            width: 20px;
-            height: 20px;
+            background: var(--blue);
+            color: white;
+            font-size: 11px;
+            font-weight: 700;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -186,163 +201,160 @@
 
         .priority-text strong {
             display: block;
-            font-size: 12px;
+            font-size: 13px;
             font-weight: 600;
-            color: #1a1a1a;
+            color: var(--text);
             margin-bottom: 2px;
         }
-
         .priority-text span {
-            font-size: 11px;
-            color: #999;
+            font-size: 12px;
+            color: var(--muted);
+            line-height: 1.4;
         }
 
-        .priority-note {
+        .priority-footnote {
             font-size: 11px;
-            color: #bbb;
-            margin: 12px 0 0;
+            color: #aaa;
+            margin-top: 12px;
             line-height: 1.5;
-        }
-
-        a.back-link {
-            display: inline-block;
-            margin-top: 24px;
-            font-size: 14px;
-            color: #1a5276;
-            text-decoration: none;
-            font-weight: 600;
-        }
-
-        a.back-link:hover { text-decoration: underline; }
-
-        @media (max-width: 700px) {
-            .page-layout { grid-template-columns: 1fr; }
-            .priority-column { position: static; }
         }
     </style>
 </head>
 <body>
 
-<h1>Dina resultat</h1>
-<p class="subtitle">Hemadress: {{ address }}</p>
-
-{% if not kommunal_results and not montessori_results %}
-<p>Inga resultat att visa.</p>
-{% endif %}
-
-<div class="page-layout">
-
-    <!-- ── LEFT: Results ── -->
-    <div class="results-column">
-
-        {% if kommunal_results %}
-        <div class="section-title">Kommunala skolor</div>
-        {% for r in kommunal_results %}
-        <div class="card">
-            <div class="card-header">
-                <span class="rank">{{ loop.index }}</span>
-                <span class="school-name">{{ r.name }}</span>
-            </div>
-            <div class="row"><span class="row-label">Avstånd</span><span>{{ r.distance }} km</span></div>
-            <div class="row">
-                <span class="row-label">Nära hemmet</span>
-                {% if r.near_home %}<span class="near-yes">Ja</span>{% else %}<span class="near-no">Nej</span>{% endif %}
-            </div>
-            <div class="row"><span class="row-label">Område</span><span>{{ r.area }}</span></div>
-            <div class="row"><span class="row-label">Prioritetsgrupp</span><span>{{ r.group }}</span></div>
-            <div class="row"><span class="row-label">Efterfrågan</span><span>{{ r.demand }}</span></div>
-            <div class="chance-row">
-                <div class="chance-dot dot-{{ r.color }}"></div>
-                {{ r.chance | replace("🟢 ", "") | replace("🟡 ", "") | replace("🟠 ", "") | replace("🔴 ", "") }}
-            </div>
-        </div>
-        {% endfor %}
-        {% endif %}
-
-        {% if montessori_results %}
-        <div class="section-title">Privata skolor</div>
-        {% for r in montessori_results %}
-        <div class="card">
-            <div class="card-header">
-                <span class="rank">{{ loop.index }}</span>
-                <span class="school-name">{{ r.name }}</span>
-            </div>
-            <div class="row"><span class="row-label">Avstånd</span><span>{{ r.distance }} km</span></div>
-            <div class="row">
-                <span class="row-label">Nära hemmet</span>
-                {% if r.near_home %}<span class="near-yes">Ja</span>{% else %}<span class="near-no">Nej</span>{% endif %}
-            </div>
-            <div class="row"><span class="row-label">Område</span><span>{{ r.area }}</span></div>
-            <div class="row"><span class="row-label">Prioritetsgrupp</span><span>{{ r.group }}</span></div>
-            <div class="row"><span class="row-label">Efterfrågan</span><span>{{ r.demand }}</span></div>
-            <div class="chance-row">
-                <div class="chance-dot dot-{{ r.color }}"></div>
-                {{ r.chance | replace("🟢 ", "") | replace("🟡 ", "") | replace("🟠 ", "") | replace("🔴 ", "") }}
-            </div>
-            {% if r.tied %}<div class="tied-note">Lika prioritet som annan vald skola — lottning avgör.</div>{% endif %}
-        </div>
-        {% endfor %}
-        {% endif %}
-
-        <a href="/" class="back-link">← Ny sökning</a>
-    </div>
-
-    <!-- ── RIGHT: Priority panels ── -->
-    <div class="priority-column">
-
-        {% if kommunal_results %}
-        <div class="priority-panel">
-            <h3>Urvalsprinciper – Kommunal</h3>
-            <ul class="priority-list">
-                <li>
-                    <div class="priority-number">1</div>
-                    <div class="priority-text"><strong>Skyddade personuppgifter</strong><span>Elever med skyddad identitet går alltid först.</span></div>
-                </li>
-                <li>
-                    <div class="priority-number">2</div>
-                    <div class="priority-text"><strong>Enda skolan nära hemmet</strong><span>Den enda kommunala skolan inom 2 km från hemmet.</span></div>
-                </li>
-                <li>
-                    <div class="priority-number">3</div>
-                    <div class="priority-text"><strong>Syskonförtur</strong><span>Syskon i åk F–3 på samma skola.</span></div>
-                </li>
-                <li>
-                    <div class="priority-number">4</div>
-                    <div class="priority-text"><strong>Nära hemmet</strong><span>Skolan ligger inom 2 km från hemmet.</span></div>
-                </li>
-                <li>
-                    <div class="priority-number">5</div>
-                    <div class="priority-text"><strong>Övriga sökande</strong><span>Skolan är inte barnets närmaste alternativ.</span></div>
-                </li>
-            </ul>
-            <p class="priority-note">Inom varje grupp prioriteras aktivt skolval före passivt. Vid lika prioritet avgör relativ och absolut närhet.</p>
-        </div>
-        {% endif %}
-
-        {% if montessori_results %}
-        <div class="priority-panel">
-            <h3>Urvalsprinciper – Privat</h3>
-            <ul class="priority-list">
-                <li>
-                    <div class="priority-number">1</div>
-                    <div class="priority-text"><strong>Syskonförtur</strong><span>Syskon på samma skola i åk F–3.</span></div>
-                </li>
-                <li>
-                    <div class="priority-number">2</div>
-                    <div class="priority-text"><strong>Montessoribakgrund</strong><span>Barnet har gått på en Montessoriförskola.</span></div>
-                </li>
-                <li>
-                    <div class="priority-number">3</div>
-                    <div class="priority-text"><strong>Övriga sökande</strong><span>Ingen Montessoribakgrund eller syskonförtur.</span></div>
-                </li>
-            </ul>
-            <p class="priority-note">Inom varje grupp avgör ködatum vem som får plats.</p>
-        </div>
-        {% endif %}
-
-    </div>
-
+<div class="header">
+    <h1>Dina chanser</h1>
+    {% if address %}
+    <div class="header-address">📍 {{ address }}</div>
+    {% endif %}
 </div>
 
+<div class="content">
+
+    {% if not kommunal_results and not montessori_results %}
+    <p style="color: var(--muted); margin-top: 20px;">Inga resultat att visa.</p>
+    {% endif %}
+
+    <!-- Kommunal results -->
+    {% if kommunal_results %}
+    <div class="section-label">Kommunala skolor</div>
+    {% for r in kommunal_results %}
+    <div class="result-card">
+        <div class="card-body">
+            <div class="school-name">{{ r.name }}</div>
+
+            <div class="data-row">
+                <span class="row-label">Prioritetsgrupp</span>
+                <span class="row-value">{{ r.group }}</span>
+            </div>
+            <div class="data-row">
+                <span class="row-label">Avstånd</span>
+                <span class="row-value">{{ r.distance }} km</span>
+            </div>
+            <div class="data-row">
+                <span class="row-label">Nära hemmet (&lt;2 km)</span>
+                <span class="row-value {% if r.near_home %}near-yes{% else %}near-no{% endif %}">
+                    {% if r.near_home %}Ja ✓{% else %}Nej{% endif %}
+                </span>
+            </div>
+            <div class="data-row">
+                <span class="row-label">Efterfrågan</span>
+                <span class="row-value">{{ r.demand }}</span>
+            </div>
+
+            <div class="outlook-box {{ r.color }}">
+                <div class="outlook-dot dot-{{ r.color }}"></div>
+                <div class="outlook-text">
+                    {{ r.chance | replace("🟢 ", "") | replace("🟡 ", "") | replace("🟠 ", "") | replace("🔴 ", "") }}
+                </div>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+    {% endif %}
+
+    <!-- Privat/Montessori results -->
+    {% if montessori_results %}
+    <div class="section-label">Privata skolor</div>
+    {% for r in montessori_results %}
+    <div class="result-card">
+        <div class="card-body">
+            <div class="school-name">{{ r.name }}</div>
+
+            <div class="data-row">
+                <span class="row-label">Prioritetsgrupp</span>
+                <span class="row-value">{{ r.group }}</span>
+            </div>
+            <div class="data-row">
+                <span class="row-label">Efterfrågan</span>
+                <span class="row-value">{{ r.demand }}</span>
+            </div>
+
+            <div class="outlook-box {{ r.color }}">
+                <div class="outlook-dot dot-{{ r.color }}"></div>
+                <div class="outlook-text">
+                    {{ r.chance | replace("🟢 ", "") | replace("🟡 ", "") | replace("🟠 ", "") | replace("🔴 ", "") }}
+                </div>
+            </div>
+
+            {% if r.tied %}
+            <div class="tied-note">Lika prioritet som annan vald skola — lottning kan avgöra.</div>
+            {% endif %}
+        </div>
+    </div>
+    {% endfor %}
+    {% endif %}
+
+
+    <!-- Kommunal priority explanation -->
+    {% if kommunal_results %}
+    <div class="priority-card">
+        <div class="priority-card-title">Hur prioriteras kommunala skolor?</div>
+        <div class="priority-row">
+            <div class="priority-num">1</div>
+            <div class="priority-text"><strong>Skyddade personuppgifter</strong><span>Elever med skyddad identitet går alltid först.</span></div>
+        </div>
+        <div class="priority-row">
+            <div class="priority-num">2</div>
+            <div class="priority-text"><strong>Enda skolan nära hemmet</strong><span>Om det bara finns en kommunal skola inom 2 km från hemmet.</span></div>
+        </div>
+        <div class="priority-row">
+            <div class="priority-num">3</div>
+            <div class="priority-text"><strong>Syskonförtur</strong><span>Barnet har ett syskon i åk F–3 på samma skola.</span></div>
+        </div>
+        <div class="priority-row">
+            <div class="priority-num">4</div>
+            <div class="priority-text"><strong>Nära hemmet</strong><span>Skolan ligger inom 2 km från folkbokföringsadressen.</span></div>
+        </div>
+        <div class="priority-row">
+            <div class="priority-num">5</div>
+            <div class="priority-text"><strong>Övriga sökande</strong><span>Skolan är inte barnets närmaste alternativ.</span></div>
+        </div>
+        <p class="priority-footnote">Inom varje grupp prioriteras aktivt skolval före passivt. Vid lika prioritet avgör relativ och absolut närhet — i sista hand lottas platsen.</p>
+    </div>
+    {% endif %}
+
+    <!-- Privat priority explanation -->
+    {% if montessori_results %}
+    <div class="priority-card">
+        <div class="priority-card-title">Hur prioriteras privata skolor?</div>
+        <div class="priority-row">
+            <div class="priority-num">1</div>
+            <div class="priority-text"><strong>Syskonförtur</strong><span>Barnet har ett syskon i åk F–3 på samma skola.</span></div>
+        </div>
+        <div class="priority-row">
+            <div class="priority-num">2</div>
+            <div class="priority-text"><strong>Montessoribakgrund</strong><span>Barnet har gått på en Montessoriförskola.</span></div>
+        </div>
+        <div class="priority-row">
+            <div class="priority-num">3</div>
+            <div class="priority-text"><strong>Övriga sökande</strong><span>Ingen syskonförtur eller Montessoribakgrund.</span></div>
+        </div>
+        <p class="priority-footnote">Inom varje grupp avgör ködatum vem som erbjuds plats.</p>
+    </div>
+    {% endif %}
+    <a href="/" class="back-link">← Ny sökning</a>
+
+</div>
 </body>
 </html>

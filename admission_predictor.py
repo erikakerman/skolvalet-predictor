@@ -81,16 +81,16 @@ def get_chance(group, demand, school_type):
             if demand == "low":
                 return "🟢 God chans — nära hemmet och låg efterfrågan"
             elif demand == "medium":
-                return "🟡 Måttlig chans — nära hemmet men skolan är populär"
+                return "🟡 Måttlig chans — nära hemmet men skolan har medelhög efterfrågan"
             else:
                 return "🟠 Osäkert — nära hemmet men skolan är mycket efterfrågad"
         else:
             if demand == "low":
-                return "🟡 Måttlig chans — inte nära hemmet men skolan har kapacitet"
+                return "🟡 Måttlig chans — inte nära hemmet men skolan har ledig kapacitet"
             elif demand == "medium":
-                return "🔴 Låg chans — inte nära hemmet och skolan är eftertraktad"
+                return "🔴 Låg chans — inte nära hemmet och skolan har medelhög efterfrågan"
             else:
-                return "🔴 Låg chans — inte nära hemmet och skolan är mycket eftertraktad"
+                return "🔴 Låg chans — inte nära hemmet och skolan är mycket efterfrågad"
     else:
         if group == 1:
             return "🟢 God chans — syskonförtur är starkt"

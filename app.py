@@ -48,7 +48,7 @@ def build_results(school_keys, child):
         if school_type == "kommunal":
             group, label = get_priority_kommunal(
                 distance,
-                child["has_sibling"],
+                child["has_sibling"],           # kommunal sibling field
                 child["active_choice"]
             )
             group_display = f"Grupp {group} – {label}"
@@ -80,7 +80,7 @@ def build_results(school_keys, child):
             if not child["queue_year"]:
                 continue
             group, queue_year = get_priority_montessori(
-                child["has_sibling"],
+                child["has_sibling_privat"],    # privat sibling field
                 child["has_montessori"],
                 child["queue_year"],
                 key
@@ -133,43 +133,46 @@ def index():
 @app.route("/results", methods=["POST"])
 def results():
     home_address = request.form.get("address", "").strip()
-    has_sibling = request.form.get("has_sibling") == "yes"
     active_choice = request.form.get("active_choice") == "yes"
     has_montessori = request.form.get("has_montessori") == "yes"
     queue_year_raw = request.form.get("queue_year", "").strip()
     queue_year = int(queue_year_raw) if queue_year_raw.isdigit() else None
 
-    active_tab = request.form.get("active_tab", "kommunal")
     selected_keys = request.form.getlist("schools")
 
-    # Only require address if any kommunal schools are selected
+    # Separate sibling answers per school type
+    has_sibling_kommunal = request.form.get("has_sibling") == "yes"
+    has_sibling_privat   = request.form.get("has_sibling_privat") == "yes"
+
+    # Determine what types of schools were selected
     has_kommunal = any(SCHOOLS.get(k, {}).get("type") == "kommunal" for k in selected_keys)
-    address_required = has_kommunal or active_tab == "kommunal"
+    has_privat   = any(SCHOOLS.get(k, {}).get("type") == "montessori" for k in selected_keys)
 
-    if not selected_keys or (address_required and not home_address):
-        return render_template(
-            "index.html",
-            error="Välj minst en skola." if not selected_keys else "Fyll i din hemadress.",
-            schools=SCHOOLS,
-            active_tab=active_tab
-        )
+    # Validate: must select at least one school
+    if not selected_keys:
+        return render_template("index.html", error="Välj minst en skola.", schools=SCHOOLS)
 
+    # Validate: address required if any kommunal school selected
+    if has_kommunal and not home_address:
+        return render_template("index.html", error="Fyll i din hemadress.", schools=SCHOOLS)
+
+    # Geocode home address if needed
     if home_address:
         _, all_distances = find_nearest_schools(home_address)
         if all_distances is None:
             return render_template(
                 "index.html",
-                error="Kunde inte hitta adressen. Försök igen.",
-                schools=SCHOOLS,
-                active_tab=active_tab
+                error="Kunde inte hitta adressen. Kontrollera stavningen och försök igen.",
+                schools=SCHOOLS
             )
     else:
-        # No address needed — montessori only, distance not a factor
+        # Only privat schools selected — distance is not a factor
         all_distances = {key: 0 for key in SCHOOLS}
 
     child = {
         "distances": all_distances,
-        "has_sibling": has_sibling,
+        "has_sibling": has_sibling_kommunal,      # used for kommunal logic
+        "has_sibling_privat": has_sibling_privat,  # used for privat logic
         "active_choice": active_choice,
         "has_montessori": has_montessori,
         "queue_year": queue_year,
