@@ -1,0 +1,3026 @@
+[
+  {
+    "school_kod": "60211862",
+    "name": "Lärande Grundskola Vira",
+    "type": "privat",
+    "kommun": "Upplands Väsby",
+    "kommunkod": "0114",
+    "address": "Viravägen 5, Upplands Väsby"
+  },
+  {
+    "school_kod": "57370453",
+    "name": "Karbyskolan",
+    "type": "kommunal",
+    "kommun": "Vallentuna",
+    "kommunkod": "0115",
+    "address": "Vadavägen 1, Brottby"
+  },
+  {
+    "school_kod": "29278599",
+    "name": "Lovisedalsskolan",
+    "type": "kommunal",
+    "kommun": "Vallentuna",
+    "kommunkod": "0115",
+    "address": "Uthamra skolväg 1, Vallentuna"
+  },
+  {
+    "school_kod": "72074288",
+    "name": "Rydbo skola",
+    "type": "kommunal",
+    "kommun": "Österåker",
+    "kommunkod": "0117",
+    "address": "von Essens väg, Åkersberga"
+  },
+  {
+    "school_kod": "58653522",
+    "name": "Roslags Kulla skola",
+    "type": "kommunal",
+    "kommun": "Österåker",
+    "kommunkod": "0117",
+    "address": "Rialavägen 4, Åkersberga"
+  },
+  {
+    "school_kod": "73272488",
+    "name": "Skärgårdsstadsskolan",
+    "type": "kommunal",
+    "kommun": "Österåker",
+    "kommunkod": "0117",
+    "address": "Tre Gruvors väg 1, Åkersberga"
+  },
+  {
+    "school_kod": "73083470",
+    "name": "Rydbo friskola",
+    "type": "privat",
+    "kommun": "Österåker",
+    "kommunkod": "0117",
+    "address": "Ådalsvägen 1, Åkersberga"
+  },
+  {
+    "school_kod": "96653388",
+    "name": "Robinson Valsjön",
+    "type": "privat",
+    "kommun": "Österåker",
+    "kommunkod": "0117",
+    "address": "Åkerhielms väg 2, Åkersberga"
+  },
+  {
+    "school_kod": "11364996",
+    "name": "Lemshagastiftelsen",
+    "type": "privat",
+    "kommun": "Värmdö",
+    "kommunkod": "0120",
+    "address": "Lämshagavägen 5-15, Ingarö"
+  },
+  {
+    "school_kod": "42434583",
+    "name": "Brunns skola",
+    "type": "kommunal",
+    "kommun": "Värmdö",
+    "kommunkod": "0120",
+    "address": "Brunns centrum, Ingarö"
+  },
+  {
+    "school_kod": "18053776",
+    "name": "Djurö skola",
+    "type": "kommunal",
+    "kommun": "Värmdö",
+    "kommunkod": "0120",
+    "address": "Sollenkrokavägen 41, Djurhamn"
+  },
+  {
+    "school_kod": "25090415",
+    "name": "Fågelvik skola",
+    "type": "kommunal",
+    "kommun": "Värmdö",
+    "kommunkod": "0120",
+    "address": "Ulrikavägen 4-6, Ingarö"
+  },
+  {
+    "school_kod": "34946479",
+    "name": "Runmarö skola",
+    "type": "kommunal",
+    "kommun": "Värmdö",
+    "kommunkod": "0120",
+    "address": "Runmarö Skola, Runmarö"
+  },
+  {
+    "school_kod": "33159363",
+    "name": "Munsö skola",
+    "type": "kommunal",
+    "kommun": "Ekerö",
+    "kommunkod": "0125",
+    "address": "Gamla Landsvägen 10, Munsö"
+  },
+  {
+    "school_kod": "26138955",
+    "name": "Skå skola",
+    "type": "kommunal",
+    "kommun": "Ekerö",
+    "kommunkod": "0125",
+    "address": "Skå kyrkväg 4, Skå"
+  },
+  {
+    "school_kod": "89510449",
+    "name": "Kungsklippeskolan",
+    "type": "kommunal",
+    "kommun": "Huddinge",
+    "kommunkod": "0126",
+    "address": "Segersminnesvägen 8 A, Huddinge"
+  },
+  {
+    "school_kod": "90886859",
+    "name": "Utsäljeskolan",
+    "type": "kommunal",
+    "kommun": "Huddinge",
+    "kommunkod": "0126",
+    "address": "Byggmästarvägen 227, Segeltorp"
+  },
+  {
+    "school_kod": "75565366",
+    "name": "Myrstugubergets Friskola",
+    "type": "privat",
+    "kommun": "Huddinge",
+    "kommunkod": "0126",
+    "address": "Myrstuguvägen 357, Örbrinken 8, Vårby"
+  },
+  {
+    "school_kod": "29524966",
+    "name": "Freinetskolan Kastanjen",
+    "type": "privat",
+    "kommun": "Botkyrka",
+    "kommunkod": "0127",
+    "address": "Slagsta Gårdsväg 2, Norsborg"
+  },
+  {
+    "school_kod": "16762245",
+    "name": "Edessaskolan",
+    "type": "privat",
+    "kommun": "Botkyrka",
+    "kommunkod": "0127",
+    "address": "Humlevägen 2, Norsborg"
+  },
+  {
+    "school_kod": "80731562",
+    "name": "JENSEN grundskola Kvarnsjön",
+    "type": "privat",
+    "kommun": "Botkyrka",
+    "kommunkod": "0127",
+    "address": "Tant Gredelins väg 6, Uttran"
+  },
+  {
+    "school_kod": "57228484",
+    "name": "Grindtorpsskolan",
+    "type": "kommunal",
+    "kommun": "Botkyrka",
+    "kommunkod": "0127",
+    "address": "Lagmansbacken 12, Norsborg"
+  },
+  {
+    "school_kod": "86985859",
+    "name": "Malmsjö skola",
+    "type": "kommunal",
+    "kommun": "Botkyrka",
+    "kommunkod": "0127",
+    "address": "Ringvägen 1A, Grödinge"
+  },
+  {
+    "school_kod": "56417100",
+    "name": "Kvarnhagsskolan",
+    "type": "kommunal",
+    "kommun": "Botkyrka",
+    "kommunkod": "0127",
+    "address": "Servitutsvägen 17, Norsborg"
+  },
+  {
+    "school_kod": "75580959",
+    "name": "Rikstens skola",
+    "type": "kommunal",
+    "kommun": "Botkyrka",
+    "kommunkod": "0127",
+    "address": "Flygarvägen 5, Tullinge"
+  },
+  {
+    "school_kod": "45757947",
+    "name": "Tallidsskolan",
+    "type": "kommunal",
+    "kommun": "Botkyrka",
+    "kommunkod": "0127",
+    "address": "Bägarvägen 2, Norsborg"
+  },
+  {
+    "school_kod": "76222592",
+    "name": "Innovitaskolan Rönninge",
+    "type": "privat",
+    "kommun": "Salem",
+    "kommunkod": "0128",
+    "address": "Söderby torgs allé 6-8, Rönninge"
+  },
+  {
+    "school_kod": "54067262",
+    "name": "Fågelsångens skola",
+    "type": "kommunal",
+    "kommun": "Salem",
+    "kommunkod": "0128",
+    "address": "Skuggsångsvägen 10D, Rönninge"
+  },
+  {
+    "school_kod": "23886554",
+    "name": "I Ur och Skur Mullebo Mårtensbergsskolan",
+    "type": "privat",
+    "kommun": "Haninge",
+    "kommunkod": "0136",
+    "address": "Mårtensbergsvägen 64, Vendelsö"
+  },
+  {
+    "school_kod": "54752734",
+    "name": "Västra Ekoskolan",
+    "type": "privat",
+    "kommun": "Haninge",
+    "kommunkod": "0136",
+    "address": "Sorundavägen 2, Tungelsta"
+  },
+  {
+    "school_kod": "55233055",
+    "name": "Innovitaskolan Söderby",
+    "type": "privat",
+    "kommun": "Haninge",
+    "kommunkod": "0136",
+    "address": "Kulfångsgatan 3, Vendelsö"
+  },
+  {
+    "school_kod": "47244612",
+    "name": "Ornö skola",
+    "type": "kommunal",
+    "kommun": "Haninge",
+    "kommunkod": "0136",
+    "address": "ORNÖ KYRKVIKEN 51, Ornö"
+  },
+  {
+    "school_kod": "94791997",
+    "name": "Svartbäcksskolan",
+    "type": "kommunal",
+    "kommun": "Haninge",
+    "kommunkod": "0136",
+    "address": "Tyrestavägen 40, Vendelsö"
+  },
+  {
+    "school_kod": "47140640",
+    "name": "Utö skola",
+    "type": "kommunal",
+    "kommun": "Haninge",
+    "kommunkod": "0136",
+    "address": "VÄNSVIKEN 2 A, Utö"
+  },
+  {
+    "school_kod": "72266104",
+    "name": "Vendelsömalmsskolan",
+    "type": "kommunal",
+    "kommun": "Haninge",
+    "kommunkod": "0136",
+    "address": "Henriksbergsvägen 1-5, Vendelsö"
+  },
+  {
+    "school_kod": "47986219",
+    "name": "Futuraskolan International Rådan",
+    "type": "privat",
+    "kommun": "Sollentuna",
+    "kommunkod": "0163",
+    "address": "Rådan skolan 3, Sollentuna"
+  },
+  {
+    "school_kod": "56867397",
+    "name": "Silverbäcken Dibber",
+    "type": "privat",
+    "kommun": "Sollentuna",
+    "kommunkod": "0163",
+    "address": "Silverbäcksvägen 1, Sollentuna"
+  },
+  {
+    "school_kod": "24172067",
+    "name": "Kulturskolan Raketen",
+    "type": "privat",
+    "kommun": "Stockholm",
+    "kommunkod": "0180",
+    "address": "Björkhagsplan 5-9, Johanneshov"
+  },
+  {
+    "school_kod": "62544265",
+    "name": "Fria Maria Barnskolas ekonomiska förening",
+    "type": "privat",
+    "kommun": "Stockholm",
+    "kommunkod": "0180",
+    "address": "Fatburskvarngata 28-30, Stockholm"
+  },
+  {
+    "school_kod": "92689250",
+    "name": "Montessori Mondial Mälarhöjden",
+    "type": "privat",
+    "kommun": "Stockholm",
+    "kommunkod": "0180",
+    "address": "Traktörsgränd 10, Hägersten"
+  },
+  {
+    "school_kod": "14472068",
+    "name": "Kristna skolan",
+    "type": "privat",
+    "kommun": "Stockholm",
+    "kommunkod": "0180",
+    "address": "Petrejusvägen 42, entré A1, Johanneshov"
+  },
+  {
+    "school_kod": "68812584",
+    "name": "Askebyskolan",
+    "type": "kommunal",
+    "kommun": "Stockholm",
+    "kommunkod": "0180",
+    "address": "Askebykroken 22, Spånga"
+  },
+  {
+    "school_kod": "83810698",
+    "name": "Elinsborgsskolan",
+    "type": "kommunal",
+    "kommun": "Stockholm",
+    "kommunkod": "0180",
+    "address": "Mellingebacken 22-26, Spånga"
+  },
+  {
+    "school_kod": "24754913",
+    "name": "Knutbyskolan",
+    "type": "kommunal",
+    "kommun": "Stockholm",
+    "kommunkod": "0180",
+    "address": "Knutbygränd 4, Spånga"
+  },
+  {
+    "school_kod": "72345466",
+    "name": "Kvarnbyskolan",
+    "type": "kommunal",
+    "kommun": "Stockholm",
+    "kommunkod": "0180",
+    "address": "Lillbybacken 3, Spånga"
+  },
+  {
+    "school_kod": "22030561",
+    "name": "Östbergaskolan",
+    "type": "kommunal",
+    "kommun": "Stockholm",
+    "kommunkod": "0180",
+    "address": "Östberga torg 2-8, Älvsjö"
+  },
+  {
+    "school_kod": "42328518",
+    "name": "Franska Skolan/Ecole francaise",
+    "type": "privat",
+    "kommun": "Stockholm",
+    "kommunkod": "0180",
+    "address": "Döbelsgatan 9, Stockholm"
+  },
+  {
+    "school_kod": "29796042",
+    "name": "ESF Skarpnäck AB",
+    "type": "privat",
+    "kommun": "Stockholm",
+    "kommunkod": "0180",
+    "address": "Gondolgatan 16. 3 tr, Skarpnäck"
+  },
+  {
+    "school_kod": "10360193",
+    "name": "Profilskolan",
+    "type": "privat",
+    "kommun": "Stockholm",
+    "kommunkod": "0180",
+    "address": "Krossgatan 34, plan 4, Vällingby"
+  },
+  {
+    "school_kod": "64836806",
+    "name": "Vallaskolan",
+    "type": "kommunal",
+    "kommun": "Södertälje",
+    "kommunkod": "0181",
+    "address": "Sandviksvägen 60, Enhörna"
+  },
+  {
+    "school_kod": "10661388",
+    "name": "Örjanskolan grund",
+    "type": "privat",
+    "kommun": "Södertälje",
+    "kommunkod": "0181",
+    "address": "Nibble 19, Järna"
+  },
+  {
+    "school_kod": "73075913",
+    "name": "Mikaelgården Läkeped. Institut",
+    "type": "privat",
+    "kommun": "Södertälje",
+    "kommunkod": "0181",
+    "address": "Brogärdet 10, Järna"
+  },
+  {
+    "school_kod": "26804905",
+    "name": "Mora Parks skola",
+    "type": "privat",
+    "kommun": "Södertälje",
+    "kommunkod": "0181",
+    "address": "Mora Park, Järna"
+  },
+  {
+    "school_kod": "75834458",
+    "name": "Björknässkolan",
+    "type": "kommunal",
+    "kommun": "Nacka",
+    "kommunkod": "0182",
+    "address": "Björknäs Skolväg 15, Saltsjö-Boo"
+  },
+  {
+    "school_kod": "53133366",
+    "name": "Orminge skola",
+    "type": "kommunal",
+    "kommun": "Nacka",
+    "kommunkod": "0182",
+    "address": "Sandövägen 4, Saltsjö-Boo"
+  },
+  {
+    "school_kod": "90207041",
+    "name": "Myrsjö resursskola",
+    "type": "kommunal",
+    "kommun": "Nacka",
+    "kommunkod": "0182",
+    "address": "Sandövägen 4, Saltsjö-Boo"
+  },
+  {
+    "school_kod": "84884375",
+    "name": "Myrsjöskolan",
+    "type": "kommunal",
+    "kommun": "Nacka",
+    "kommunkod": "0182",
+    "address": "Mensättravägen 42, Saltsjö-Boo"
+  },
+  {
+    "school_kod": "86937935",
+    "name": "Sågtorpsskolan",
+    "type": "kommunal",
+    "kommun": "Nacka",
+    "kommunkod": "0182",
+    "address": "Boo Kyrkväg 5, Saltsjö-Boo"
+  },
+  {
+    "school_kod": "87967939",
+    "name": "Noblaskolan Lännersta",
+    "type": "privat",
+    "kommun": "Nacka",
+    "kommunkod": "0182",
+    "address": "Lännerstavägen 1, Saltsjö-Boo"
+  },
+  {
+    "school_kod": "32965692",
+    "name": "Noblaskolan Saltsjö-Boo",
+    "type": "privat",
+    "kommun": "Nacka",
+    "kommunkod": "0182",
+    "address": "Hedenströms väg 1, Saltsjö-Boo"
+  },
+  {
+    "school_kod": "35311563",
+    "name": "Lilla Nacka Skola",
+    "type": "privat",
+    "kommun": "Nacka",
+    "kommunkod": "0182",
+    "address": "Ektorpsvägen 6, 2 tr, Nacka"
+  },
+  {
+    "school_kod": "46706680",
+    "name": "Ulriksdalsskolan",
+    "type": "kommunal",
+    "kommun": "Solna",
+    "kommunkod": "0184",
+    "address": "Banmästaregatan 3, Solna"
+  },
+  {
+    "school_kod": "67809355",
+    "name": "Innovitaskolan Norrtälje",
+    "type": "privat",
+    "kommun": "Norrtälje",
+    "kommunkod": "0188",
+    "address": "Baldersbåge 2, Norrtälje"
+  },
+  {
+    "school_kod": "46518352",
+    "name": "Elmsta skola",
+    "type": "kommunal",
+    "kommun": "Norrtälje",
+    "kommunkod": "0188",
+    "address": "Lärarvägen 4, Väddö"
+  },
+  {
+    "school_kod": "97718207",
+    "name": "Gottsta Skola",
+    "type": "kommunal",
+    "kommun": "Norrtälje",
+    "kommunkod": "0188",
+    "address": "Östervägen 7, Hallstavik"
+  },
+  {
+    "school_kod": "86917350",
+    "name": "Köpmanholms skola",
+    "type": "kommunal",
+    "kommun": "Norrtälje",
+    "kommunkod": "0188",
+    "address": "Lilltorpsvägen 31-35, Yxlan"
+  },
+  {
+    "school_kod": "52064811",
+    "name": "Skederids skola",
+    "type": "kommunal",
+    "kommun": "Norrtälje",
+    "kommunkod": "0188",
+    "address": "Birgittas väg 1, Rimbo"
+  },
+  {
+    "school_kod": "95869861",
+    "name": "Kvisthamraskolan",
+    "type": "kommunal",
+    "kommun": "Norrtälje",
+    "kommunkod": "0188",
+    "address": "Gustaf Adolfs väg 24, Norrtälje"
+  },
+  {
+    "school_kod": "98239828",
+    "name": "Ekebyholmsskolan, gr",
+    "type": "privat",
+    "kommun": "Norrtälje",
+    "kommunkod": "0188",
+    "address": "Ekebyholm 9, Rimbo"
+  },
+  {
+    "school_kod": "20054868",
+    "name": "Odensala skola",
+    "type": "kommunal",
+    "kommun": "Sigtuna",
+    "kommunkod": "0191",
+    "address": "Odensala skola, Märsta"
+  },
+  {
+    "school_kod": "80274643",
+    "name": "Skepptuna skola",
+    "type": "kommunal",
+    "kommun": "Sigtuna",
+    "kommunkod": "0191",
+    "address": "Skepptuna skola, Märsta"
+  },
+  {
+    "school_kod": "38854084",
+    "name": "Steningehöjdens skola",
+    "type": "kommunal",
+    "kommun": "Sigtuna",
+    "kommunkod": "0191",
+    "address": "Solurstorget 5, Steningehöjden"
+  },
+  {
+    "school_kod": "55508705",
+    "name": "Josefinaskolan, grundskola",
+    "type": "privat",
+    "kommun": "Sigtuna",
+    "kommunkod": "0191",
+    "address": "Rävsta gård, Märsta"
+  },
+  {
+    "school_kod": "34625544",
+    "name": "Raoul Wallenbergskolan Källberga",
+    "type": "privat",
+    "kommun": "Nynäshamn",
+    "kommunkod": "0192",
+    "address": "Svärtings gata 27, Ösmo"
+  },
+  {
+    "school_kod": "68361133",
+    "name": "Vanstaskolan F-9",
+    "type": "kommunal",
+    "kommun": "Nynäshamn",
+    "kommunkod": "0192",
+    "address": "Ösmo centrum 6, Ösmo"
+  },
+  {
+    "school_kod": "95396892",
+    "name": "Slottsskolan",
+    "type": "kommunal",
+    "kommun": "Håbo",
+    "kommunkod": "0305",
+    "address": "Slottsskogsleden 21, Skokloster"
+  },
+  {
+    "school_kod": "50014733",
+    "name": "Vendels skola",
+    "type": "kommunal",
+    "kommun": "Tierp",
+    "kommunkod": "0360",
+    "address": "Hovgårdsberg, Örbyhus"
+  },
+  {
+    "school_kod": "57484572",
+    "name": "Gluntens Montessoriskola",
+    "type": "privat",
+    "kommun": "Uppsala",
+    "kommunkod": "0380",
+    "address": "Ekeby Bruk 10A, Uppsala"
+  },
+  {
+    "school_kod": "13431400",
+    "name": "Almtunaskolan",
+    "type": "kommunal",
+    "kommun": "Uppsala",
+    "kommunkod": "0380",
+    "address": "c/o Brantingsskolan Hjalmar Brantingsgatan 37, Uppsala"
+  },
+  {
+    "school_kod": "28248660",
+    "name": "Skuttunge skola",
+    "type": "kommunal",
+    "kommun": "Uppsala",
+    "kommunkod": "0380",
+    "address": "Skuttungeby 258, Björklinge"
+  },
+  {
+    "school_kod": "30265734",
+    "name": "Skolstaskolan",
+    "type": "kommunal",
+    "kommun": "Enköping",
+    "kommunkod": "0381",
+    "address": "Björkebovägen 8, Grillby"
+  },
+  {
+    "school_kod": "71534291",
+    "name": "Ekeby skola",
+    "type": "kommunal",
+    "kommun": "Östhammar",
+    "kommunkod": "0382",
+    "address": "Ekeby By, pl 2017, Alunda"
+  },
+  {
+    "school_kod": "24762802",
+    "name": "Marmorbyns skola",
+    "type": "kommunal",
+    "kommun": "Vingåker",
+    "kommunkod": "0428",
+    "address": "Målkavägen, Katrineholm"
+  },
+  {
+    "school_kod": "17508329",
+    "name": "Welandersborgs skola F-6",
+    "type": "kommunal",
+    "kommun": "Gnesta",
+    "kommunkod": "0461",
+    "address": "Welandersborg, Björnlunda"
+  },
+  {
+    "school_kod": "74105812",
+    "name": "Blomenbergska skolan",
+    "type": "privat",
+    "kommun": "Nyköping",
+    "kommunkod": "0480",
+    "address": "Lästringe skola 7, Tystberga"
+  },
+  {
+    "school_kod": "87319414",
+    "name": "Stiftelsen Dunkers förskola och skola",
+    "type": "privat",
+    "kommun": "Flen",
+    "kommunkod": "0482",
+    "address": "Dunkers skola, Malmköping"
+  },
+  {
+    "school_kod": "33912115",
+    "name": "Julita skola",
+    "type": "kommunal",
+    "kommun": "Katrineholm",
+    "kommunkod": "0483",
+    "address": "Skolvägen 3, Julita"
+  },
+  {
+    "school_kod": "46674480",
+    "name": "Gillberga skola F-6",
+    "type": "kommunal",
+    "kommun": "Eskilstuna",
+    "kommunkod": "0484",
+    "address": "Gillberga skola 1, Eskilstuna"
+  },
+  {
+    "school_kod": "25284848",
+    "name": "Hammargärdets skola F-6",
+    "type": "kommunal",
+    "kommun": "Eskilstuna",
+    "kommunkod": "0484",
+    "address": "Hammargårdsvägen 1, Stora Sundby"
+  },
+  {
+    "school_kod": "52597635",
+    "name": "Vallby skola F-3",
+    "type": "kommunal",
+    "kommun": "Eskilstuna",
+    "kommunkod": "0484",
+    "address": "Vallby skola 1A, Eskilstuna"
+  },
+  {
+    "school_kod": "85172821",
+    "name": "Lagersbergsskolan F-6",
+    "type": "kommunal",
+    "kommun": "Eskilstuna",
+    "kommunkod": "0484",
+    "address": "Fogdegatan 1, Eskilstuna"
+  },
+  {
+    "school_kod": "29254257",
+    "name": "Näshulta friskola",
+    "type": "privat",
+    "kommun": "Eskilstuna",
+    "kommunkod": "0484",
+    "address": "Näshulta skolväg 2, Näshulta"
+  },
+  {
+    "school_kod": "30181143",
+    "name": "Strängnäs Montessoriskola",
+    "type": "privat",
+    "kommun": "Strängnäs",
+    "kommunkod": "0486",
+    "address": "Sundbyvägen 14, Sundby Park, Strängnäs"
+  },
+  {
+    "school_kod": "30548381",
+    "name": "Vårfruberga friskola",
+    "type": "privat",
+    "kommun": "Strängnäs",
+    "kommunkod": "0486",
+    "address": "Fogdö skola 3, Strängnäs"
+  },
+  {
+    "school_kod": "27814689",
+    "name": "Åsbo skola",
+    "type": "kommunal",
+    "kommun": "Boxholm",
+    "kommunkod": "0560",
+    "address": "Åsbo skola, Boxholm"
+  },
+  {
+    "school_kod": "90303058",
+    "name": "Grebo skola",
+    "type": "kommunal",
+    "kommun": "Åtvidaberg",
+    "kommunkod": "0561",
+    "address": "Grebovägen 15, Linköping"
+  },
+  {
+    "school_kod": "78579312",
+    "name": "Bankekinds skola",
+    "type": "kommunal",
+    "kommun": "Linköping",
+    "kommunkod": "0580",
+    "address": "Svinstadvägen 80, Linköping"
+  },
+  {
+    "school_kod": "72710465",
+    "name": "Brokinds skola",
+    "type": "kommunal",
+    "kommun": "Linköping",
+    "kommunkod": "0580",
+    "address": "Mellskogsvägen 32, Brokind"
+  },
+  {
+    "school_kod": "21336110",
+    "name": "Sätra skola",
+    "type": "kommunal",
+    "kommun": "Linköping",
+    "kommunkod": "0580",
+    "address": "Sätra skola 1, Bestorp"
+  },
+  {
+    "school_kod": "61662805",
+    "name": "Gustaf Adolfsskolan 2",
+    "type": "kommunal",
+    "kommun": "Norrköping",
+    "kommunkod": "0581",
+    "address": "Skeppargatan 57, Norrköping"
+  },
+  {
+    "school_kod": "26191960",
+    "name": "Jurslaskolan 1",
+    "type": "kommunal",
+    "kommun": "Norrköping",
+    "kommunkod": "0581",
+    "address": "Jurslavägen 33, Åby"
+  },
+  {
+    "school_kod": "35742140",
+    "name": "Silverdansens skola",
+    "type": "kommunal",
+    "kommun": "Norrköping",
+    "kommunkod": "0581",
+    "address": "Silverringen 20, Norrköping"
+  },
+  {
+    "school_kod": "87220418",
+    "name": "Svärtinge Skogsbacke skola",
+    "type": "kommunal",
+    "kommun": "Norrköping",
+    "kommunkod": "0581",
+    "address": "Ryssnäsvägen 26, Svärtinge"
+  },
+  {
+    "school_kod": "34784374",
+    "name": "Vikbolandsskolan 2",
+    "type": "kommunal",
+    "kommun": "Norrköping",
+    "kommunkod": "0581",
+    "address": "Bossgårdsvägen 9, Vikbolandet"
+  },
+  {
+    "school_kod": "50770926",
+    "name": "I Ur och Skur sk Skattkammarön",
+    "type": "privat",
+    "kommun": "Norrköping",
+    "kommunkod": "0581",
+    "address": "Folkborgsvägen 17 hus 33, Norrköping"
+  },
+  {
+    "school_kod": "76987213",
+    "name": "Smedbyskolan",
+    "type": "kommunal",
+    "kommun": "Norrköping",
+    "kommunkod": "0581",
+    "address": "Lidagatan50, Norrköping"
+  },
+  {
+    "school_kod": "63176416",
+    "name": "Sankt Anna skola",
+    "type": "kommunal",
+    "kommun": "Söderköping",
+    "kommunkod": "0582",
+    "address": "Sankt Anna skola, Sankt Anna"
+  },
+  {
+    "school_kod": "38948355",
+    "name": "Västra Husby skola",
+    "type": "kommunal",
+    "kommun": "Söderköping",
+    "kommunkod": "0582",
+    "address": "Grönlundsv. 1B, Norrköping"
+  },
+  {
+    "school_kod": "59575795",
+    "name": "Östra Ryds skola",
+    "type": "kommunal",
+    "kommun": "Söderköping",
+    "kommunkod": "0582",
+    "address": "Östra Ryds skola, Östra Ryd"
+  },
+  {
+    "school_kod": "89596219",
+    "name": "Klockrike skola",
+    "type": "kommunal",
+    "kommun": "Motala",
+    "kommunkod": "0583",
+    "address": "Klockrike skola 215, Klockrike"
+  },
+  {
+    "school_kod": "27941686",
+    "name": "Dansäterskolan",
+    "type": "kommunal",
+    "kommun": "Motala",
+    "kommunkod": "0583",
+    "address": "Falkgatan 3, BORENSBERG"
+  },
+  {
+    "school_kod": "96520696",
+    "name": "Nykyrka skola",
+    "type": "kommunal",
+    "kommun": "Motala",
+    "kommunkod": "0583",
+    "address": "Nykyrka Skola 215, Motala"
+  },
+  {
+    "school_kod": "48000763",
+    "name": "Oasens skola",
+    "type": "privat",
+    "kommun": "Aneby",
+    "kommunkod": "0604",
+    "address": "Gården Karlstorp Gunnarstorp, Aneby"
+  },
+  {
+    "school_kod": "72916171",
+    "name": "Sunhult skola",
+    "type": "kommunal",
+    "kommun": "Aneby",
+    "kommunkod": "0604",
+    "address": "Sunhultsbrunn, Sunhultsbrunn"
+  },
+  {
+    "school_kod": "58128691",
+    "name": "Tofthagaskolan",
+    "type": "privat",
+    "kommun": "Vaggeryd",
+    "kommunkod": "0665",
+    "address": "Tofthagaskolan, Sjöeryd 3, Skillingaryd"
+  },
+  {
+    "school_kod": "38030036",
+    "name": "Bondstorps skola",
+    "type": "kommunal",
+    "kommun": "Vaggeryd",
+    "kommunkod": "0665",
+    "address": "Bondstorp, Månsarp"
+  },
+  {
+    "school_kod": "85555052",
+    "name": "Klevshults skola",
+    "type": "kommunal",
+    "kommun": "Vaggeryd",
+    "kommunkod": "0665",
+    "address": "Skolvägen, Klevshult, Skillingaryd"
+  },
+  {
+    "school_kod": "20211452",
+    "name": "Barnarpsskolan",
+    "type": "kommunal",
+    "kommun": "Jönköping",
+    "kommunkod": "0680",
+    "address": "Mobrovägen 5, Jönköping"
+  },
+  {
+    "school_kod": "81734064",
+    "name": "Hovslättsskolan",
+    "type": "kommunal",
+    "kommun": "Jönköping",
+    "kommunkod": "0680",
+    "address": "Västra Hellstorpsvägen 4, Jönköping"
+  },
+  {
+    "school_kod": "13412549",
+    "name": "Landsjöskolan",
+    "type": "kommunal",
+    "kommun": "Jönköping",
+    "kommunkod": "0680",
+    "address": "Tunnlandsvägen 13-15, Huskvarna"
+  },
+  {
+    "school_kod": "36211599",
+    "name": "Ölmstadskolan",
+    "type": "kommunal",
+    "kommun": "Jönköping",
+    "kommunkod": "0680",
+    "address": "Bunnvägen 6, Gränna"
+  },
+  {
+    "school_kod": "12057247",
+    "name": "Örserumsskolan",
+    "type": "kommunal",
+    "kommun": "Jönköping",
+    "kommunkod": "0680",
+    "address": "Jonstorpsvägen 11, Brötjemark, Gränna"
+  },
+  {
+    "school_kod": "96013047",
+    "name": "Ödestugu skola",
+    "type": "kommunal",
+    "kommun": "Jönköping",
+    "kommunkod": "0680",
+    "address": "Östragårdsvägen 3 Ödestugu, Tenhult"
+  },
+  {
+    "school_kod": "38245682",
+    "name": "Taheskolan F-6",
+    "type": "kommunal",
+    "kommun": "Jönköping",
+    "kommunkod": "0680",
+    "address": "Målövägen 2, Taberg"
+  },
+  {
+    "school_kod": "77787682",
+    "name": "Månsarpsskolan",
+    "type": "kommunal",
+    "kommun": "Jönköping",
+    "kommunkod": "0680",
+    "address": "Timjanstigen 1, Taberg"
+  },
+  {
+    "school_kod": "13609744",
+    "name": "Kumlabyskolan",
+    "type": "kommunal",
+    "kommun": "Jönköping",
+    "kommunkod": "0680",
+    "address": "Norrbovägen 65-67, Visingsö"
+  },
+  {
+    "school_kod": "98171083",
+    "name": "Torps skola",
+    "type": "kommunal",
+    "kommun": "Jönköping",
+    "kommunkod": "0680",
+    "address": "Skolgången 1, Bankeryd"
+  },
+  {
+    "school_kod": "54519463",
+    "name": "Gällaryds skola",
+    "type": "kommunal",
+    "kommun": "Värnamo",
+    "kommunkod": "0683",
+    "address": "Gällaryd, Bor"
+  },
+  {
+    "school_kod": "28694008",
+    "name": "Lindens skola",
+    "type": "kommunal",
+    "kommun": "Värnamo",
+    "kommunkod": "0683",
+    "address": "Kullstorpsvägen, Lanna, Bredaryd"
+  },
+  {
+    "school_kod": "38920772",
+    "name": "Rävemåla Friskola",
+    "type": "privat",
+    "kommun": "Tingsryd",
+    "kommunkod": "0763",
+    "address": "Kyrkogatan 31, Älmeboda"
+  },
+  {
+    "school_kod": "79378495",
+    "name": "Kronobergsheds skola",
+    "type": "privat",
+    "kommun": "Alvesta",
+    "kommunkod": "0764",
+    "address": "Kronobergsheds skola, Moheda"
+  },
+  {
+    "school_kod": "57408646",
+    "name": "Bråthults Friskola",
+    "type": "privat",
+    "kommun": "Älmhult",
+    "kommunkod": "0765",
+    "address": "Bråthults Bygdegård, Älmhult"
+  },
+  {
+    "school_kod": "41466096",
+    "name": "Vederslövs skola",
+    "type": "kommunal",
+    "kommun": "Växjö",
+    "kommunkod": "0780",
+    "address": "Kinnevaldsvägen 14, Vederslöv"
+  },
+  {
+    "school_kod": "62677883",
+    "name": "Åby skola",
+    "type": "kommunal",
+    "kommun": "Växjö",
+    "kommunkod": "0780",
+    "address": "Borgarvägen 18, Åby, Tjureda"
+  },
+  {
+    "school_kod": "67006679",
+    "name": "Ör skola",
+    "type": "kommunal",
+    "kommun": "Växjö",
+    "kommunkod": "0780",
+    "address": "Örtagården, Ör"
+  },
+  {
+    "school_kod": "87414531",
+    "name": "Angelstadskolan",
+    "type": "kommunal",
+    "kommun": "Ljungby",
+    "kommunkod": "0781",
+    "address": "Angelstad skola 2, Ljungby"
+  },
+  {
+    "school_kod": "24113068",
+    "name": "Bolmsöskolan",
+    "type": "kommunal",
+    "kommun": "Ljungby",
+    "kommunkod": "0781",
+    "address": "Bollstad, Bolmsö"
+  },
+  {
+    "school_kod": "59021648",
+    "name": "Hagatorpskolan",
+    "type": "privat",
+    "kommun": "Ljungby",
+    "kommunkod": "0781",
+    "address": "Axel Roothsgatan 17, Ljungby"
+  },
+  {
+    "school_kod": "36154153",
+    "name": "Torskolan LM",
+    "type": "kommunal",
+    "kommun": "Torsås",
+    "kommunkod": "0834",
+    "address": "Allfargatan 40 (To 4-6), Kalmarvägen 11 (ToF-3), Torsås"
+  },
+  {
+    "school_kod": "15553220",
+    "name": "Glömmingeskolan",
+    "type": "kommunal",
+    "kommun": "Mörbylånga",
+    "kommunkod": "0840",
+    "address": "Glömminge, Färjestaden"
+  },
+  {
+    "school_kod": "19041877",
+    "name": "Torslundaskolan",
+    "type": "kommunal",
+    "kommun": "Mörbylånga",
+    "kommunkod": "0840",
+    "address": "Torslunda 127, Färjestaden"
+  },
+  {
+    "school_kod": "12496321",
+    "name": "Gårdbyskolan",
+    "type": "kommunal",
+    "kommun": "Mörbylånga",
+    "kommunkod": "0840",
+    "address": "Gårdby 184, Färjestaden"
+  },
+  {
+    "school_kod": "58067335",
+    "name": "Figeholmskolan",
+    "type": "kommunal",
+    "kommun": "Oskarshamn",
+    "kommunkod": "0882",
+    "address": "Johanna Matildas väg 3, Figeholm"
+  },
+  {
+    "school_kod": "90374935",
+    "name": "Misterhult skola",
+    "type": "privat",
+    "kommun": "Oskarshamn",
+    "kommunkod": "0882",
+    "address": "Misterhultsvägen 29, Figeholm"
+  },
+  {
+    "school_kod": "35975798",
+    "name": "Överumsskolan",
+    "type": "kommunal",
+    "kommun": "Västervik",
+    "kommunkod": "0883",
+    "address": "Tjustvägen 1, Överum"
+  },
+  {
+    "school_kod": "70475635",
+    "name": "Blackstad skola",
+    "type": "kommunal",
+    "kommun": "Västervik",
+    "kommunkod": "0883",
+    "address": "Backsippevändan 2, Blackstad"
+  },
+  {
+    "school_kod": "75928706",
+    "name": "Rumskulla skola",
+    "type": "kommunal",
+    "kommun": "Vimmerby",
+    "kommunkod": "0884",
+    "address": "Rumskulla, Mariannelundsv 2, Vimmerby"
+  },
+  {
+    "school_kod": "47014605",
+    "name": "Storebro skola",
+    "type": "kommunal",
+    "kommun": "Vimmerby",
+    "kommunkod": "0884",
+    "address": "Storebro skola, Ringvägen 3, Storebro"
+  },
+  {
+    "school_kod": "55847773",
+    "name": "Tuna skola",
+    "type": "kommunal",
+    "kommun": "Vimmerby",
+    "kommunkod": "0884",
+    "address": "Tuna skola, Oskarshamnsvägen 51, Vimmerby"
+  },
+  {
+    "school_kod": "45902980",
+    "name": "Djursdala skola",
+    "type": "kommunal",
+    "kommun": "Vimmerby",
+    "kommunkod": "0884",
+    "address": "Kyrkgatan 57, Södra Vi"
+  },
+  {
+    "school_kod": "89321968",
+    "name": "Dalhem skola",
+    "type": "kommunal",
+    "kommun": "Gotland",
+    "kommunkod": "0980",
+    "address": "Dalhem skola 142, Dalhem"
+  },
+  {
+    "school_kod": "64449160",
+    "name": "Eskelhem skola",
+    "type": "kommunal",
+    "kommun": "Gotland",
+    "kommunkod": "0980",
+    "address": "Eskelhem Prästgården 188, Gotlands Tofta"
+  },
+  {
+    "school_kod": "96366802",
+    "name": "Endre skola",
+    "type": "kommunal",
+    "kommun": "Gotland",
+    "kommunkod": "0980",
+    "address": "Endre skola 156, Visby"
+  },
+  {
+    "school_kod": "19881184",
+    "name": "Fole skola",
+    "type": "kommunal",
+    "kommun": "Gotland",
+    "kommunkod": "0980",
+    "address": "Fole skola 551, Visby"
+  },
+  {
+    "school_kod": "17588092",
+    "name": "Havdhem skola",
+    "type": "kommunal",
+    "kommun": "Gotland",
+    "kommunkod": "0980",
+    "address": "Havdhem Prästgårdsvägen 30, Havdhem"
+  },
+  {
+    "school_kod": "94163432",
+    "name": "Högbyskolan",
+    "type": "kommunal",
+    "kommun": "Gotland",
+    "kommunkod": "0980",
+    "address": "Jakob Gråbergs plats 6, Hemse"
+  },
+  {
+    "school_kod": "47799551",
+    "name": "Kräklingbo skola",
+    "type": "kommunal",
+    "kommun": "Gotland",
+    "kommunkod": "0980",
+    "address": "Kräklingbo Prästgården 233, Katthammarsvik"
+  },
+  {
+    "school_kod": "48487229",
+    "name": "Sanda skola",
+    "type": "kommunal",
+    "kommun": "Gotland",
+    "kommunkod": "0980",
+    "address": "Sanda Prästgården 597, Klintehamn"
+  },
+  {
+    "school_kod": "66967867",
+    "name": "Stenkyrka skola",
+    "type": "kommunal",
+    "kommun": "Gotland",
+    "kommunkod": "0980",
+    "address": "Stenkyrka Kyrkebys 413, Tingstäde"
+  },
+  {
+    "school_kod": "40341856",
+    "name": "Tal och Språk F-6",
+    "type": "kommunal",
+    "kommun": "Gotland",
+    "kommunkod": "0980",
+    "address": "Väskinde Prästgården 417, Visby"
+  },
+  {
+    "school_kod": "41120027",
+    "name": "Vänge skola",
+    "type": "kommunal",
+    "kommun": "Gotland",
+    "kommunkod": "0980",
+    "address": "Vänge skolgården 323, Romakloster"
+  },
+  {
+    "school_kod": "15459377",
+    "name": "Väskinde skola",
+    "type": "kommunal",
+    "kommun": "Gotland",
+    "kommunkod": "0980",
+    "address": "Väskinde Prästgården 417, Visby"
+  },
+  {
+    "school_kod": "67509465",
+    "name": "Karlskrona Montessorifriskola",
+    "type": "privat",
+    "kommun": "Karlskrona",
+    "kommunkod": "1080",
+    "address": "Aklejavägen 4, Karlskrona"
+  },
+  {
+    "school_kod": "76776855",
+    "name": "Bastasjö Friskola AB",
+    "type": "privat",
+    "kommun": "Karlskrona",
+    "kommunkod": "1080",
+    "address": "Strövarevägen 4, Karlskrona"
+  },
+  {
+    "school_kod": "58881130",
+    "name": "Strömsbergs Friskola",
+    "type": "privat",
+    "kommun": "Karlskrona",
+    "kommunkod": "1080",
+    "address": "Strömsberg, Rödeby"
+  },
+  {
+    "school_kod": "51415031",
+    "name": "Ramdalaskolan F-6",
+    "type": "kommunal",
+    "kommun": "Karlskrona",
+    "kommunkod": "1080",
+    "address": "Häjetorpsvägen 3, Ramdala"
+  },
+  {
+    "school_kod": "22033858",
+    "name": "Espedalsskolan",
+    "type": "kommunal",
+    "kommun": "Ronneby",
+    "kommunkod": "1081",
+    "address": "Gadds väg 2, Ronneby"
+  },
+  {
+    "school_kod": "79063974",
+    "name": "Fredriksbergsskolan",
+    "type": "kommunal",
+    "kommun": "Ronneby",
+    "kommunkod": "1081",
+    "address": "Gustaf Arnolds gata 11, Ronneby"
+  },
+  {
+    "school_kod": "75372005",
+    "name": "Hällaryds skola",
+    "type": "kommunal",
+    "kommun": "Karlshamn",
+    "kommunkod": "1082",
+    "address": "Elisbergsvägen 5, Trensum"
+  },
+  {
+    "school_kod": "45295878",
+    "name": "Åryds Friskola",
+    "type": "privat",
+    "kommun": "Karlshamn",
+    "kommunkod": "1082",
+    "address": "Årydsvägen 51, Trensum"
+  },
+  {
+    "school_kod": "42422737",
+    "name": "Wallbergsskolan",
+    "type": "privat",
+    "kommun": "Halmstad",
+    "kommunkod": "1380",
+    "address": "Slottsmöllan 14 F, Halmstad"
+  },
+  {
+    "school_kod": "15130387",
+    "name": "Slottsjord Skepparen F-3",
+    "type": "kommunal",
+    "kommun": "Halmstad",
+    "kommunkod": "1380",
+    "address": "Skeppargatan 52, Halmstad"
+  },
+  {
+    "school_kod": "35619413",
+    "name": "Steningeskolan F-3",
+    "type": "kommunal",
+    "kommun": "Halmstad",
+    "kommunkod": "1380",
+    "address": "Steninge, Harplinge"
+  },
+  {
+    "school_kod": "29824923",
+    "name": "Öringe Skola",
+    "type": "privat",
+    "kommun": "Laholm",
+    "kommunkod": "1381",
+    "address": "Öringelund 117-119, Laholm"
+  },
+  {
+    "school_kod": "59683214",
+    "name": "Hishultsskolan",
+    "type": "kommunal",
+    "kommun": "Laholm",
+    "kommunkod": "1381",
+    "address": "Högfeldtsgatan 3, Hishult"
+  },
+  {
+    "school_kod": "73088689",
+    "name": "Veingeskolan F-3",
+    "type": "kommunal",
+    "kommun": "Laholm",
+    "kommunkod": "1381",
+    "address": "Vibeshögsvägen 7, Veinge"
+  },
+  {
+    "school_kod": "14729346",
+    "name": "Fageredssskolan",
+    "type": "kommunal",
+    "kommun": "Falkenberg",
+    "kommunkod": "1382",
+    "address": "Maavägen 1, Ullared"
+  },
+  {
+    "school_kod": "42973495",
+    "name": "Hertingsskolan",
+    "type": "kommunal",
+    "kommun": "Falkenberg",
+    "kommunkod": "1382",
+    "address": "Hertings Allé, Falkenberg"
+  },
+  {
+    "school_kod": "48567965",
+    "name": "Okome skola",
+    "type": "kommunal",
+    "kommun": "Falkenberg",
+    "kommunkod": "1382",
+    "address": "Okomevägen 12, Ullared"
+  },
+  {
+    "school_kod": "69301003",
+    "name": "Långavekaskolan",
+    "type": "kommunal",
+    "kommun": "Falkenberg",
+    "kommunkod": "1382",
+    "address": "Långveka 125, Glommen"
+  },
+  {
+    "school_kod": "29837397",
+    "name": "Slöingeskolan",
+    "type": "kommunal",
+    "kommun": "Falkenberg",
+    "kommunkod": "1382",
+    "address": "Stationsgatan 3, Heberg"
+  },
+  {
+    "school_kod": "97555379",
+    "name": "Skrea skola",
+    "type": "privat",
+    "kommun": "Falkenberg",
+    "kommunkod": "1382",
+    "address": "Brunkullevägen 2, Falkenberg"
+  },
+  {
+    "school_kod": "52088732",
+    "name": "Lindbergs skola F-3 och fritidshem",
+    "type": "kommunal",
+    "kommun": "Varberg",
+    "kommunkod": "1383",
+    "address": "Lindberg skola, Varberg"
+  },
+  {
+    "school_kod": "44822255",
+    "name": "Deromeskolan F-3 och fritidshem",
+    "type": "kommunal",
+    "kommun": "Varberg",
+    "kommunkod": "1383",
+    "address": "Åsbyvägen 31, Veddige"
+  },
+  {
+    "school_kod": "67801661",
+    "name": "Göthriks skola F-6 och fritidshem",
+    "type": "kommunal",
+    "kommun": "Varberg",
+    "kommunkod": "1383",
+    "address": "Hunnestad Öster 65A, Varberg"
+  },
+  {
+    "school_kod": "90784555",
+    "name": "Gottskär Grundskola",
+    "type": "privat",
+    "kommun": "Kungsbacka",
+    "kommunkod": "1384",
+    "address": "Landstormsvägen 37, Onsala"
+  },
+  {
+    "school_kod": "57869288",
+    "name": "Särö Montessoriskola Daggdroppen",
+    "type": "privat",
+    "kommun": "Kungsbacka",
+    "kommunkod": "1384",
+    "address": "Idrottsgången 21, Särö"
+  },
+  {
+    "school_kod": "59624096",
+    "name": "Furulidsskolan",
+    "type": "kommunal",
+    "kommun": "Kungsbacka",
+    "kommunkod": "1384",
+    "address": "Furulidsvägen 21, Vallda"
+  },
+  {
+    "school_kod": "69028103",
+    "name": "Tingbergsskolan A-C",
+    "type": "kommunal",
+    "kommun": "Kungsbacka",
+    "kommunkod": "1384",
+    "address": "Lundegrens gata 25, Kungsbacka"
+  },
+  {
+    "school_kod": "50013979",
+    "name": "Tingbergsskolan B",
+    "type": "kommunal",
+    "kommun": "Kungsbacka",
+    "kommunkod": "1384",
+    "address": "Lundegrens gata 25, Kungsbacka"
+  },
+  {
+    "school_kod": "70319074",
+    "name": "Pontos Grundskola",
+    "type": "privat",
+    "kommun": "Kungsbacka",
+    "kommunkod": "1384",
+    "address": "Råglyckans väg 10, Onsala"
+  },
+  {
+    "school_kod": "79252996",
+    "name": "Fjordskolan F-3",
+    "type": "kommunal",
+    "kommun": "Kungsbacka",
+    "kommunkod": "1384",
+    "address": "Slupvägen 2, Onsala"
+  },
+  {
+    "school_kod": "62830537",
+    "name": "Eskilsbyskolan F-2",
+    "type": "kommunal",
+    "kommun": "Härryda",
+    "kommunkod": "1401",
+    "address": "Hästelidsvägen 1, Eskilsby, Landvetter"
+  },
+  {
+    "school_kod": "60280777",
+    "name": "Jonsereds skola F-5",
+    "type": "kommunal",
+    "kommun": "Partille",
+    "kommunkod": "1402",
+    "address": "Torgvägen 2, Jonsered"
+  },
+  {
+    "school_kod": "22044740",
+    "name": "Rörö skola",
+    "type": "kommunal",
+    "kommun": "Öckerö",
+    "kommunkod": "1407",
+    "address": "Bynsvägen 14, Rörö"
+  },
+  {
+    "school_kod": "70498449",
+    "name": "Björkö skola",
+    "type": "kommunal",
+    "kommun": "Öckerö",
+    "kommunkod": "1407",
+    "address": "Bäckevägen 48B, Bohus-Björkö"
+  },
+  {
+    "school_kod": "57712538",
+    "name": "Orust Waldorfskola",
+    "type": "privat",
+    "kommun": "Orust",
+    "kommunkod": "1421",
+    "address": "Slussen 314, Henån"
+  },
+  {
+    "school_kod": "49130128",
+    "name": "Backa skola",
+    "type": "kommunal",
+    "kommun": "Tanum",
+    "kommunkod": "1435",
+    "address": "Backa, Smeberg, Bullaren"
+  },
+  {
+    "school_kod": "22465670",
+    "name": "Fjällbacka skola",
+    "type": "kommunal",
+    "kommun": "Tanum",
+    "kommunkod": "1435",
+    "address": "Nestorvägen 4, Fjällbacka"
+  },
+  {
+    "school_kod": "39533335",
+    "name": "Järbo friskola",
+    "type": "privat",
+    "kommun": "Färgelanda",
+    "kommunkod": "1439",
+    "address": "Järbo skola, Högsäter"
+  },
+  {
+    "school_kod": "72684276",
+    "name": "Tolleredskolan",
+    "type": "kommunal",
+    "kommun": "Lerum",
+    "kommunkod": "1441",
+    "address": "Tollered ströms väg 4, Tollered"
+  },
+  {
+    "school_kod": "13436901",
+    "name": "Lena skola",
+    "type": "kommunal",
+    "kommun": "Vårgårda",
+    "kommunkod": "1442",
+    "address": "Lena skola, Alingsås"
+  },
+  {
+    "school_kod": "81777373",
+    "name": "Bredöls skola F-6",
+    "type": "kommunal",
+    "kommun": "Essunga",
+    "kommunkod": "1445",
+    "address": "Malma Bredöl 109, Nossebro"
+  },
+  {
+    "school_kod": "58737998",
+    "name": "Jonslunds skola F-6",
+    "type": "kommunal",
+    "kommun": "Essunga",
+    "kommunkod": "1445",
+    "address": "Jonslunds skola, Nossebro"
+  },
+  {
+    "school_kod": "19260226",
+    "name": "Ryrsjöskolan",
+    "type": "kommunal",
+    "kommun": "Lilla Edet",
+    "kommunkod": "1462",
+    "address": "Ryrsboholmsvägen 18, Göta"
+  },
+  {
+    "school_kod": "79844557",
+    "name": "Leteboskolan",
+    "type": "privat",
+    "kommun": "Mark",
+    "kommunkod": "1463",
+    "address": "Letebovägen 4, Horred"
+  },
+  {
+    "school_kod": "34605264",
+    "name": "Sätilaskolan F-6",
+    "type": "kommunal",
+    "kommun": "Mark",
+    "kommunkod": "1463",
+    "address": "Sethelius väg 3, Sätila"
+  },
+  {
+    "school_kod": "12813506",
+    "name": "Ubbhultskolan",
+    "type": "kommunal",
+    "kommun": "Mark",
+    "kommunkod": "1463",
+    "address": "Ubbhultskolan 1, Hällingsjö"
+  },
+  {
+    "school_kod": "85712995",
+    "name": "Ljunghaga skola",
+    "type": "privat",
+    "kommun": "Svenljunga",
+    "kommunkod": "1465",
+    "address": "Kyrkbyn Skolan 1, Holsljunga"
+  },
+  {
+    "school_kod": "28714876",
+    "name": "Hillareds skola",
+    "type": "kommunal",
+    "kommun": "Svenljunga",
+    "kommunkod": "1465",
+    "address": "Såkensväg 9A, Hillared"
+  },
+  {
+    "school_kod": "14576123",
+    "name": "Hudene skola",
+    "type": "kommunal",
+    "kommun": "Herrljunga",
+    "kommunkod": "1466",
+    "address": "Kärtaredsvägen, Herrljunga"
+  },
+  {
+    "school_kod": "78630966",
+    "name": "Mörlandaskolan",
+    "type": "kommunal",
+    "kommun": "Herrljunga",
+    "kommunkod": "1466",
+    "address": "Skolvägen 1, Ljung"
+  },
+  {
+    "school_kod": "28319392",
+    "name": "Broholmskolan Jung",
+    "type": "privat",
+    "kommun": "Vara",
+    "kommunkod": "1470",
+    "address": "Jungavägen 16, Kvänum"
+  },
+  {
+    "school_kod": "62111546",
+    "name": "Stiftelsen Önums friskola",
+    "type": "privat",
+    "kommun": "Vara",
+    "kommunkod": "1470",
+    "address": "Önum Djäknagården 1, Vara"
+  },
+  {
+    "school_kod": "76523419",
+    "name": "Arentorps skola",
+    "type": "kommunal",
+    "kommun": "Vara",
+    "kommunkod": "1470",
+    "address": "Arentorp, Kedumsvägen, Vara"
+  },
+  {
+    "school_kod": "87282627",
+    "name": "Levene skola",
+    "type": "kommunal",
+    "kommun": "Vara",
+    "kommunkod": "1470",
+    "address": "Levene, Storgatan 50, Stora Levene"
+  },
+  {
+    "school_kod": "91055758",
+    "name": "Fredsbergs Friskola",
+    "type": "privat",
+    "kommun": "Töreboda",
+    "kommunkod": "1473",
+    "address": "Fredsberg Kyrkskolan 2, Töreboda"
+  },
+  {
+    "school_kod": "64430977",
+    "name": "Stiftelsen Backatorpsskolan",
+    "type": "privat",
+    "kommun": "Göteborg",
+    "kommunkod": "1480",
+    "address": "Båtsman Kapers gata 5, Hisings Backa"
+  },
+  {
+    "school_kod": "43136650",
+    "name": "Björkåsskolan F-6",
+    "type": "kommunal",
+    "kommun": "Göteborg",
+    "kommunkod": "1480",
+    "address": "Jordledningsgatan 3, Västra Frölunda"
+  },
+  {
+    "school_kod": "96685185",
+    "name": "Bergsgårdsskolan F-6",
+    "type": "kommunal",
+    "kommun": "Göteborg",
+    "kommunkod": "1480",
+    "address": "Skolspåret 75, Angered"
+  },
+  {
+    "school_kod": "97649106",
+    "name": "Brunnsboskolan F-9",
+    "type": "kommunal",
+    "kommun": "Göteborg",
+    "kommunkod": "1480",
+    "address": "Klassikergatan 2, Hisings Backa"
+  },
+  {
+    "school_kod": "60526603",
+    "name": "Drakbergsskolan",
+    "type": "privat",
+    "kommun": "Göteborg",
+    "kommunkod": "1480",
+    "address": "Bronsåldersgatan 82, vita tvåplans vinkelhuset, Västra Frölunda"
+  },
+  {
+    "school_kod": "99852133",
+    "name": "Ellen Keyskolan F-6",
+    "type": "kommunal",
+    "kommun": "Göteborg",
+    "kommunkod": "1480",
+    "address": "Wadköpingsgatan 161, Hisings Backa"
+  },
+  {
+    "school_kod": "64026031",
+    "name": "Emmaskolan F-3",
+    "type": "kommunal",
+    "kommun": "Göteborg",
+    "kommunkod": "1480",
+    "address": "Rosenhällsvägen 6, Angered"
+  },
+  {
+    "school_kod": "33143689",
+    "name": "Lilla Gårdstensskolan F-3",
+    "type": "kommunal",
+    "kommun": "Göteborg",
+    "kommunkod": "1480",
+    "address": "Saffransgatan 78, Angered"
+  },
+  {
+    "school_kod": "61240460",
+    "name": "Långmosseskolan F-3",
+    "type": "kommunal",
+    "kommun": "Göteborg",
+    "kommunkod": "1480",
+    "address": "Salviagatan 56, Angered"
+  },
+  {
+    "school_kod": "77556882",
+    "name": "Påvelundsskolan F-9",
+    "type": "kommunal",
+    "kommun": "Göteborg",
+    "kommunkod": "1480",
+    "address": "Bergakärrsgatan 33, Västra Frölunda"
+  },
+  {
+    "school_kod": "48883830",
+    "name": "Skogomeskolan F-6",
+    "type": "kommunal",
+    "kommun": "Göteborg",
+    "kommunkod": "1480",
+    "address": "Nya Skogomevägen 3, Hisings Backa"
+  },
+  {
+    "school_kod": "67435601",
+    "name": "Ängåsskolan F-6",
+    "type": "kommunal",
+    "kommun": "Göteborg",
+    "kommunkod": "1480",
+    "address": "Korsåsliden 31, Västra Frölunda"
+  },
+  {
+    "school_kod": "31872640",
+    "name": "Freinetskolan Bild & Form",
+    "type": "privat",
+    "kommun": "Göteborg",
+    "kommunkod": "1480",
+    "address": "Vaktmästargången 14-18, Göteborg"
+  },
+  {
+    "school_kod": "14567750",
+    "name": "Björlandaskolan F-6",
+    "type": "kommunal",
+    "kommun": "Göteborg",
+    "kommunkod": "1480",
+    "address": "Nolviksvägen 3, Torslanda"
+  },
+  {
+    "school_kod": "81015114",
+    "name": "Lilla Trulsegårdsskolan F-3",
+    "type": "kommunal",
+    "kommun": "Göteborg",
+    "kommunkod": "1480",
+    "address": "Emelie Lejmans Väg 5, Torslanda"
+  },
+  {
+    "school_kod": "39701961",
+    "name": "Lärjeskolan F-9",
+    "type": "kommunal",
+    "kommun": "Göteborg",
+    "kommunkod": "1480",
+    "address": "Bollplansgatan 10, Angered"
+  },
+  {
+    "school_kod": "15623804",
+    "name": "Nya Varvetskolan F-6",
+    "type": "kommunal",
+    "kommun": "Göteborg",
+    "kommunkod": "1480",
+    "address": "Finnjollegatan 1, Västra Frölunda"
+  },
+  {
+    "school_kod": "37630524",
+    "name": "Rannebergsskolan F-3",
+    "type": "kommunal",
+    "kommun": "Göteborg",
+    "kommunkod": "1480",
+    "address": "Fjällblomman 7, Angered"
+  },
+  {
+    "school_kod": "12868813",
+    "name": "Rävebergsskolan F-3",
+    "type": "kommunal",
+    "kommun": "Göteborg",
+    "kommunkod": "1480",
+    "address": "Körvelgatan 1, Angered"
+  },
+  {
+    "school_kod": "72624322",
+    "name": "Tretjärnsskolan F-3",
+    "type": "kommunal",
+    "kommun": "Göteborg",
+    "kommunkod": "1480",
+    "address": "Kummingatan 126, Angered"
+  },
+  {
+    "school_kod": "75616744",
+    "name": "Noblaskolan Nya Hovås F-5",
+    "type": "privat",
+    "kommun": "Göteborg",
+    "kommunkod": "1480",
+    "address": "Hovås Allé 12, Hovås"
+  },
+  {
+    "school_kod": "21004427",
+    "name": "Bro skola",
+    "type": "kommunal",
+    "kommun": "Lysekil",
+    "kommunkod": "1484",
+    "address": "Mellberg 101, Brastad"
+  },
+  {
+    "school_kod": "55030337",
+    "name": "Dalabergsskolan",
+    "type": "kommunal",
+    "kommun": "Uddevalla",
+    "kommunkod": "1485",
+    "address": "Dalabergsstråket 6, Uddevalla"
+  },
+  {
+    "school_kod": "43476389",
+    "name": "Lane Ryrs skola",
+    "type": "kommunal",
+    "kommun": "Uddevalla",
+    "kommunkod": "1485",
+    "address": "Kyrkbyn, Uddevalla"
+  },
+  {
+    "school_kod": "32311635",
+    "name": "Valemyrskolan F-6",
+    "type": "kommunal",
+    "kommun": "Strömstad",
+    "kommunkod": "1486",
+    "address": "Valemyrsskolan 1, Strömstad"
+  },
+  {
+    "school_kod": "80203669",
+    "name": "Koster skola F-3",
+    "type": "kommunal",
+    "kommun": "Strömstad",
+    "kommunkod": "1486",
+    "address": "Torget 10, Sydkoster"
+  },
+  {
+    "school_kod": "78828269",
+    "name": "Mellegården skola F-6",
+    "type": "kommunal",
+    "kommun": "Strömstad",
+    "kommunkod": "1486",
+    "address": "Mellegårdens skola 1, Strömstad"
+  },
+  {
+    "school_kod": "45249416",
+    "name": "Rösebo skola",
+    "type": "kommunal",
+    "kommun": "Vänersborg",
+    "kommunkod": "1487",
+    "address": "Rösebo 401, Frändefors"
+  },
+  {
+    "school_kod": "60726203",
+    "name": "Vänersnäs skola",
+    "type": "privat",
+    "kommun": "Vänersborg",
+    "kommunkod": "1487",
+    "address": "Hallby 119, Vänersnäs"
+  },
+  {
+    "school_kod": "26068352",
+    "name": "Mulltorp skola F-3",
+    "type": "kommunal",
+    "kommun": "Vänersborg",
+    "kommunkod": "1487",
+    "address": "Mulltorp 209, Västra Tunhem"
+  },
+  {
+    "school_kod": "10982633",
+    "name": "Fridaskolan, Vänersborg",
+    "type": "privat",
+    "kommun": "Vänersborg",
+    "kommunkod": "1487",
+    "address": "Repslagarevägen 14, Vänersborg"
+  },
+  {
+    "school_kod": "13511202",
+    "name": "Skerruds skola F-3",
+    "type": "kommunal",
+    "kommun": "Vänersborg",
+    "kommunkod": "1487",
+    "address": "Skerrud 105, Brålanda"
+  },
+  {
+    "school_kod": "41888308",
+    "name": "Sjukhusskolan",
+    "type": "kommunal",
+    "kommun": "Trollhättan",
+    "kommunkod": "1488",
+    "address": "Lärketorpsvägen 4, NÄL, Trollhättan"
+  },
+  {
+    "school_kod": "36250779",
+    "name": "Sylteskolan F-6",
+    "type": "kommunal",
+    "kommun": "Trollhättan",
+    "kommunkod": "1488",
+    "address": "Nyckelpigevägen 1, Trollhättan"
+  },
+  {
+    "school_kod": "78273632",
+    "name": "Magra skola",
+    "type": "kommunal",
+    "kommun": "Alingsås",
+    "kommunkod": "1489",
+    "address": "Bjärlandavägen 100, Sollebrunn"
+  },
+  {
+    "school_kod": "90924483",
+    "name": "Stora Mellby skola",
+    "type": "kommunal",
+    "kommun": "Alingsås",
+    "kommunkod": "1489",
+    "address": "Prästvägen 23, Sollebrunn"
+  },
+  {
+    "school_kod": "88344039",
+    "name": "Hössna skola",
+    "type": "kommunal",
+    "kommun": "Ulricehamn",
+    "kommunkod": "1491",
+    "address": "Hössna Skolvägen 5, Ulricehamn"
+  },
+  {
+    "school_kod": "79937107",
+    "name": "Tösse skola",
+    "type": "kommunal",
+    "kommun": "Åmål",
+    "kommunkod": "1492",
+    "address": "Skolvägen 1, Tösse"
+  },
+  {
+    "school_kod": "12357670",
+    "name": "Tidavads skola",
+    "type": "kommunal",
+    "kommun": "Mariestad",
+    "kommunkod": "1493",
+    "address": "Nya skolan 2, Mariestad"
+  },
+  {
+    "school_kod": "95001615",
+    "name": "Vinningaskolan",
+    "type": "kommunal",
+    "kommun": "Lidköping",
+    "kommunkod": "1494",
+    "address": "Konvaljevägen, Vinninga"
+  },
+  {
+    "school_kod": "46013569",
+    "name": "Friskolan Metis",
+    "type": "privat",
+    "kommun": "Skara",
+    "kommunkod": "1495",
+    "address": "Sankta Katarinagatan 2, Skara"
+  },
+  {
+    "school_kod": "44468615",
+    "name": "Guldkroksskolan F-6",
+    "type": "kommunal",
+    "kommun": "Hjo",
+    "kommunkod": "1497",
+    "address": "Linnégatan1, Hjo"
+  },
+  {
+    "school_kod": "53080108",
+    "name": "Fågelås skola",
+    "type": "kommunal",
+    "kommun": "Hjo",
+    "kommunkod": "1497",
+    "address": "Djupedalsvägen 1A, Hjo"
+  },
+  {
+    "school_kod": "22252335",
+    "name": "Fageråsskolan",
+    "type": "kommunal",
+    "kommun": "Kil",
+    "kommunkod": "1715",
+    "address": "Inge Nylins Väg 2, Fagerås"
+  },
+  {
+    "school_kod": "99742257",
+    "name": "Tolitaskolan",
+    "type": "kommunal",
+    "kommun": "Kil",
+    "kommunkod": "1715",
+    "address": "Tolita Skola 1, Kil"
+  },
+  {
+    "school_kod": "69352527",
+    "name": "Gunnarsbyskolan F-9",
+    "type": "kommunal",
+    "kommun": "Eda",
+    "kommunkod": "1730",
+    "address": "Gunnarsbysvägen 10, Charlottenberg"
+  },
+  {
+    "school_kod": "48315891",
+    "name": "Adolfsfors skola",
+    "type": "kommunal",
+    "kommun": "Eda",
+    "kommunkod": "1730",
+    "address": "Adolfsfors, Åmotfors"
+  },
+  {
+    "school_kod": "79961788",
+    "name": "Östmarks skola",
+    "type": "kommunal",
+    "kommun": "Torsby",
+    "kommunkod": "1737",
+    "address": "Östmark, Östmark"
+  },
+  {
+    "school_kod": "58468387",
+    "name": "Bjurtjärns skola",
+    "type": "kommunal",
+    "kommun": "Storfors",
+    "kommunkod": "1760",
+    "address": "Brunntorpsvägen 2, Bjurtjärn, Storfors"
+  },
+  {
+    "school_kod": "94270954",
+    "name": "Borgviks skola",
+    "type": "privat",
+    "kommun": "Grums",
+    "kommunkod": "1764",
+    "address": "Sparnäs 10, Borgvik"
+  },
+  {
+    "school_kod": "19248047",
+    "name": "Gräsmarks skola",
+    "type": "kommunal",
+    "kommun": "Sunne",
+    "kommunkod": "1766",
+    "address": "Skolvägen 1, Gräsmark"
+  },
+  {
+    "school_kod": "25927543",
+    "name": "Prästbols skola",
+    "type": "kommunal",
+    "kommun": "Sunne",
+    "kommunkod": "1766",
+    "address": "Prästbol, Östra Ämtervik, Östra Ämtervik"
+  },
+  {
+    "school_kod": "87919224",
+    "name": "Vallargärdets skola",
+    "type": "kommunal",
+    "kommun": "Karlstad",
+    "kommunkod": "1780",
+    "address": "c/o Orrholmsskolan, Tullhusgatan 41, Karlstad"
+  },
+  {
+    "school_kod": "87243457",
+    "name": "Nordmarks skola",
+    "type": "kommunal",
+    "kommun": "Filipstad",
+    "kommunkod": "1782",
+    "address": "Nordmarks skola, Nordmarkshyttan"
+  },
+  {
+    "school_kod": "34377463",
+    "name": "Klässbols skola",
+    "type": "kommunal",
+    "kommun": "Arvika",
+    "kommunkod": "1784",
+    "address": "Klässbol, Klässbol"
+  },
+  {
+    "school_kod": "51545844",
+    "name": "Långseruds Friskola",
+    "type": "privat",
+    "kommun": "Säffle",
+    "kommunkod": "1785",
+    "address": "Gisslebyn, Långserud"
+  },
+  {
+    "school_kod": "88301687",
+    "name": "Botilsäter skola",
+    "type": "kommunal",
+    "kommun": "Säffle",
+    "kommunkod": "1785",
+    "address": "Kalvhagen Skolan, Säffle"
+  },
+  {
+    "school_kod": "11320436",
+    "name": "Hidinge skola",
+    "type": "kommunal",
+    "kommun": "Lekeberg",
+    "kommunkod": "1814",
+    "address": "Vretalund 1, Vintrosa"
+  },
+  {
+    "school_kod": "32191771",
+    "name": "Svenska skolan i London",
+    "type": "privat",
+    "kommun": "Örebro",
+    "kommunkod": "1880",
+    "address": "NO ADDRESS"
+  },
+  {
+    "school_kod": "39102843",
+    "name": "Svenska skolan i Paris",
+    "type": "privat",
+    "kommun": "Örebro",
+    "kommunkod": "1880",
+    "address": "NO ADDRESS"
+  },
+  {
+    "school_kod": "13727833",
+    "name": "Skandinaviska skolan Costa Blanca",
+    "type": "privat",
+    "kommun": "Örebro",
+    "kommunkod": "1880",
+    "address": "NO ADDRESS"
+  },
+  {
+    "school_kod": "72203001",
+    "name": "Svenska Skolan på Costa del Sol",
+    "type": "privat",
+    "kommun": "Örebro",
+    "kommunkod": "1880",
+    "address": "NO ADDRESS"
+  },
+  {
+    "school_kod": "41710561",
+    "name": "Svenska skolan på Gran Canaria",
+    "type": "privat",
+    "kommun": "Örebro",
+    "kommunkod": "1880",
+    "address": "NO ADDRESS"
+  },
+  {
+    "school_kod": "34295208",
+    "name": "Skandinaviska Skolan i Madrid",
+    "type": "privat",
+    "kommun": "Örebro",
+    "kommunkod": "1880",
+    "address": "NO ADDRESS"
+  },
+  {
+    "school_kod": "72934442",
+    "name": "Svenska Skolan på Teneriffa",
+    "type": "privat",
+    "kommun": "Örebro",
+    "kommunkod": "1880",
+    "address": "NO ADDRESS"
+  },
+  {
+    "school_kod": "61625682",
+    "name": "Svenska Skolan på Mallorca",
+    "type": "privat",
+    "kommun": "Örebro",
+    "kommunkod": "1880",
+    "address": "NO ADDRESS"
+  },
+  {
+    "school_kod": "19285468",
+    "name": "Svenska Skolan i Berlin",
+    "type": "privat",
+    "kommun": "Örebro",
+    "kommunkod": "1880",
+    "address": "NO ADDRESS"
+  },
+  {
+    "school_kod": "50253710",
+    "name": "Skandinaviska skolan Hamburg",
+    "type": "privat",
+    "kommun": "Örebro",
+    "kommunkod": "1880",
+    "address": "NO ADDRESS"
+  },
+  {
+    "school_kod": "87734954",
+    "name": "Svenska Skolan i Wien",
+    "type": "privat",
+    "kommun": "Örebro",
+    "kommunkod": "1880",
+    "address": "NO ADDRESS"
+  },
+  {
+    "school_kod": "69350932",
+    "name": "Svenska Skolan i Nairobi",
+    "type": "privat",
+    "kommun": "Örebro",
+    "kommunkod": "1880",
+    "address": "NO ADDRESS"
+  },
+  {
+    "school_kod": "35896299",
+    "name": "Skandinaviska Skolan Maputo",
+    "type": "privat",
+    "kommun": "Örebro",
+    "kommunkod": "1880",
+    "address": "NO ADDRESS"
+  },
+  {
+    "school_kod": "30738069",
+    "name": "Askers skola",
+    "type": "kommunal",
+    "kommun": "Örebro",
+    "kommunkod": "1880",
+    "address": "Askers Kyrkväg 4, Odensbacken"
+  },
+  {
+    "school_kod": "13824623",
+    "name": "Ölmbrotorps skola",
+    "type": "kommunal",
+    "kommun": "Örebro",
+    "kommunkod": "1880",
+    "address": "Skolvägen 4, Dyltabruk"
+  },
+  {
+    "school_kod": "26732455",
+    "name": "Svenska skolan i Marbella",
+    "type": "privat",
+    "kommun": "Örebro",
+    "kommunkod": "1880",
+    "address": "NO ADDRESS"
+  },
+  {
+    "school_kod": "66004397",
+    "name": "Latorps skola",
+    "type": "kommunal",
+    "kommun": "Örebro",
+    "kommunkod": "1880",
+    "address": "Åsvägen 17, Vintrosa"
+  },
+  {
+    "school_kod": "51948478",
+    "name": "Tybblelundsskolan",
+    "type": "kommunal",
+    "kommun": "Örebro",
+    "kommunkod": "1880",
+    "address": "Tybblelundsvägen 3, Örebro"
+  },
+  {
+    "school_kod": "88115091",
+    "name": "Föräldrakoop. Tysslinge skola",
+    "type": "privat",
+    "kommun": "Örebro",
+    "kommunkod": "1880",
+    "address": "Tysslinge 256, Vintrosa"
+  },
+  {
+    "school_kod": "57519823",
+    "name": "Hampetorps skola",
+    "type": "kommunal",
+    "kommun": "Örebro",
+    "kommunkod": "1880",
+    "address": "Sjömansvägen 1, Odensbacken"
+  },
+  {
+    "school_kod": "56752499",
+    "name": "Svenska Skolan Lissabon",
+    "type": "privat",
+    "kommun": "Örebro",
+    "kommunkod": "1880",
+    "address": "NO ADDRESS"
+  },
+  {
+    "school_kod": "42366130",
+    "name": "Rönneshytta skola",
+    "type": "kommunal",
+    "kommun": "Askersund",
+    "kommunkod": "1882",
+    "address": "Rönneshyttavägen 2, Rönneshytta"
+  },
+  {
+    "school_kod": "85486578",
+    "name": "Granbergsdals ekonomiska förening",
+    "type": "privat",
+    "kommun": "Karlskoga",
+    "kommunkod": "1883",
+    "address": "Granbergsdal 279, Granbergsdal"
+  },
+  {
+    "school_kod": "15245953",
+    "name": "Löa skola",
+    "type": "privat",
+    "kommun": "Lindesberg",
+    "kommunkod": "1885",
+    "address": "Östra Löa 304, Kopparberg"
+  },
+  {
+    "school_kod": "78832667",
+    "name": "Mistelskolan",
+    "type": "privat",
+    "kommun": "Västerås",
+    "kommunkod": "1980",
+    "address": "Irsta Kyrkby 4, Västerås"
+  },
+  {
+    "school_kod": "85408166",
+    "name": "Tortunaskolan",
+    "type": "kommunal",
+    "kommun": "Västerås",
+    "kommunkod": "1980",
+    "address": "Klockarvretarna 3, Västerås"
+  },
+  {
+    "school_kod": "27319086",
+    "name": "Mälardalen International School (MISV)",
+    "type": "privat",
+    "kommun": "Västerås",
+    "kommunkod": "1980",
+    "address": "Hydrovägen 3 bgn 350, Västerås"
+  },
+  {
+    "school_kod": "51133192",
+    "name": "Dingtuna skola",
+    "type": "kommunal",
+    "kommun": "Västerås",
+    "kommunkod": "1980",
+    "address": "Dingtuna Kyrkby 1, Västerås"
+  },
+  {
+    "school_kod": "61002601",
+    "name": "Irstaskolan",
+    "type": "kommunal",
+    "kommun": "Västerås",
+    "kommunkod": "1980",
+    "address": "År F-6 Irstaskolan 1,  År 7-9 Ullvigatan 49, Västerås"
+  },
+  {
+    "school_kod": "40908531",
+    "name": "Vallaskolan F-6",
+    "type": "kommunal",
+    "kommun": "Sala",
+    "kommunkod": "1981",
+    "address": "Lasse O'Månssons gata 4, Sala"
+  },
+  {
+    "school_kod": "26414444",
+    "name": "Kilbo skola",
+    "type": "kommunal",
+    "kommun": "Sala",
+    "kommunkod": "1981",
+    "address": "Kilbo skola 126, Västerfärnebo"
+  },
+  {
+    "school_kod": "84214609",
+    "name": "Hedens skola",
+    "type": "kommunal",
+    "kommun": "Sala",
+    "kommunkod": "1981",
+    "address": "Hedens skola, Salbohed"
+  },
+  {
+    "school_kod": "36924587",
+    "name": "Munktorpsskolan",
+    "type": "kommunal",
+    "kommun": "Köping",
+    "kommunkod": "1983",
+    "address": "Munktorps Prästgård 4, Köping"
+  },
+  {
+    "school_kod": "21332837",
+    "name": "Olympicaskolan Skålö",
+    "type": "privat",
+    "kommun": "Vansbro",
+    "kommunkod": "2021",
+    "address": "Skålö 27, Dala-Järna"
+  },
+  {
+    "school_kod": "64837308",
+    "name": "Bäsna skola",
+    "type": "kommunal",
+    "kommun": "Gagnef",
+    "kommunkod": "2026",
+    "address": "Bäsnavägen 23, Borlänge"
+  },
+  {
+    "school_kod": "89749001",
+    "name": "Banérskolan",
+    "type": "privat",
+    "kommun": "Leksand",
+    "kommunkod": "2029",
+    "address": "Hagen Djuravägen 18, Leksand"
+  },
+  {
+    "school_kod": "60694017",
+    "name": "Nyhedsskolan",
+    "type": "kommunal",
+    "kommun": "Rättvik",
+    "kommunkod": "2031",
+    "address": "Prästskogsgatan 15, Rättvik"
+  },
+  {
+    "school_kod": "48225182",
+    "name": "Selja-Långlets friskola",
+    "type": "privat",
+    "kommun": "Mora",
+    "kommunkod": "2062",
+    "address": "Samsgärdsvägen 34, Mora"
+  },
+  {
+    "school_kod": "21243852",
+    "name": "Danholnsskolan",
+    "type": "kommunal",
+    "kommun": "Falun",
+    "kommunkod": "2080",
+    "address": "Buskbovägen 5, Sundborn"
+  },
+  {
+    "school_kod": "99431045",
+    "name": "By skola",
+    "type": "kommunal",
+    "kommun": "Avesta",
+    "kommunkod": "2084",
+    "address": "Byås 1, By Kyrkby"
+  },
+  {
+    "school_kod": "97945801",
+    "name": "Karlbo skola",
+    "type": "kommunal",
+    "kommun": "Avesta",
+    "kommunkod": "2084",
+    "address": "Folkaregatan 55, Krylbo"
+  },
+  {
+    "school_kod": "49218585",
+    "name": "Nordanö skola",
+    "type": "kommunal",
+    "kommun": "Avesta",
+    "kommunkod": "2084",
+    "address": "Ovanåker 5, Folkärna"
+  },
+  {
+    "school_kod": "65270641",
+    "name": "Åbyggeby skola",
+    "type": "kommunal",
+    "kommun": "Ockelbo",
+    "kommunkod": "2101",
+    "address": "Åbyggeby skola 8, Ockelbo"
+  },
+  {
+    "school_kod": "21674603",
+    "name": "Knåda skola",
+    "type": "kommunal",
+    "kommun": "Ovanåker",
+    "kommunkod": "2121",
+    "address": "Skolvägen 41, Edsbyn"
+  },
+  {
+    "school_kod": "51658900",
+    "name": "Båtbacken Friskola ek. Förening",
+    "type": "privat",
+    "kommun": "Ljusdal",
+    "kommunkod": "2161",
+    "address": "Båtbacken Norvägen 153, Järvsö"
+  },
+  {
+    "school_kod": "66358649",
+    "name": "Trönö skola",
+    "type": "kommunal",
+    "kommun": "Söderhamn",
+    "kommunkod": "2182",
+    "address": "Lertagsvägen 7, Trönödal"
+  },
+  {
+    "school_kod": "67899423",
+    "name": "Söderhamns Friskola och Fritids",
+    "type": "privat",
+    "kommun": "Söderhamn",
+    "kommunkod": "2182",
+    "address": "Hemmansvägen 10, Norrala"
+  },
+  {
+    "school_kod": "71527628",
+    "name": "Vågbroskolan åk F-3",
+    "type": "kommunal",
+    "kommun": "Söderhamn",
+    "kommunkod": "2182",
+    "address": "Bäckvägen 1, Norrala"
+  },
+  {
+    "school_kod": "81577420",
+    "name": "Vallsta skola F-6",
+    "type": "kommunal",
+    "kommun": "Bollnäs",
+    "kommunkod": "2183",
+    "address": "Riksvägen 24, Vallsta"
+  },
+  {
+    "school_kod": "95802522",
+    "name": "Västansjö skola",
+    "type": "privat",
+    "kommun": "Bollnäs",
+    "kommunkod": "2183",
+    "address": "Västansjö 3149, Kilafors"
+  },
+  {
+    "school_kod": "69693147",
+    "name": "Sörängs skola",
+    "type": "privat",
+    "kommun": "Bollnäs",
+    "kommunkod": "2183",
+    "address": "Sörängsvägen 4981, Bollnäs"
+  },
+  {
+    "school_kod": "47215049",
+    "name": "Friggesundsskolan",
+    "type": "kommunal",
+    "kommun": "Hudiksvall",
+    "kommunkod": "2184",
+    "address": "Skolvägen 6, Bjuråker"
+  },
+  {
+    "school_kod": "95282218",
+    "name": "Edsta skola",
+    "type": "kommunal",
+    "kommun": "Hudiksvall",
+    "kommunkod": "2184",
+    "address": "Edsta 212 A-C, Hudiksvall"
+  },
+  {
+    "school_kod": "13941593",
+    "name": "Lunds skola",
+    "type": "kommunal",
+    "kommun": "Hudiksvall",
+    "kommunkod": "2184",
+    "address": "Axel Lemans väg 2, Forsa"
+  },
+  {
+    "school_kod": "45889125",
+    "name": "Bobygda skola",
+    "type": "privat",
+    "kommun": "Hudiksvall",
+    "kommunkod": "2184",
+    "address": "Västanäng 402, Delsbo"
+  },
+  {
+    "school_kod": "28743952",
+    "name": "Svågadalens skola",
+    "type": "kommunal",
+    "kommun": "Hudiksvall",
+    "kommunkod": "2184",
+    "address": "Ängebo 73, Bjuråker"
+  },
+  {
+    "school_kod": "69147256",
+    "name": "St Olofsskolan",
+    "type": "kommunal",
+    "kommun": "Sundsvall",
+    "kommunkod": "2281",
+    "address": "Bergsgatan 93, Hovrättsgatan 2, Sundsvall"
+  },
+  {
+    "school_kod": "73692894",
+    "name": "Kalknäs skola",
+    "type": "kommunal",
+    "kommun": "Sollefteå",
+    "kommunkod": "2283",
+    "address": "Kalknäs 109, Undrom"
+  },
+  {
+    "school_kod": "10638673",
+    "name": "Västanåskolan",
+    "type": "privat",
+    "kommun": "Örnsköldsvik",
+    "kommunkod": "2284",
+    "address": "Västanå 106, Bjästa"
+  },
+  {
+    "school_kod": "99343485",
+    "name": "Gottne Byskola",
+    "type": "privat",
+    "kommun": "Örnsköldsvik",
+    "kommunkod": "2284",
+    "address": "Utteråvägen 33, Mellansel"
+  },
+  {
+    "school_kod": "34074601",
+    "name": "Banafjälskolan",
+    "type": "kommunal",
+    "kommun": "Örnsköldsvik",
+    "kommunkod": "2284",
+    "address": "Banafjäl 205, Arnäsvall"
+  },
+  {
+    "school_kod": "17783822",
+    "name": "Idbynskolan",
+    "type": "kommunal",
+    "kommun": "Örnsköldsvik",
+    "kommunkod": "2284",
+    "address": "Idbyn 311, Arnäsvall"
+  },
+  {
+    "school_kod": "98918972",
+    "name": "Hemlingskolan",
+    "type": "kommunal",
+    "kommun": "Örnsköldsvik",
+    "kommunkod": "2284",
+    "address": "Hemling 263, Långviksmon"
+  },
+  {
+    "school_kod": "78390970",
+    "name": "Haffstaskolan",
+    "type": "kommunal",
+    "kommun": "Örnsköldsvik",
+    "kommunkod": "2284",
+    "address": "Haffsta 201, Överhörnäs"
+  },
+  {
+    "school_kod": "45432132",
+    "name": "Hållängetskolan",
+    "type": "kommunal",
+    "kommun": "Örnsköldsvik",
+    "kommunkod": "2284",
+    "address": "Hörnettsvägen 66, Domsjö"
+  },
+  {
+    "school_kod": "28914847",
+    "name": "Norrflärkeskolan",
+    "type": "kommunal",
+    "kommun": "Örnsköldsvik",
+    "kommunkod": "2284",
+    "address": "Norrflärke 186, Bredbyn"
+  },
+  {
+    "school_kod": "43952255",
+    "name": "Skorpedskolan",
+    "type": "kommunal",
+    "kommun": "Örnsköldsvik",
+    "kommunkod": "2284",
+    "address": "Källvägen 3, Skorped"
+  },
+  {
+    "school_kod": "57766858",
+    "name": "Sundskolan",
+    "type": "kommunal",
+    "kommun": "Örnsköldsvik",
+    "kommunkod": "2284",
+    "address": "Vetevägen 12, Domsjö"
+  },
+  {
+    "school_kod": "76684659",
+    "name": "Änge F-6",
+    "type": "kommunal",
+    "kommun": "Krokom",
+    "kommunkod": "2309",
+    "address": "Skolvägen 3, Offerdal"
+  },
+  {
+    "school_kod": "28860521",
+    "name": "Sånghusvallens skola",
+    "type": "kommunal",
+    "kommun": "Krokom",
+    "kommunkod": "2309",
+    "address": "Sånghusvägen 1, Ås"
+  },
+  {
+    "school_kod": "24892488",
+    "name": "Kaxås skola",
+    "type": "kommunal",
+    "kommun": "Krokom",
+    "kommunkod": "2309",
+    "address": "Rönnöfors 7, Offerdal"
+  },
+  {
+    "school_kod": "62442955",
+    "name": "Laxsjö skola",
+    "type": "kommunal",
+    "kommun": "Krokom",
+    "kommunkod": "2309",
+    "address": "Laxsjö 193 b, Föllinge"
+  },
+  {
+    "school_kod": "45736013",
+    "name": "Rödöns skola",
+    "type": "kommunal",
+    "kommun": "Krokom",
+    "kommunkod": "2309",
+    "address": "Rödöns Prästbord 318, Krokom"
+  },
+  {
+    "school_kod": "80493898",
+    "name": "Jormvattnets skola",
+    "type": "kommunal",
+    "kommun": "Strömsund",
+    "kommunkod": "2313",
+    "address": "Jormvattnet 959, Gäddede"
+  },
+  {
+    "school_kod": "92795907",
+    "name": "Kyrktåsjö skola",
+    "type": "kommunal",
+    "kommun": "Strömsund",
+    "kommunkod": "2313",
+    "address": "Kyrktåsjö, Backvägen 20, Hoting"
+  },
+  {
+    "school_kod": "42149659",
+    "name": "Kyrkslättens skola F-6",
+    "type": "kommunal",
+    "kommun": "Åre",
+    "kommunkod": "2321",
+    "address": "Kall Kyrkmon 6, Järpen"
+  },
+  {
+    "school_kod": "43171486",
+    "name": "Myrvikens skola F-6",
+    "type": "kommunal",
+    "kommun": "Berg",
+    "kommunkod": "2326",
+    "address": "Gräftåvägen 11B, Oviken"
+  },
+  {
+    "school_kod": "82304602",
+    "name": "Kövra Byskola",
+    "type": "privat",
+    "kommun": "Berg",
+    "kommunkod": "2326",
+    "address": "Kövra 356, Oviken"
+  },
+  {
+    "school_kod": "99936953",
+    "name": "Bruksvallarnas skola",
+    "type": "kommunal",
+    "kommun": "Härjedalen",
+    "kommunkod": "2361",
+    "address": "Pär-Mårsvägen 2, Bruksvallarna"
+  },
+  {
+    "school_kod": "16858929",
+    "name": "Prolympia, Östersund",
+    "type": "privat",
+    "kommun": "Östersund",
+    "kommunkod": "2380",
+    "address": "Kaserngatan 13 vån 3, Östersund"
+  },
+  {
+    "school_kod": "59115663",
+    "name": "Böle Byskola AB",
+    "type": "privat",
+    "kommun": "Östersund",
+    "kommunkod": "2380",
+    "address": "Böle 135, Frösön"
+  },
+  {
+    "school_kod": "29327326",
+    "name": "Arnljotskolan",
+    "type": "kommunal",
+    "kommun": "Östersund",
+    "kommunkod": "2380",
+    "address": "Önevägen 18, Frösön"
+  },
+  {
+    "school_kod": "88411191",
+    "name": "Marieby skola",
+    "type": "kommunal",
+    "kommun": "Östersund",
+    "kommunkod": "2380",
+    "address": "Fugelsta 134, Brunflo"
+  },
+  {
+    "school_kod": "90874950",
+    "name": "Vallaskolan",
+    "type": "kommunal",
+    "kommun": "Östersund",
+    "kommunkod": "2380",
+    "address": "Önevägen 147, Frösön"
+  },
+  {
+    "school_kod": "40145225",
+    "name": "Gräsmyr skola",
+    "type": "kommunal",
+    "kommun": "Nordmaling",
+    "kommunkod": "2401",
+    "address": "Fällan 39, Gräsmyr"
+  },
+  {
+    "school_kod": "75624738",
+    "name": "Djäkneboda skola",
+    "type": "kommunal",
+    "kommun": "Robertsfors",
+    "kommunkod": "2409",
+    "address": "Djäkneboda 70, Bygdeå"
+  },
+  {
+    "school_kod": "46194530",
+    "name": "Parkskolan",
+    "type": "kommunal",
+    "kommun": "Storuman",
+    "kommunkod": "2421",
+    "address": "Holmsundgränd 3, Storuman"
+  },
+  {
+    "school_kod": "53454010",
+    "name": "Hällfors friskola",
+    "type": "privat",
+    "kommun": "Vännäs",
+    "kommunkod": "2460",
+    "address": "Hällfors 38, Vännäs"
+  },
+  {
+    "school_kod": "79002691",
+    "name": "Saxnäs skola",
+    "type": "kommunal",
+    "kommun": "Vilhelmina",
+    "kommunkod": "2462",
+    "address": "Saxnäs, Marsfjäll"
+  },
+  {
+    "school_kod": "32965875",
+    "name": "Rödåsels skola",
+    "type": "kommunal",
+    "kommun": "Umeå",
+    "kommunkod": "2480",
+    "address": "Rödåsel 75, Tavelsjö"
+  },
+  {
+    "school_kod": "45314528",
+    "name": "Stöcksjö skola",
+    "type": "kommunal",
+    "kommun": "Umeå",
+    "kommunkod": "2480",
+    "address": "Stöcksjö Norra Byväg 40, Umeå"
+  },
+  {
+    "school_kod": "81215860",
+    "name": "Vebomarks Byaskola",
+    "type": "privat",
+    "kommun": "Skellefteå",
+    "kommunkod": "2482",
+    "address": "Vebomark 69, Lövånger"
+  },
+  {
+    "school_kod": "23992844",
+    "name": "Byskeskolan",
+    "type": "kommunal",
+    "kommun": "Skellefteå",
+    "kommunkod": "2482",
+    "address": "Skolgatan 10, Byske Kyrkstad"
+  },
+  {
+    "school_kod": "30772723",
+    "name": "Ostviksskolan",
+    "type": "kommunal",
+    "kommun": "Skellefteå",
+    "kommunkod": "2482",
+    "address": "Bygatan 56, Kåge"
+  },
+  {
+    "school_kod": "81715530",
+    "name": "Hjoggböleskolan",
+    "type": "kommunal",
+    "kommun": "Skellefteå",
+    "kommunkod": "2482",
+    "address": "Västra Hjoggböle 110, Skellefteå"
+  },
+  {
+    "school_kod": "58219202",
+    "name": "Bodbysunds miljöskola",
+    "type": "privat",
+    "kommun": "Skellefteå",
+    "kommunkod": "2482",
+    "address": "Bodbysund 40, Burträsk"
+  },
+  {
+    "school_kod": "37347252",
+    "name": "Tärendö Centralskola",
+    "type": "kommunal",
+    "kommun": "Pajala",
+    "kommunkod": "2521",
+    "address": "Skolvägen 2, Tärendö"
+  },
+  {
+    "school_kod": "70483173",
+    "name": "Tallbackaskolan",
+    "type": "kommunal",
+    "kommun": "Gällivare",
+    "kommunkod": "2523",
+    "address": "Norra Bussgatan 1, Malmberget"
+  },
+  {
+    "school_kod": "70754502",
+    "name": "Tjautjasjaure skola",
+    "type": "kommunal",
+    "kommun": "Gällivare",
+    "kommunkod": "2523",
+    "address": "Tjautjasjaure, Koskullskulle"
+  },
+  {
+    "school_kod": "86476920",
+    "name": "Vidselskolan",
+    "type": "kommunal",
+    "kommun": "Älvsbyn",
+    "kommunkod": "2560",
+    "address": "Västra Vidselvägen 17, Vidsel"
+  },
+  {
+    "school_kod": "15031493",
+    "name": "Kullenskolan",
+    "type": "kommunal",
+    "kommun": "Piteå",
+    "kommunkod": "2581",
+    "address": "Violingatan 2, Öjebyn"
+  },
+  {
+    "school_kod": "71768337",
+    "name": "Jävre skola",
+    "type": "kommunal",
+    "kommun": "Piteå",
+    "kommunkod": "2581",
+    "address": "Skolbackevägen 25, Jäverbyn"
+  },
+  {
+    "school_kod": "30318937",
+    "name": "Övre Soppero skola",
+    "type": "kommunal",
+    "kommun": "Kiruna",
+    "kommunkod": "2584",
+    "address": "Övre Soppero skola, Övre Soppero"
+  }
+]
