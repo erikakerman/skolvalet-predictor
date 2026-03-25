@@ -485,20 +485,18 @@
     const privatSection   = document.getElementById('privatSection');
     const tbody           = document.getElementById('schoolTable');
 
-    // ── Row click to select ──────────────────────────────────────────────────
-    function attachRowListeners() {
-        tbody.querySelectorAll('tr').forEach(row => {
-            row.addEventListener('click', function () {
-                const cb = this.querySelector('input[type="checkbox"]');
-                cb.checked = !cb.checked;
-                this.classList.toggle('selected', cb.checked);
-                updateSections();
-            });
-        });
-    }
-    attachRowListeners();
+    // ── Row selection via event delegation (survives sort reordering) ─────────
+    tbody.addEventListener('click', function(e) {
+        const row = e.target.closest('tr');
+        if (!row) return;
+        const cb = row.querySelector('input[type="checkbox"]');
+        if (!cb) return;
+        cb.checked = !cb.checked;
+        row.classList.toggle('selected', cb.checked);
+        updateSections();
+    });
 
-    // ── Update form sections ─────────────────────────────────────────────────
+    // ── Update form sections ──────────────────────────────────────────────────
     function updateSections() {
         let hasKommunal = false, hasPrivat = false, total = 0;
         tbody.querySelectorAll('input[type="checkbox"]').forEach(cb => {
@@ -518,24 +516,20 @@
         }
     }
 
-    // ── Sorting ──────────────────────────────────────────────────────────────
+    // ── Sorting ───────────────────────────────────────────────────────────────
     let currentCol = null;
     let currentAsc = true;
 
-    // Get sortable value from a cell by column index (0=name,1=dist,2=godkänt,3=trygghet,4=elever)
     function getCellValue(row, col) {
         const cells = row.querySelectorAll('td');
-        // cells[0]=checkbox, cells[1]=name, cells[2]=dist, cells[3]=godkänt, cells[4]=trygghet, cells[5]=elever
         const td = cells[col + 1];
         if (!td) return '';
         if (col === 0) {
-            // Name: use text content of .school-name
             const el = td.querySelector('.school-name');
             return el ? el.textContent.trim().toLowerCase() : '';
         }
-        // Numeric: get stat-val text, strip non-numeric except dot
         const el = td.querySelector('.stat-val');
-        if (!el) return Infinity; // no data sorts to bottom
+        if (!el) return Infinity;
         const val = parseFloat(el.textContent.replace('%', '').replace(',', '.'));
         return isNaN(val) ? Infinity : val;
     }
@@ -543,21 +537,14 @@
     document.querySelectorAll('thead th.sortable').forEach(th => {
         th.addEventListener('click', function () {
             const col = parseInt(this.dataset.col);
-            // For stats columns (godkant, trygghet), default to descending (best first)
-            // Cols 3-9 are score/% columns — higher is better, so default desc
-            // Col 1=dist (asc), col 2=antal (asc), col 10=elever/lärare (asc)
             const defaultAsc = (col === 2 || col === 4) ? false : true;
             const asc = (currentCol === col) ? !currentAsc : defaultAsc;
             currentCol = col;
             currentAsc = asc;
 
-            // Update header indicators
-            document.querySelectorAll('thead th').forEach(h => {
-                h.classList.remove('sort-asc', 'sort-desc');
-            });
+            document.querySelectorAll('thead th').forEach(h => h.classList.remove('sort-asc', 'sort-desc'));
             this.classList.add(asc ? 'sort-asc' : 'sort-desc');
 
-            // Sort rows
             const rows = Array.from(tbody.querySelectorAll('tr'));
             rows.sort((a, b) => {
                 const va = getCellValue(a, col);
@@ -568,9 +555,7 @@
                 if (typeof va === 'string') return asc ? va.localeCompare(vb, 'sv') : vb.localeCompare(va, 'sv');
                 return asc ? va - vb : vb - va;
             });
-
             rows.forEach(row => tbody.appendChild(row));
-            attachRowListeners(); // re-attach after DOM reorder
         });
     });
 </script>
