@@ -29,12 +29,16 @@ STATS_FILE   = os.path.join(BASE_DIR, "Underlag_for_analys.xlsx")
 
 # ── Row indices for each metric (0-indexed) ───────────────────────────────────
 METRIC_ROWS = {
-    "godkant_ak9":   29,   # % godkänt alla ämnen åk 9
-    "behorighet":    30,   # % behöriga till gymnasiet
-    "elever_larare": 17,   # Elever per lärare
-    "legitimerade":  13,   # % legitimerade lärare
-    "trygghet":      31,   # Trygghet åk 5 (skolenkät)
-    "studiero":      33,   # Studiero åk 5 (skolenkät)
+    "godkant_ak9":    29,  # % godkänt alla ämnen åk 9
+    "godkant_ak6":    28,  # % godkänt alla ämnen åk 6
+    "behorighet":     30,  # % behöriga till gymnasiet
+    "elever_larare":  17,  # Elever per lärare
+    "antal_elever":    4,  # Antal elever (skolstorlek)
+    "legitimerade":   13,  # % legitimerade lärare
+    "trygghet":       31,  # Trygghet åk 5 (skolenkät)
+    "studiero":       33,  # Studiero åk 5 (skolenkät)
+    "krankning":      35,  # Elevers upplevelse av kränkningar åk 5
+    "stod_vh":        46,  # Vårdnadshavares uppfattning om stöd
 }
 
 def clean_value(val):
