@@ -37,8 +37,12 @@ METRIC_ROWS = {
     "legitimerade":   13,  # % legitimerade lärare
     "trygghet":       31,  # Trygghet åk 5 (skolenkät)
     "studiero":       33,  # Studiero åk 5 (skolenkät)
-    "krankning":      35,  # Elevers upplevelse av kränkningar åk 5
-    "stod_vh":        46,  # Vårdnadshavares uppfattning om stöd
+    "np_svenska_ak3": 47,  # NP svenska kravnivå åk 3
+    "np_svenska_ak6": 48,  # NP svenska godkänt åk 6
+    "np_svenska_ak9": 49,  # NP svenska godkänt åk 9
+    "np_matte_ak3":   50,  # NP matematik kravnivå åk 3
+    "np_matte_ak6":   51,  # NP matematik godkänt åk 6
+    "np_matte_ak9":   52,  # NP matematik godkänt åk 9
 }
 
 def clean_value(val):

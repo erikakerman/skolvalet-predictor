@@ -28,6 +28,12 @@ RIKSSNITT = {
     "antal_elever":   None,
     "legitimerade":   72.6,
     "trygghet":        8.0,
+    "np_svenska_ak3": 88.0,
+    "np_svenska_ak6": 76.0,
+    "np_svenska_ak9": 67.0,
+    "np_matte_ak3":   80.0,
+    "np_matte_ak6":   62.0,
+    "np_matte_ak9":   57.0,
     "studiero":        6.5,
 }
 
@@ -39,6 +45,12 @@ STATS_LABELS = {
     "antal_elever":   ("Antal elever", ""),
     "legitimerade":   ("Legitimerade lärare", "%"),
     "trygghet":       ("Trygghet åk 5", "/10"),
+    "np_svenska_ak3": ("NP svenska åk 3", "%"),
+    "np_svenska_ak6": ("NP svenska åk 6", "%"),
+    "np_svenska_ak9": ("NP svenska åk 9", "%"),
+    "np_matte_ak3":   ("NP matematik åk 3", "%"),
+    "np_matte_ak6":   ("NP matematik åk 6", "%"),
+    "np_matte_ak9":   ("NP matematik åk 9", "%"),
     "studiero":       ("Studiero åk 5", "/10"),
 }
 

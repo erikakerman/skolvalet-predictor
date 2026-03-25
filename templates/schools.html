@@ -72,13 +72,14 @@
             -webkit-overflow-scrolling: touch;
         }
 
-        table { min-width: 600px; width: 100%; table-layout: fixed; }
-        th:nth-child(1) { width: 44px; }   /* checkbox */
-        th:nth-child(2) { width: auto; }    /* name - takes remaining space */
-        th:nth-child(3) { width: 90px; }   /* avstånd */
-        th:nth-child(4) { width: 100px; }  /* trygghet */
-        th:nth-child(5) { width: 110px; }  /* elever/lärare */
-        th:nth-child(6) { width: 130px; }  /* betygsresultat */
+        table { min-width: 850px; width: 100%; table-layout: fixed; }
+        th:nth-child(1) { width: 40px; }
+        th:nth-child(2) { width: auto; }
+        th:nth-child(3) { width: 80px; }
+        th:nth-child(4) { width: 90px; }
+        th:nth-child(5) { width: 110px; }
+        th:nth-child(6) { width: 120px; }
+        th:nth-child(7) { width: 100px; }
 
         table {
             width: 100%;
@@ -282,6 +283,37 @@
             cursor: pointer; -webkit-appearance: none;
         }
         .submit-btn:active { background: #153d5e; }
+        /* Info icon tooltip */
+        .info-icon {
+            display: inline-block;
+            font-size: 11px;
+            color: #aaa;
+            cursor: pointer;
+            position: relative;
+            margin-left: 2px;
+        }
+
+        .info-icon:hover::after,
+        .info-icon.active::after {
+            content: attr(data-tooltip);
+            position: absolute;
+            top: 24px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: #333;
+            color: white;
+            font-size: 11px;
+            font-weight: 400;
+            text-transform: none;
+            letter-spacing: 0;
+            padding: 6px 10px;
+            border-radius: 6px;
+            white-space: normal;
+            width: 200px;
+            z-index: 100;
+            line-height: 1.4;
+            pointer-events: none;
+        }
     </style>
 </head>
 <body>
@@ -315,7 +347,8 @@
                         <th class="sortable center" data-col="1">Avstånd <span class="sort-icon"></span></th>
                         <th class="sortable center" data-col="2">Trygghet <span class="sort-icon"></span></th>
                         <th class="sortable center" data-col="3">Elever / lärare <span class="sort-icon"></span></th>
-                        <th class="sortable center" data-col="4">Betygsresultat <span class="sort-icon"></span></th>
+                        <th class="sortable center" data-col="4">Godkänt betyg <span class="sort-icon"></span><span class="info-icon" data-tooltip="Andel elever med godkänt betyg i samtliga ämnen. Visar åk 9 om tillgängligt, annars åk 6.">ⓘ</span></th>
+                        <th class="sortable center" data-col="5">NP <span class="sort-icon"></span><span class="info-icon" data-tooltip="Genomsnitt av nationella prov i svenska och matematik. Visar åk 9 om tillgängligt, annars åk 6 eller åk 3.">ⓘ</span></th>
                     </tr>
                 </thead>
                 <tbody id="schoolTable">
@@ -365,6 +398,56 @@
                         {% if d > 0 %}<span class="diff up">▲ {{ "%.1f"|format(d) }}</span>
                         {% elif d < 0 %}<span class="diff down">▼ {{ "%.1f"|format(d|abs) }}</span>
                         {% else %}<span class="diff flat">rikssnitt</span>{% endif %}
+                        {% else %}<span class="stat-na">—</span>{% endif %}
+                    </td>
+
+                    {# Nationella prov — average svenska+matte, best year available #}
+                    {% set np_s9 = stats.get("np_svenska_ak9") %}
+                    {% set np_m9 = stats.get("np_matte_ak9") %}
+                    {% set np_s6 = stats.get("np_svenska_ak6") %}
+                    {% set np_m6 = stats.get("np_matte_ak6") %}
+                    {% set np_s3 = stats.get("np_svenska_ak3") %}
+                    {% set np_m3 = stats.get("np_matte_ak3") %}
+                    {% if np_s9 is not none and np_m9 is not none %}
+                        {% set np_val = ((np_s9 + np_m9) / 2)|round(1) %}
+                        {% set np_rikssnitt = 62.0 %}
+                        {% set np_year = "åk 9" %}
+                    {% elif np_s9 is not none %}
+                        {% set np_val = np_s9 %}
+                        {% set np_rikssnitt = 67.0 %}
+                        {% set np_year = "åk 9" %}
+                    {% elif np_m9 is not none %}
+                        {% set np_val = np_m9 %}
+                        {% set np_rikssnitt = 57.0 %}
+                        {% set np_year = "åk 9" %}
+                    {% elif np_s6 is not none and np_m6 is not none %}
+                        {% set np_val = ((np_s6 + np_m6) / 2)|round(1) %}
+                        {% set np_rikssnitt = 69.0 %}
+                        {% set np_year = "åk 6" %}
+                    {% elif np_s6 is not none %}
+                        {% set np_val = np_s6 %}
+                        {% set np_rikssnitt = 76.0 %}
+                        {% set np_year = "åk 6" %}
+                    {% elif np_m6 is not none %}
+                        {% set np_val = np_m6 %}
+                        {% set np_rikssnitt = 62.0 %}
+                        {% set np_year = "åk 6" %}
+                    {% elif np_s3 is not none and np_m3 is not none %}
+                        {% set np_val = ((np_s3 + np_m3) / 2)|round(1) %}
+                        {% set np_rikssnitt = 84.0 %}
+                        {% set np_year = "åk 3" %}
+                    {% else %}
+                        {% set np_val = none %}
+                        {% set np_year = "" %}
+                    {% endif %}
+                    <td class="stat-cell">
+                        {% if np_val is not none %}
+                        <span class="stat-val">{{ np_val }}%</span>
+                        {% set d = np_val - np_rikssnitt %}
+                        {% if d > 0 %}<span class="diff up">▲ {{ "%.1f"|format(d) }}</span>
+                        {% elif d < 0 %}<span class="diff down">▼ {{ "%.1f"|format(d|abs) }}</span>
+                        {% else %}<span class="diff flat">rikssnitt</span>{% endif %}
+                        <span class="diff flat">{{ np_year }}</span>
                         {% else %}<span class="stat-na">—</span>{% endif %}
                     </td>
 
@@ -537,7 +620,7 @@
     document.querySelectorAll('thead th.sortable').forEach(th => {
         th.addEventListener('click', function () {
             const col = parseInt(this.dataset.col);
-            const defaultAsc = (col === 2 || col === 4) ? false : true;
+            const defaultAsc = (col === 2 || col === 4 || col === 5) ? false : true;
             const asc = (currentCol === col) ? !currentAsc : defaultAsc;
             currentCol = col;
             currentAsc = asc;
@@ -557,6 +640,17 @@
             });
             rows.forEach(row => tbody.appendChild(row));
         });
+    });
+    // Info icon tap for mobile
+    document.querySelectorAll('.info-icon').forEach(icon => {
+        icon.addEventListener('click', function(e) {
+            e.stopPropagation();
+            document.querySelectorAll('.info-icon').forEach(i => i !== this && i.classList.remove('active'));
+            this.classList.toggle('active');
+        });
+    });
+    document.addEventListener('click', () => {
+        document.querySelectorAll('.info-icon').forEach(i => i.classList.remove('active'));
     });
 </script>
 
