@@ -401,6 +401,37 @@
                         {% else %}<span class="stat-na">—</span>{% endif %}
                     </td>
 
+                    {# Elever per lärare #}
+                    <td class="stat-cell">
+                        {% if elever_larare is not none %}
+                        <span class="stat-val">{{ elever_larare }}</span>
+                        {% set d = elever_larare - 12.0 %}
+                        {% if d < 0 %}<span class="diff up">▲ {{ "%.1f"|format(d|abs) }}</span>
+                        {% elif d > 0 %}<span class="diff down">▼ {{ "%.1f"|format(d) }}</span>
+                        {% else %}<span class="diff flat">rikssnitt</span>{% endif %}
+                        {% else %}<span class="stat-na">—</span>{% endif %}
+                    </td>
+
+                    {# Betygsresultat — åk 9 if available, else åk 6 #}
+                    {% set godkant6 = stats.get("godkant_ak6") %}
+                    <td class="stat-cell">
+                        {% if godkant is not none %}
+                        <span class="stat-val">{{ godkant }}%</span>
+                        {% set d = godkant - 71.9 %}
+                        {% if d > 0 %}<span class="diff up">▲ {{ "%.1f"|format(d) }}</span>
+                        {% elif d < 0 %}<span class="diff down">▼ {{ "%.1f"|format(d|abs) }}</span>
+                        {% else %}<span class="diff flat">rikssnitt</span>{% endif %}
+                        <span class="diff flat">åk 9</span>
+                        {% elif godkant6 is not none %}
+                        <span class="stat-val">{{ godkant6 }}%</span>
+                        {% set d = godkant6 - 77.4 %}
+                        {% if d > 0 %}<span class="diff up">▲ {{ "%.1f"|format(d) }}</span>
+                        {% elif d < 0 %}<span class="diff down">▼ {{ "%.1f"|format(d|abs) }}</span>
+                        {% else %}<span class="diff flat">rikssnitt</span>{% endif %}
+                        <span class="diff flat">åk 6</span>
+                        {% else %}<span class="stat-na">—</span>{% endif %}
+                    </td>
+
                     {# Nationella prov — average svenska+matte, best year available #}
                     {% set np_s9 = stats.get("np_svenska_ak9") %}
                     {% set np_m9 = stats.get("np_matte_ak9") %}
@@ -448,37 +479,6 @@
                         {% elif d < 0 %}<span class="diff down">▼ {{ "%.1f"|format(d|abs) }}</span>
                         {% else %}<span class="diff flat">rikssnitt</span>{% endif %}
                         <span class="diff flat">{{ np_year }}</span>
-                        {% else %}<span class="stat-na">—</span>{% endif %}
-                    </td>
-
-                    {# Elever per lärare #}
-                    <td class="stat-cell">
-                        {% if elever_larare is not none %}
-                        <span class="stat-val">{{ elever_larare }}</span>
-                        {% set d = elever_larare - 12.0 %}
-                        {% if d < 0 %}<span class="diff up">▲ {{ "%.1f"|format(d|abs) }}</span>
-                        {% elif d > 0 %}<span class="diff down">▼ {{ "%.1f"|format(d) }}</span>
-                        {% else %}<span class="diff flat">rikssnitt</span>{% endif %}
-                        {% else %}<span class="stat-na">—</span>{% endif %}
-                    </td>
-
-                    {# Betygsresultat — åk 9 if available, else åk 6 #}
-                    {% set godkant6 = stats.get("godkant_ak6") %}
-                    <td class="stat-cell">
-                        {% if godkant is not none %}
-                        <span class="stat-val">{{ godkant }}%</span>
-                        {% set d = godkant - 71.9 %}
-                        {% if d > 0 %}<span class="diff up">▲ {{ "%.1f"|format(d) }}</span>
-                        {% elif d < 0 %}<span class="diff down">▼ {{ "%.1f"|format(d|abs) }}</span>
-                        {% else %}<span class="diff flat">rikssnitt</span>{% endif %}
-                        <span class="diff flat">åk 9</span>
-                        {% elif godkant6 is not none %}
-                        <span class="stat-val">{{ godkant6 }}%</span>
-                        {% set d = godkant6 - 77.4 %}
-                        {% if d > 0 %}<span class="diff up">▲ {{ "%.1f"|format(d) }}</span>
-                        {% elif d < 0 %}<span class="diff down">▼ {{ "%.1f"|format(d|abs) }}</span>
-                        {% else %}<span class="diff flat">rikssnitt</span>{% endif %}
-                        <span class="diff flat">åk 6</span>
                         {% else %}<span class="stat-na">—</span>{% endif %}
                     </td>
                 </tr>
